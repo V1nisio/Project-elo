@@ -1,0 +1,11 @@
+categoria,n_comunidade,n_campo,p_comunidade,posicao_comunidade,p_campo,posicao_campo,delta_pp
+Duplicidade e identidade,77,320,5.55,7,19.12,1,13.56
+Mapeamento de campo e esquema,221,274,15.93,3,16.37,2,0.43
+Ambiente e configuração,226,262,16.29,2,15.65,3,-0.64
+Falha silenciosa e divergência,88,223,6.34,6,13.32,4,6.98
+Paginação e leitura em lotes,54,147,3.89,10,8.78,5,4.89
+Autenticação e acesso,305,144,21.99,1,8.6,6,-13.39
+Ordem e concorrência,71,107,5.12,8,6.39,7,1.27
+Formato de dado,154,73,11.1,4,4.36,8,-6.74
+Rede e disponibilidade,132,72,9.52,5,4.3,9,-5.22
+Limite de taxa e cota,59,52,4.25,9,3.11,10,-1.15

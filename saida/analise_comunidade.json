@@ -1,0 +1,10867 @@
+{
+ "n_documentos": 1278,
+ "n_tokens": 243365,
+ "cobertura": 0.6392801251956182,
+ "categorias": {
+  "autenticacao": 305,
+  "limite_taxa": 59,
+  "paginacao": 54,
+  "duplicidade": 77,
+  "mapeamento": 221,
+  "formato": 154,
+  "ordem": 71,
+  "silenciosa": 88,
+  "rede": 132,
+  "ambiente": 226
+ },
+ "mecanismos": {
+  "forma": 1188,
+  "lema": 1272,
+  "regex": 189,
+  "regra": 46
+ },
+ "so_pela_forma": 22,
+ "so_pela_regex": 86,
+ "lemas": [
+  [
+   "salesforce",
+   471
+  ],
+  [
+   "error",
+   448
+  ],
+  [
+   "use",
+   326
+  ],
+  [
+   "issue",
+   322
+  ],
+  [
+   "work",
+   308
+  ],
+  [
+   "api",
+   297
+  ],
+  [
+   "create",
+   268
+  ],
+  [
+   "try",
+   263
+  ],
+  [
+   "request",
+   247
+  ],
+  [
+   "add",
+   244
+  ],
+  [
+   "source",
+   239
+  ],
+  [
+   "code",
+   231
+  ],
+  [
+   "new",
+   228
+  ],
+  [
+   "version",
+   215
+  ],
+  [
+   "fail",
+   205
+  ],
+  [
+   "integration",
+   205
+  ],
+  [
+   "update",
+   202
+  ],
+  [
+   "datum",
+   202
+  ],
+  [
+   "run",
+   199
+  ],
+  [
+   "support",
+   191
+  ],
+  [
+   "want",
+   187
+  ],
+  [
+   "sync",
+   187
+  ],
+  [
+   "user",
+   185
+  ],
+  [
+   "need",
+   180
+  ],
+  [
+   "return",
+   179
+  ],
+  [
+   "connection",
+   179
+  ],
+  [
+   "field",
+   179
+  ],
+  [
+   "jsforce",
+   172
+  ],
+  [
+   "thank",
+   170
+  ],
+  [
+   "connector",
+   170
+  ]
+ ],
+ "sintagmas": [
+  [
+   "bulk api",
+   44
+  ],
+  [
+   "source salesforce",
+   44
+  ],
+  [
+   "simple salesforce",
+   40
+  ],
+  [
+   "sync job",
+   36
+  ],
+  [
+   "error message",
+   34
+  ],
+  [
+   "feature request",
+   31
+  ],
+  [
+   "use case",
+   28
+  ],
+  [
+   "salesforce connector",
+   27
+  ],
+  [
+   "salesforce source",
+   24
+  ],
+  [
+   "salesforce object",
+   22
+  ],
+  [
+   "late version",
+   22
+  ],
+  [
+   "sale order",
+   21
+  ],
+  [
+   "airbyte version",
+   20
+  ],
+  [
+   "custom field",
+   19
+  ],
+  [
+   "refresh token",
+   18
+  ],
+  [
+   "sync attempt page",
+   18
+  ],
+  [
+   "log display window",
+   18
+  ],
+  [
+   "destination connector",
+   16
+  ],
+  [
+   "alpha os version instance",
+   15
+  ],
+  [
+   "rest api",
+   14
+  ],
+  [
+   "pull request",
+   13
+  ],
+  [
+   "bulk query",
+   13
+  ],
+  [
+   "long time",
+   12
+  ],
+  [
+   "soql query",
+   11
+  ],
+  [
+   "following error",
+   11
+  ],
+  [
+   "incremental sync",
+   11
+  ],
+  [
+   "salesforce api",
+   10
+  ],
+  [
+   "new connection",
+   10
+  ],
+  [
+   "batch size",
+   10
+  ],
+  [
+   "metadata api",
+   10
+  ]
+ ],
+ "entidades": [
+  [
+   "ORG",
+   3831
+  ],
+  [
+   "CARDINAL",
+   2260
+  ],
+  [
+   "PERSON",
+   1673
+  ],
+  [
+   "DATE",
+   871
+  ],
+  [
+   "GPE",
+   524
+  ],
+  [
+   "WORK_OF_ART",
+   391
+  ],
+  [
+   "MONEY",
+   328
+  ],
+  [
+   "TIME",
+   313
+  ],
+  [
+   "PRODUCT",
+   265
+  ],
+  [
+   "NORP",
+   213
+  ],
+  [
+   "ORDINAL",
+   201
+  ],
+  [
+   "FAC",
+   48
+  ],
+  [
+   "LAW",
+   44
+  ],
+  [
+   "LOC",
+   39
+  ],
+  [
+   "PERCENT",
+   31
+  ],
+  [
+   "EVENT",
+   16
+  ],
+  [
+   "LANGUAGE",
+   14
+  ],
+  [
+   "QUANTITY",
+   10
+  ]
+ ],
+ "achados_por_tipo": {
+  "data": 2211,
+  "excecao": 577,
+  "identificador": 430,
+  "campo_custom": 310,
+  "erro_plataforma": 156,
+  "http": 98,
+  "paginacao": 49,
+  "erro_oauth": 29,
+  "preenchimento": 1
+ },
+ "achados_valores": {
+  "http": [
+   [
+    "400",
+    23
+   ],
+   [
+    "200",
+    17
+   ],
+   [
+    "500",
+    9
+   ],
+   [
+    "504",
+    8
+   ],
+   [
+    "429",
+    7
+   ],
+   [
+    "405",
+    5
+   ],
+   [
+    "401",
+    5
+   ],
+   [
+    "137",
+    5
+   ],
+   [
+    "403",
+    5
+   ],
+   [
+    "503",
+    3
+   ],
+   [
+    "413",
+    3
+   ],
+   [
+    "414",
+    2
+   ],
+   [
+    "502",
+    2
+   ],
+   [
+    "431",
+    2
+   ],
+   [
+    "404",
+    1
+   ]
+  ],
+  "erro_plataforma": [
+   [
+    "INVALID_LOGIN",
+    21
+   ],
+   [
+    "INVALID_SESSION_ID",
+    12
+   ],
+   [
+    "INVALID_FIELD",
+    11
+   ],
+   [
+    "NOT_FOUND",
+    10
+   ],
+   [
+    "INVALID_JWT_FORMAT",
+    10
+   ],
+   [
+    "INVALID_AUTH_HEADER",
+    7
+   ],
+   [
+    "METHOD_NOT_ALLOWED",
+    6
+   ],
+   [
+    "INVALID_TYPE",
+    5
+   ],
+   [
+    "ERR_INVALID_ARG_TYPE",
+    5
+   ],
+   [
+    "QUERY_TIMEOUT",
+    5
+   ],
+   [
+    "ERR_INVALID_URL",
+    4
+   ],
+   [
+    "ERROR_HTTP_413",
+    3
+   ],
+   [
+    "ACTIVITY_DISCOVERY_TIMEOUT",
+    3
+   ],
+   [
+    "INVALID_SSO_GATEWAY_URL",
+    2
+   ],
+   [
+    "JSON_PARSER_ERROR",
+    2
+   ]
+  ],
+  "erro_oauth": [
+   [
+    "invalid_grant",
+    25
+   ],
+   [
+    "unsupported_grant_type",
+    4
+   ]
+  ],
+  "campo_custom": [
+   [
+    "Organization_Category__c",
+    10
+   ],
+   [
+    "TelemetryData__c",
+    9
+   ],
+   [
+    "Churned_ARR__c",
+    6
+   ],
+   [
+    "WAU__c",
+    5
+   ],
+   [
+    "Image_Vendor__c",
+    5
+   ],
+   [
+    "TestField__c",
+    5
+   ],
+   [
+    "AccountId__c",
+    4
+   ],
+   [
+    "Custom_Field__c",
+    4
+   ],
+   [
+    "testObject__c",
+    4
+   ],
+   [
+    "Home_Endpoint__c",
+    4
+   ],
+   [
+    "Contact_Guid__c",
+    4
+   ],
+   [
+    "CustomExternal__c",
+    4
+   ],
+   [
+    "Program_Budget__c",
+    4
+   ],
+   [
+    "ExtId__c",
+    4
+   ],
+   [
+    "Product_Hierarchy__c",
+    4
+   ]
+  ],
+  "excecao": [
+   [
+    "TypeError",
+    59
+   ],
+   [
+    "WorkerException",
+    29
+   ],
+   [
+    "AttributeError",
+    22
+   ],
+   [
+    "SalesforceAuthenticationFailed",
+    19
+   ],
+   [
+    "JSONDecodeError",
+    17
+   ],
+   [
+    "UserDefinedBackoffException",
+    17
+   ],
+   [
+    "IOException",
+    17
+   ],
+   [
+    "ConnectionError",
+    15
+   ],
+   [
+    "ValidationError",
+    15
+   ],
+   [
+    "RuntimeException",
+    14
+   ],
+   [
+    "SalesforceMalformedRequest",
+    12
+   ],
+   [
+    "NullPointerException",
+    12
+   ],
+   [
+    "UnixException",
+    12
+   ],
+   [
+    "UnicodeDecodeError",
+    10
+   ],
+   [
+    "PollingTimeout",
+    10
+   ]
+  ],
+  "paginacao": [
+   [
+    "nextRecordsUrl",
+    32
+   ],
+   [
+    "queryMore",
+    10
+   ],
+   [
+    "next_page_token",
+    5
+   ],
+   [
+    "querymore",
+    1
+   ],
+   [
+    "per_page",
+    1
+   ]
+  ],
+  "identificador": [
+   [
+    "FETCH_HEAD",
+    14
+   ],
+   [
+    "DEFAULT_API_VERSION",
+    12
+   ],
+   [
+    "LOCAL_FILE_PATH",
+    6
+   ],
+   [
+    "MICRONAUT_SERVER_MAX_REQUEST_SIZE",
+    6
+   ],
+   [
+    "ERR_STREAM_WRITE_AFTER_END",
+    5
+   ],
+   [
+    "SOCK_STREAM",
+    4
+   ],
+   [
+    "SF_USERNAME",
+    4
+   ],
+   [
+    "SALESFORCE_PASSWORD",
+    4
+   ],
+   [
+    "SECURITY_TOKEN",
+    3
+   ],
+   [
+    "PYTHON_PATH",
+    3
+   ],
+   [
+    "SALESFORCE_CLIENT_ID",
+    3
+   ],
+   [
+    "SALESFORCE_CLIENT_SECRET",
+    3
+   ],
+   [
+    "SALESFORCE_API_VERSION",
+    3
+   ],
+   [
+    "JSON_PARSE",
+    3
+   ],
+   [
+    "STREAM_STATUS",
+    3
+   ]
+  ]
+ },
+ "cpf_classes": {},
+ "por_documento": [
+  {
+   "id": "gh-436376779",
+   "fonte": "simple-salesforce",
+   "data": "2019-04-23",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-236564763",
+   "fonte": "simple-salesforce",
+   "data": "2017-06-16",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-306486551",
+   "fonte": "simple-salesforce",
+   "data": "2018-03-19",
+   "categorias": [
+    "ambiente",
+    "limite_taxa",
+    "mapeamento",
+    "ordem",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1403641043",
+   "fonte": "simple-salesforce",
+   "data": "2022-10-10",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-231370156",
+   "fonte": "simple-salesforce",
+   "data": "2017-05-25",
+   "categorias": [
+    "ambiente",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-327782465",
+   "fonte": "simple-salesforce",
+   "data": "2018-05-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-293689508",
+   "fonte": "simple-salesforce",
+   "data": "2018-02-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-31454458",
+   "fonte": "simple-salesforce",
+   "data": "2014-04-14",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-850655324",
+   "fonte": "simple-salesforce",
+   "data": "2021-04-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-160095218",
+   "fonte": "simple-salesforce",
+   "data": "2016-06-14",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-409045491",
+   "fonte": "simple-salesforce",
+   "data": "2019-02-12",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-378357164",
+   "fonte": "simple-salesforce",
+   "data": "2018-11-07",
+   "categorias": [
+    "formato",
+    "limite_taxa",
+    "mapeamento",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1305369081",
+   "fonte": "simple-salesforce",
+   "data": "2022-07-14",
+   "categorias": [
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-648239695",
+   "fonte": "simple-salesforce",
+   "data": "2020-06-30",
+   "categorias": [
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1617247598",
+   "fonte": "simple-salesforce",
+   "data": "2023-03-09",
+   "categorias": [
+    "mapeamento",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-388841066",
+   "fonte": "simple-salesforce",
+   "data": "2018-12-07",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-261711129",
+   "fonte": "simple-salesforce",
+   "data": "2017-09-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-279397393",
+   "fonte": "simple-salesforce",
+   "data": "2017-12-05",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-510654342",
+   "fonte": "simple-salesforce",
+   "data": "2019-10-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-126278255",
+   "fonte": "simple-salesforce",
+   "data": "2016-01-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-234759383",
+   "fonte": "simple-salesforce",
+   "data": "2017-06-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-331864447",
+   "fonte": "simple-salesforce",
+   "data": "2018-06-13",
+   "categorias": [
+    "limite_taxa",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-375022879",
+   "fonte": "simple-salesforce",
+   "data": "2018-10-29",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-570110617",
+   "fonte": "simple-salesforce",
+   "data": "2020-02-24",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-809806104",
+   "fonte": "simple-salesforce",
+   "data": "2021-02-17",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-548354263",
+   "fonte": "simple-salesforce",
+   "data": "2020-01-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-608088480",
+   "fonte": "simple-salesforce",
+   "data": "2020-04-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-3550025960",
+   "fonte": "simple-salesforce",
+   "data": "2025-10-24",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-163414963",
+   "fonte": "simple-salesforce",
+   "data": "2016-07-01",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-377124018",
+   "fonte": "simple-salesforce",
+   "data": "2018-11-04",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-558758751",
+   "fonte": "simple-salesforce",
+   "data": "2020-02-02",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-588093310",
+   "fonte": "simple-salesforce",
+   "data": "2020-03-26",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-756718204",
+   "fonte": "simple-salesforce",
+   "data": "2020-12-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-1028442280",
+   "fonte": "simple-salesforce",
+   "data": "2021-10-17",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1661020328",
+   "fonte": "simple-salesforce",
+   "data": "2023-04-10",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-139325225",
+   "fonte": "simple-salesforce",
+   "data": "2016-03-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-160290720",
+   "fonte": "simple-salesforce",
+   "data": "2016-06-14",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-203811963",
+   "fonte": "simple-salesforce",
+   "data": "2017-01-28",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "limite_taxa",
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-372675564",
+   "fonte": "simple-salesforce",
+   "data": "2018-10-22",
+   "categorias": [
+    "duplicidade",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-268724922",
+   "fonte": "simple-salesforce",
+   "data": "2017-10-26",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-271956578",
+   "fonte": "simple-salesforce",
+   "data": "2017-11-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-999492143",
+   "fonte": "simple-salesforce",
+   "data": "2021-09-17",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-881997745",
+   "fonte": "simple-salesforce",
+   "data": "2021-05-09",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1040233515",
+   "fonte": "simple-salesforce",
+   "data": "2021-10-30",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1331905800",
+   "fonte": "simple-salesforce",
+   "data": "2022-08-08",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1714774437",
+   "fonte": "simple-salesforce",
+   "data": "2023-05-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-2089290554",
+   "fonte": "simple-salesforce",
+   "data": "2024-01-18",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-55583307",
+   "fonte": "simple-salesforce",
+   "data": "2015-01-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-112860928",
+   "fonte": "simple-salesforce",
+   "data": "2015-10-22",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-169385277",
+   "fonte": "simple-salesforce",
+   "data": "2016-08-04",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-280707590",
+   "fonte": "simple-salesforce",
+   "data": "2017-12-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-259201252",
+   "fonte": "simple-salesforce",
+   "data": "2017-09-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-479240817",
+   "fonte": "simple-salesforce",
+   "data": "2019-08-10",
+   "categorias": [
+    "duplicidade",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-274480146",
+   "fonte": "simple-salesforce",
+   "data": "2017-11-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-313108390",
+   "fonte": "simple-salesforce",
+   "data": "2018-04-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-364293697",
+   "fonte": "simple-salesforce",
+   "data": "2018-09-27",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-680542368",
+   "fonte": "simple-salesforce",
+   "data": "2020-08-17",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-573901752",
+   "fonte": "simple-salesforce",
+   "data": "2020-03-02",
+   "categorias": [
+    "limite_taxa",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-552949297",
+   "fonte": "simple-salesforce",
+   "data": "2020-01-21",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-727391020",
+   "fonte": "simple-salesforce",
+   "data": "2020-10-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-894412746",
+   "fonte": "simple-salesforce",
+   "data": "2021-05-18",
+   "categorias": [
+    "ambiente",
+    "duplicidade",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-852487452",
+   "fonte": "simple-salesforce",
+   "data": "2021-04-07",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "limite_taxa",
+    "paginacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-769219717",
+   "fonte": "simple-salesforce",
+   "data": "2020-12-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-1070170039",
+   "fonte": "simple-salesforce",
+   "data": "2021-12-03",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1130715188",
+   "fonte": "simple-salesforce",
+   "data": "2022-02-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1194488379",
+   "fonte": "simple-salesforce",
+   "data": "2022-04-06",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1458100505",
+   "fonte": "simple-salesforce",
+   "data": "2022-11-21",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2014311455",
+   "fonte": "simple-salesforce",
+   "data": "2023-11-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-15865023",
+   "fonte": "simple-salesforce",
+   "data": "2013-06-21",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-43790986",
+   "fonte": "simple-salesforce",
+   "data": "2014-09-24",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-219969305",
+   "fonte": "simple-salesforce",
+   "data": "2017-04-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-320277534",
+   "fonte": "simple-salesforce",
+   "data": "2018-05-04",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-363797528",
+   "fonte": "simple-salesforce",
+   "data": "2018-09-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-306644678",
+   "fonte": "simple-salesforce",
+   "data": "2018-03-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-344197875",
+   "fonte": "simple-salesforce",
+   "data": "2018-07-24",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-356332724",
+   "fonte": "simple-salesforce",
+   "data": "2018-09-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-643272195",
+   "fonte": "simple-salesforce",
+   "data": "2020-06-22",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-649543623",
+   "fonte": "simple-salesforce",
+   "data": "2020-07-02",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-715713235",
+   "fonte": "simple-salesforce",
+   "data": "2020-10-06",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-929025342",
+   "fonte": "simple-salesforce",
+   "data": "2021-06-24",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1431702375",
+   "fonte": "simple-salesforce",
+   "data": "2022-11-01",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1827558274",
+   "fonte": "simple-salesforce",
+   "data": "2023-07-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-25023964",
+   "fonte": "simple-salesforce",
+   "data": "2014-01-03",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-51402018",
+   "fonte": "simple-salesforce",
+   "data": "2014-12-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-35624938",
+   "fonte": "simple-salesforce",
+   "data": "2014-06-12",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-106204337",
+   "fonte": "simple-salesforce",
+   "data": "2015-09-13",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-200413642",
+   "fonte": "simple-salesforce",
+   "data": "2017-01-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-163452024",
+   "fonte": "simple-salesforce",
+   "data": "2016-07-01",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-163481592",
+   "fonte": "simple-salesforce",
+   "data": "2016-07-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-136162118",
+   "fonte": "simple-salesforce",
+   "data": "2016-02-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-182560165",
+   "fonte": "simple-salesforce",
+   "data": "2016-10-12",
+   "categorias": [
+    "ambiente",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-157534680",
+   "fonte": "simple-salesforce",
+   "data": "2016-05-30",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-160097875",
+   "fonte": "simple-salesforce",
+   "data": "2016-06-14",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-265770581",
+   "fonte": "simple-salesforce",
+   "data": "2017-10-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-234913954",
+   "fonte": "simple-salesforce",
+   "data": "2017-06-09",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-371666555",
+   "fonte": "simple-salesforce",
+   "data": "2018-10-18",
+   "categorias": [
+    "mapeamento",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-255973668",
+   "fonte": "simple-salesforce",
+   "data": "2017-09-07",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-260601324",
+   "fonte": "simple-salesforce",
+   "data": "2017-09-26",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-355556714",
+   "fonte": "simple-salesforce",
+   "data": "2018-08-30",
+   "categorias": [
+    "ambiente",
+    "paginacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-631432805",
+   "fonte": "simple-salesforce",
+   "data": "2020-06-05",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-636789445",
+   "fonte": "simple-salesforce",
+   "data": "2020-06-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-607153058",
+   "fonte": "simple-salesforce",
+   "data": "2020-04-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-707841809",
+   "fonte": "simple-salesforce",
+   "data": "2020-09-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-1036635304",
+   "fonte": "simple-salesforce",
+   "data": "2021-10-26",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1122053997",
+   "fonte": "simple-salesforce",
+   "data": "2022-02-02",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1167307247",
+   "fonte": "simple-salesforce",
+   "data": "2022-03-12",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1140383663",
+   "fonte": "simple-salesforce",
+   "data": "2022-02-16",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1577315851",
+   "fonte": "simple-salesforce",
+   "data": "2023-02-09",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1949465188",
+   "fonte": "simple-salesforce",
+   "data": "2023-10-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-2162881337",
+   "fonte": "simple-salesforce",
+   "data": "2024-03-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-13446323",
+   "fonte": "simple-salesforce",
+   "data": "2013-04-21",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-45238507",
+   "fonte": "simple-salesforce",
+   "data": "2014-10-08",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-35798507",
+   "fonte": "simple-salesforce",
+   "data": "2014-06-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-133326271",
+   "fonte": "simple-salesforce",
+   "data": "2016-02-12",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-91145139",
+   "fonte": "simple-salesforce",
+   "data": "2015-06-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-112767387",
+   "fonte": "simple-salesforce",
+   "data": "2015-10-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-110936737",
+   "fonte": "simple-salesforce",
+   "data": "2015-10-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-201637388",
+   "fonte": "simple-salesforce",
+   "data": "2017-01-18",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-226698956",
+   "fonte": "simple-salesforce",
+   "data": "2017-05-05",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-286443664",
+   "fonte": "simple-salesforce",
+   "data": "2018-01-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-217120081",
+   "fonte": "simple-salesforce",
+   "data": "2017-03-27",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-340769423",
+   "fonte": "simple-salesforce",
+   "data": "2018-07-12",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-509216968",
+   "fonte": "simple-salesforce",
+   "data": "2019-10-18",
+   "categorias": [
+    "autenticacao",
+    "duplicidade",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-483020104",
+   "fonte": "simple-salesforce",
+   "data": "2019-08-20",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-244435033",
+   "fonte": "simple-salesforce",
+   "data": "2017-07-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-308078606",
+   "fonte": "simple-salesforce",
+   "data": "2018-03-23",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-269747702",
+   "fonte": "simple-salesforce",
+   "data": "2017-10-30",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-293345826",
+   "fonte": "simple-salesforce",
+   "data": "2018-01-31",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-516278529",
+   "fonte": "simple-salesforce",
+   "data": "2019-11-01",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-453802282",
+   "fonte": "simple-salesforce",
+   "data": "2019-06-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-396297835",
+   "fonte": "simple-salesforce",
+   "data": "2019-01-06",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-625036087",
+   "fonte": "simple-salesforce",
+   "data": "2020-05-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-612279898",
+   "fonte": "simple-salesforce",
+   "data": "2020-05-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-664050317",
+   "fonte": "simple-salesforce",
+   "data": "2020-07-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-835779734",
+   "fonte": "simple-salesforce",
+   "data": "2021-03-19",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-559249271",
+   "fonte": "simple-salesforce",
+   "data": "2020-02-03",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-586648042",
+   "fonte": "simple-salesforce",
+   "data": "2020-03-24",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-655728344",
+   "fonte": "simple-salesforce",
+   "data": "2020-07-13",
+   "categorias": [
+    "autenticacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-717838633",
+   "fonte": "simple-salesforce",
+   "data": "2020-10-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-706232375",
+   "fonte": "simple-salesforce",
+   "data": "2020-09-22",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-751481935",
+   "fonte": "simple-salesforce",
+   "data": "2020-11-26",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-974056055",
+   "fonte": "simple-salesforce",
+   "data": "2021-08-18",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1068435197",
+   "fonte": "simple-salesforce",
+   "data": "2021-12-01",
+   "categorias": [
+    "paginacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1045815281",
+   "fonte": "simple-salesforce",
+   "data": "2021-11-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-1309013450",
+   "fonte": "simple-salesforce",
+   "data": "2022-07-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-1307118501",
+   "fonte": "simple-salesforce",
+   "data": "2022-07-17",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1275269116",
+   "fonte": "simple-salesforce",
+   "data": "2022-06-17",
+   "categorias": [
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1176970132",
+   "fonte": "simple-salesforce",
+   "data": "2022-03-22",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1177952753",
+   "fonte": "simple-salesforce",
+   "data": "2022-03-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-1625683442",
+   "fonte": "simple-salesforce",
+   "data": "2023-03-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-1532765166",
+   "fonte": "simple-salesforce",
+   "data": "2023-01-13",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1578385630",
+   "fonte": "simple-salesforce",
+   "data": "2023-02-09",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1712187818",
+   "fonte": "simple-salesforce",
+   "data": "2023-05-16",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1872665931",
+   "fonte": "simple-salesforce",
+   "data": "2023-08-30",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1873122153",
+   "fonte": "simple-salesforce",
+   "data": "2023-08-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-1808810054",
+   "fonte": "simple-salesforce",
+   "data": "2023-07-18",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-2102950541",
+   "fonte": "simple-salesforce",
+   "data": "2024-01-26",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-2309623739",
+   "fonte": "simple-salesforce",
+   "data": "2024-05-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-3029092210",
+   "fonte": "simple-salesforce",
+   "data": "2025-04-29",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-290476201",
+   "fonte": "simple-salesforce",
+   "data": "2018-01-22",
+   "categorias": [
+    "formato",
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-27657955",
+   "fonte": "simple-salesforce",
+   "data": "2014-02-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-25510415",
+   "fonte": "simple-salesforce",
+   "data": "2014-01-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-60832106",
+   "fonte": "simple-salesforce",
+   "data": "2015-03-12",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-42915578",
+   "fonte": "simple-salesforce",
+   "data": "2014-09-16",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-114880841",
+   "fonte": "simple-salesforce",
+   "data": "2015-11-03",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-113228982",
+   "fonte": "simple-salesforce",
+   "data": "2015-10-25",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-82475287",
+   "fonte": "simple-salesforce",
+   "data": "2015-05-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-71019714",
+   "fonte": "simple-salesforce",
+   "data": "2015-04-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-116879184",
+   "fonte": "simple-salesforce",
+   "data": "2015-11-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-100936362",
+   "fonte": "simple-salesforce",
+   "data": "2015-08-14",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-118931591",
+   "fonte": "simple-salesforce",
+   "data": "2015-11-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-169534615",
+   "fonte": "simple-salesforce",
+   "data": "2016-08-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-168125597",
+   "fonte": "simple-salesforce",
+   "data": "2016-07-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-214887306",
+   "fonte": "simple-salesforce",
+   "data": "2017-03-17",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-221096070",
+   "fonte": "simple-salesforce",
+   "data": "2017-04-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-286597515",
+   "fonte": "simple-salesforce",
+   "data": "2018-01-07",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-281572569",
+   "fonte": "simple-salesforce",
+   "data": "2017-12-12",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-282734348",
+   "fonte": "simple-salesforce",
+   "data": "2017-12-17",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-253048200",
+   "fonte": "simple-salesforce",
+   "data": "2017-08-26",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-159995515",
+   "fonte": "simple-salesforce",
+   "data": "2016-06-13",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-334448600",
+   "fonte": "simple-salesforce",
+   "data": "2018-06-21",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-326572209",
+   "fonte": "simple-salesforce",
+   "data": "2018-05-25",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-316907761",
+   "fonte": "simple-salesforce",
+   "data": "2018-04-23",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-318568344",
+   "fonte": "simple-salesforce",
+   "data": "2018-04-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-490917065",
+   "fonte": "simple-salesforce",
+   "data": "2019-09-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-399962610",
+   "fonte": "simple-salesforce",
+   "data": "2019-01-16",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-315015276",
+   "fonte": "simple-salesforce",
+   "data": "2018-04-17",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-261753476",
+   "fonte": "simple-salesforce",
+   "data": "2017-09-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-276080958",
+   "fonte": "simple-salesforce",
+   "data": "2017-11-22",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-293566336",
+   "fonte": "simple-salesforce",
+   "data": "2018-02-01",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-293623433",
+   "fonte": "simple-salesforce",
+   "data": "2018-02-01",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-377371573",
+   "fonte": "simple-salesforce",
+   "data": "2018-11-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-515655596",
+   "fonte": "simple-salesforce",
+   "data": "2019-10-31",
+   "categorias": []
+  },
+  {
+   "id": "gh-492761519",
+   "fonte": "simple-salesforce",
+   "data": "2019-09-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-424976929",
+   "fonte": "simple-salesforce",
+   "data": "2019-03-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-392384121",
+   "fonte": "simple-salesforce",
+   "data": "2018-12-18",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-672215117",
+   "fonte": "simple-salesforce",
+   "data": "2020-08-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-514162397",
+   "fonte": "simple-salesforce",
+   "data": "2019-10-29",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-556959164",
+   "fonte": "simple-salesforce",
+   "data": "2020-01-29",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-612655840",
+   "fonte": "simple-salesforce",
+   "data": "2020-05-05",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-614804086",
+   "fonte": "simple-salesforce",
+   "data": "2020-05-08",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-599860318",
+   "fonte": "simple-salesforce",
+   "data": "2020-04-14",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-636479624",
+   "fonte": "simple-salesforce",
+   "data": "2020-06-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-624025303",
+   "fonte": "simple-salesforce",
+   "data": "2020-05-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-741658004",
+   "fonte": "simple-salesforce",
+   "data": "2020-11-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-918103636",
+   "fonte": "simple-salesforce",
+   "data": "2021-06-11",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-826653364",
+   "fonte": "simple-salesforce",
+   "data": "2021-03-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-833598354",
+   "fonte": "simple-salesforce",
+   "data": "2021-03-17",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-584603112",
+   "fonte": "simple-salesforce",
+   "data": "2020-03-19",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-638006066",
+   "fonte": "simple-salesforce",
+   "data": "2020-06-12",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-722592044",
+   "fonte": "simple-salesforce",
+   "data": "2020-10-15",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-814408240",
+   "fonte": "simple-salesforce",
+   "data": "2021-02-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-818490794",
+   "fonte": "simple-salesforce",
+   "data": "2021-03-01",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-777146829",
+   "fonte": "simple-salesforce",
+   "data": "2020-12-31",
+   "categorias": []
+  },
+  {
+   "id": "gh-992698603",
+   "fonte": "simple-salesforce",
+   "data": "2021-09-09",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-872413581",
+   "fonte": "simple-salesforce",
+   "data": "2021-04-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-1116946686",
+   "fonte": "simple-salesforce",
+   "data": "2022-01-28",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-939599295",
+   "fonte": "simple-salesforce",
+   "data": "2021-07-08",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1056110885",
+   "fonte": "simple-salesforce",
+   "data": "2021-11-17",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1127637957",
+   "fonte": "simple-salesforce",
+   "data": "2022-02-08",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1287943520",
+   "fonte": "simple-salesforce",
+   "data": "2022-06-28",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1322797158",
+   "fonte": "simple-salesforce",
+   "data": "2022-07-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-1132703455",
+   "fonte": "simple-salesforce",
+   "data": "2022-02-11",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1134557310",
+   "fonte": "simple-salesforce",
+   "data": "2022-02-12",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1410069608",
+   "fonte": "simple-salesforce",
+   "data": "2022-10-15",
+   "categorias": [
+    "ambiente",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1377080252",
+   "fonte": "simple-salesforce",
+   "data": "2022-09-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-1376478651",
+   "fonte": "simple-salesforce",
+   "data": "2022-09-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-1575398982",
+   "fonte": "simple-salesforce",
+   "data": "2023-02-08",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1534152503",
+   "fonte": "simple-salesforce",
+   "data": "2023-01-16",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1584625502",
+   "fonte": "simple-salesforce",
+   "data": "2023-02-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-1596619606",
+   "fonte": "simple-salesforce",
+   "data": "2023-02-23",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1552693364",
+   "fonte": "simple-salesforce",
+   "data": "2023-01-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-1506461006",
+   "fonte": "simple-salesforce",
+   "data": "2022-12-21",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1519008267",
+   "fonte": "simple-salesforce",
+   "data": "2023-01-04",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1715811204",
+   "fonte": "simple-salesforce",
+   "data": "2023-05-18",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-2183562874",
+   "fonte": "simple-salesforce",
+   "data": "2024-03-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-2106276115",
+   "fonte": "simple-salesforce",
+   "data": "2024-01-29",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-2271876722",
+   "fonte": "simple-salesforce",
+   "data": "2024-04-30",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2196222884",
+   "fonte": "simple-salesforce",
+   "data": "2024-03-19",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2121476926",
+   "fonte": "simple-salesforce",
+   "data": "2024-02-06",
+   "categorias": [
+    "autenticacao",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-2244426720",
+   "fonte": "simple-salesforce",
+   "data": "2024-04-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-2456593995",
+   "fonte": "simple-salesforce",
+   "data": "2024-08-08",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-2376043186",
+   "fonte": "simple-salesforce",
+   "data": "2024-06-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-2519840546",
+   "fonte": "simple-salesforce",
+   "data": "2024-09-11",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2748972317",
+   "fonte": "simple-salesforce",
+   "data": "2024-12-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-2823947467",
+   "fonte": "simple-salesforce",
+   "data": "2025-01-31",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-3341621465",
+   "fonte": "simple-salesforce",
+   "data": "2025-08-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-3351409350",
+   "fonte": "simple-salesforce",
+   "data": "2025-08-25",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-3510052197",
+   "fonte": "simple-salesforce",
+   "data": "2025-10-13",
+   "categorias": [
+    "formato",
+    "limite_taxa",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-19270156",
+   "fonte": "simple-salesforce",
+   "data": "2013-09-10",
+   "categorias": [
+    "formato",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-13608217",
+   "fonte": "simple-salesforce",
+   "data": "2013-04-24",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-14086948",
+   "fonte": "simple-salesforce",
+   "data": "2013-05-08",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-15876934",
+   "fonte": "simple-salesforce",
+   "data": "2013-06-22",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-54157377",
+   "fonte": "simple-salesforce",
+   "data": "2015-01-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-134445744",
+   "fonte": "simple-salesforce",
+   "data": "2016-02-18",
+   "categorias": [
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-134630892",
+   "fonte": "simple-salesforce",
+   "data": "2016-02-18",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-34990535",
+   "fonte": "simple-salesforce",
+   "data": "2014-06-04",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-71900304",
+   "fonte": "simple-salesforce",
+   "data": "2015-04-29",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-116840690",
+   "fonte": "simple-salesforce",
+   "data": "2015-11-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-67314243",
+   "fonte": "simple-salesforce",
+   "data": "2015-04-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-118723298",
+   "fonte": "simple-salesforce",
+   "data": "2015-11-24",
+   "categorias": [
+    "formato",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-119775030",
+   "fonte": "simple-salesforce",
+   "data": "2015-12-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-126978827",
+   "fonte": "simple-salesforce",
+   "data": "2016-01-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-158412617",
+   "fonte": "simple-salesforce",
+   "data": "2016-06-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-166342443",
+   "fonte": "simple-salesforce",
+   "data": "2016-07-19",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-184744464",
+   "fonte": "simple-salesforce",
+   "data": "2016-10-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-184926386",
+   "fonte": "simple-salesforce",
+   "data": "2016-10-24",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-216501690",
+   "fonte": "simple-salesforce",
+   "data": "2017-03-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-190572010",
+   "fonte": "simple-salesforce",
+   "data": "2016-11-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-283995481",
+   "fonte": "simple-salesforce",
+   "data": "2017-12-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-280492129",
+   "fonte": "simple-salesforce",
+   "data": "2017-12-08",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-248742564",
+   "fonte": "simple-salesforce",
+   "data": "2017-08-08",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-237266694",
+   "fonte": "simple-salesforce",
+   "data": "2017-06-20",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-234899126",
+   "fonte": "simple-salesforce",
+   "data": "2017-06-09",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-319030961",
+   "fonte": "simple-salesforce",
+   "data": "2018-04-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-320477787",
+   "fonte": "simple-salesforce",
+   "data": "2018-05-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-307834096",
+   "fonte": "simple-salesforce",
+   "data": "2018-03-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-371305365",
+   "fonte": "simple-salesforce",
+   "data": "2018-10-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-353803250",
+   "fonte": "simple-salesforce",
+   "data": "2018-08-24",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-489805125",
+   "fonte": "simple-salesforce",
+   "data": "2019-09-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-370998111",
+   "fonte": "simple-salesforce",
+   "data": "2018-10-17",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-527393909",
+   "fonte": "simple-salesforce",
+   "data": "2019-11-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-538003937",
+   "fonte": "simple-salesforce",
+   "data": "2019-12-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-521598253",
+   "fonte": "simple-salesforce",
+   "data": "2019-11-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-255927192",
+   "fonte": "simple-salesforce",
+   "data": "2017-09-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-291406539",
+   "fonte": "simple-salesforce",
+   "data": "2018-01-25",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-296220654",
+   "fonte": "simple-salesforce",
+   "data": "2018-02-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-304876777",
+   "fonte": "simple-salesforce",
+   "data": "2018-03-13",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-308092894",
+   "fonte": "simple-salesforce",
+   "data": "2018-03-23",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-472945331",
+   "fonte": "simple-salesforce",
+   "data": "2019-07-25",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-487179727",
+   "fonte": "simple-salesforce",
+   "data": "2019-08-29",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-357432793",
+   "fonte": "simple-salesforce",
+   "data": "2018-09-05",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-381684520",
+   "fonte": "simple-salesforce",
+   "data": "2018-11-16",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-688058582",
+   "fonte": "simple-salesforce",
+   "data": "2020-08-28",
+   "categorias": [
+    "formato",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-628118168",
+   "fonte": "simple-salesforce",
+   "data": "2020-06-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-445085117",
+   "fonte": "simple-salesforce",
+   "data": "2019-05-16",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-484655481",
+   "fonte": "simple-salesforce",
+   "data": "2019-08-23",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-572863193",
+   "fonte": "simple-salesforce",
+   "data": "2020-02-28",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-613144161",
+   "fonte": "simple-salesforce",
+   "data": "2020-05-06",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-614227663",
+   "fonte": "simple-salesforce",
+   "data": "2020-05-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-1901571322",
+   "fonte": "jsforce",
+   "data": "2023-09-18",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-134782176",
+   "fonte": "jsforce",
+   "data": "2016-02-19",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-398844335",
+   "fonte": "jsforce",
+   "data": "2019-01-14",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "ordem",
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-546335777",
+   "fonte": "jsforce",
+   "data": "2020-01-07",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-121721937",
+   "fonte": "jsforce",
+   "data": "2015-12-11",
+   "categorias": [
+    "duplicidade",
+    "limite_taxa",
+    "mapeamento",
+    "paginacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-191622795",
+   "fonte": "jsforce",
+   "data": "2016-11-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-279629729",
+   "fonte": "jsforce",
+   "data": "2017-12-06",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-38248504",
+   "fonte": "jsforce",
+   "data": "2014-07-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-97114154",
+   "fonte": "jsforce",
+   "data": "2015-07-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-377233479",
+   "fonte": "jsforce",
+   "data": "2018-11-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-54544620",
+   "fonte": "jsforce",
+   "data": "2015-01-16",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-98820442",
+   "fonte": "jsforce",
+   "data": "2015-08-03",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-142125311",
+   "fonte": "jsforce",
+   "data": "2016-03-20",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-199494331",
+   "fonte": "jsforce",
+   "data": "2017-01-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-212881401",
+   "fonte": "jsforce",
+   "data": "2017-03-08",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2539193562",
+   "fonte": "jsforce",
+   "data": "2024-09-20",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2546613375",
+   "fonte": "jsforce",
+   "data": "2024-09-25",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-4695825908",
+   "fonte": "jsforce",
+   "data": "2026-06-18",
+   "categorias": [
+    "autenticacao",
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-174601340",
+   "fonte": "jsforce",
+   "data": "2016-09-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-188154405",
+   "fonte": "jsforce",
+   "data": "2016-11-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-619873718",
+   "fonte": "jsforce",
+   "data": "2020-05-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-2815656503",
+   "fonte": "jsforce",
+   "data": "2025-01-28",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-31939124",
+   "fonte": "jsforce",
+   "data": "2014-04-22",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-163702566",
+   "fonte": "jsforce",
+   "data": "2016-07-04",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1981934668",
+   "fonte": "jsforce",
+   "data": "2023-11-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-36857340",
+   "fonte": "jsforce",
+   "data": "2014-07-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-53045732",
+   "fonte": "jsforce",
+   "data": "2014-12-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-152101490",
+   "fonte": "jsforce",
+   "data": "2016-05-01",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-216065266",
+   "fonte": "jsforce",
+   "data": "2017-03-22",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-218100051",
+   "fonte": "jsforce",
+   "data": "2017-03-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-250224978",
+   "fonte": "jsforce",
+   "data": "2017-08-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-229387169",
+   "fonte": "jsforce",
+   "data": "2017-05-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-435225335",
+   "fonte": "jsforce",
+   "data": "2019-04-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-526991854",
+   "fonte": "jsforce",
+   "data": "2019-11-22",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2635603563",
+   "fonte": "jsforce",
+   "data": "2024-11-05",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-33428563",
+   "fonte": "jsforce",
+   "data": "2014-05-13",
+   "categorias": [
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-50745900",
+   "fonte": "jsforce",
+   "data": "2014-12-02",
+   "categorias": []
+  },
+  {
+   "id": "gh-31793588",
+   "fonte": "jsforce",
+   "data": "2014-04-18",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-36042018",
+   "fonte": "jsforce",
+   "data": "2014-06-19",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-114341454",
+   "fonte": "jsforce",
+   "data": "2015-10-30",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-41469303",
+   "fonte": "jsforce",
+   "data": "2014-08-29",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-247455742",
+   "fonte": "jsforce",
+   "data": "2017-08-02",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-183746864",
+   "fonte": "jsforce",
+   "data": "2016-10-18",
+   "categorias": [
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-244052569",
+   "fonte": "jsforce",
+   "data": "2017-07-19",
+   "categorias": [
+    "ambiente",
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-346720425",
+   "fonte": "jsforce",
+   "data": "2018-08-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-496056228",
+   "fonte": "jsforce",
+   "data": "2019-09-19",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-516027076",
+   "fonte": "jsforce",
+   "data": "2019-11-01",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1776941283",
+   "fonte": "jsforce",
+   "data": "2023-06-27",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2179837104",
+   "fonte": "jsforce",
+   "data": "2024-03-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-90387450",
+   "fonte": "jsforce",
+   "data": "2015-06-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-43999609",
+   "fonte": "jsforce",
+   "data": "2014-09-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-38585358",
+   "fonte": "jsforce",
+   "data": "2014-07-23",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-30379757",
+   "fonte": "jsforce",
+   "data": "2014-03-28",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-88563897",
+   "fonte": "jsforce",
+   "data": "2015-06-15",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-70843909",
+   "fonte": "jsforce",
+   "data": "2015-04-25",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-78435131",
+   "fonte": "jsforce",
+   "data": "2015-05-20",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-140270064",
+   "fonte": "jsforce",
+   "data": "2016-03-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-154020435",
+   "fonte": "jsforce",
+   "data": "2016-05-10",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-235468320",
+   "fonte": "jsforce",
+   "data": "2017-06-13",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-325916522",
+   "fonte": "jsforce",
+   "data": "2018-05-23",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-297320717",
+   "fonte": "jsforce",
+   "data": "2018-02-15",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-454178914",
+   "fonte": "jsforce",
+   "data": "2019-06-10",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-349248479",
+   "fonte": "jsforce",
+   "data": "2018-08-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-468681518",
+   "fonte": "jsforce",
+   "data": "2019-07-16",
+   "categorias": [
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-584875938",
+   "fonte": "jsforce",
+   "data": "2020-03-20",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-972920967",
+   "fonte": "jsforce",
+   "data": "2021-08-17",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1661042271",
+   "fonte": "jsforce",
+   "data": "2023-04-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-32572660",
+   "fonte": "jsforce",
+   "data": "2014-04-30",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-32010531",
+   "fonte": "jsforce",
+   "data": "2014-04-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-45749525",
+   "fonte": "jsforce",
+   "data": "2014-10-14",
+   "categorias": [
+    "ambiente",
+    "limite_taxa",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-49183294",
+   "fonte": "jsforce",
+   "data": "2014-11-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-52236864",
+   "fonte": "jsforce",
+   "data": "2014-12-17",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-94954106",
+   "fonte": "jsforce",
+   "data": "2015-07-14",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-141113411",
+   "fonte": "jsforce",
+   "data": "2016-03-15",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-159413342",
+   "fonte": "jsforce",
+   "data": "2016-06-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-140490207",
+   "fonte": "jsforce",
+   "data": "2016-03-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-196827140",
+   "fonte": "jsforce",
+   "data": "2016-12-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-410132770",
+   "fonte": "jsforce",
+   "data": "2019-02-14",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-386559044",
+   "fonte": "jsforce",
+   "data": "2018-12-02",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-449039348",
+   "fonte": "jsforce",
+   "data": "2019-05-28",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-450825285",
+   "fonte": "jsforce",
+   "data": "2019-05-31",
+   "categorias": [
+    "duplicidade",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-602578238",
+   "fonte": "jsforce",
+   "data": "2020-04-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-539024587",
+   "fonte": "jsforce",
+   "data": "2019-12-17",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-696270378",
+   "fonte": "jsforce",
+   "data": "2020-09-09",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1064516978",
+   "fonte": "jsforce",
+   "data": "2021-11-26",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1098528091",
+   "fonte": "jsforce",
+   "data": "2022-01-11",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-719964374",
+   "fonte": "jsforce",
+   "data": "2020-10-13",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-877795911",
+   "fonte": "jsforce",
+   "data": "2021-05-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-1469350899",
+   "fonte": "jsforce",
+   "data": "2022-11-30",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2024506510",
+   "fonte": "jsforce",
+   "data": "2023-12-04",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2108736358",
+   "fonte": "jsforce",
+   "data": "2024-01-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-2196837595",
+   "fonte": "jsforce",
+   "data": "2024-03-20",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-103642441",
+   "fonte": "jsforce",
+   "data": "2015-08-28",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-147910849",
+   "fonte": "jsforce",
+   "data": "2016-04-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-135532732",
+   "fonte": "jsforce",
+   "data": "2016-02-22",
+   "categorias": [
+    "autenticacao",
+    "duplicidade",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-161006190",
+   "fonte": "jsforce",
+   "data": "2016-06-18",
+   "categorias": [
+    "limite_taxa",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-224716117",
+   "fonte": "jsforce",
+   "data": "2017-04-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-247242426",
+   "fonte": "jsforce",
+   "data": "2017-08-02",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "mapeamento",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-368436355",
+   "fonte": "jsforce",
+   "data": "2018-10-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-175292174",
+   "fonte": "jsforce",
+   "data": "2016-09-06",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-183522881",
+   "fonte": "jsforce",
+   "data": "2016-10-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-189224947",
+   "fonte": "jsforce",
+   "data": "2016-11-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-195023569",
+   "fonte": "jsforce",
+   "data": "2016-12-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-268956092",
+   "fonte": "jsforce",
+   "data": "2017-10-27",
+   "categorias": [
+    "paginacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-235057151",
+   "fonte": "jsforce",
+   "data": "2017-06-11",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-223961302",
+   "fonte": "jsforce",
+   "data": "2017-04-24",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-275120153",
+   "fonte": "jsforce",
+   "data": "2017-11-19",
+   "categorias": [
+    "autenticacao",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-367595559",
+   "fonte": "jsforce",
+   "data": "2018-10-07",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-768547985",
+   "fonte": "jsforce",
+   "data": "2020-12-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-702806254",
+   "fonte": "jsforce",
+   "data": "2020-09-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-643191394",
+   "fonte": "jsforce",
+   "data": "2020-06-22",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-622776209",
+   "fonte": "jsforce",
+   "data": "2020-05-21",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1179261663",
+   "fonte": "jsforce",
+   "data": "2022-03-24",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1109790971",
+   "fonte": "jsforce",
+   "data": "2022-01-20",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1560136324",
+   "fonte": "jsforce",
+   "data": "2023-01-27",
+   "categorias": [
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1922005869",
+   "fonte": "jsforce",
+   "data": "2023-10-02",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "limite_taxa",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1938848287",
+   "fonte": "jsforce",
+   "data": "2023-10-11",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2499618484",
+   "fonte": "jsforce",
+   "data": "2024-09-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-2348120905",
+   "fonte": "jsforce",
+   "data": "2024-06-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-3503432632",
+   "fonte": "jsforce",
+   "data": "2025-10-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-95405603",
+   "fonte": "jsforce",
+   "data": "2015-07-16",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-90516942",
+   "fonte": "jsforce",
+   "data": "2015-06-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-60570760",
+   "fonte": "jsforce",
+   "data": "2015-03-10",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-27088483",
+   "fonte": "jsforce",
+   "data": "2014-02-06",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-45963855",
+   "fonte": "jsforce",
+   "data": "2014-10-16",
+   "categorias": [
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-35847481",
+   "fonte": "jsforce",
+   "data": "2014-06-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-37019381",
+   "fonte": "jsforce",
+   "data": "2014-07-02",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-41529487",
+   "fonte": "jsforce",
+   "data": "2014-08-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-41989537",
+   "fonte": "jsforce",
+   "data": "2014-09-04",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-57506169",
+   "fonte": "jsforce",
+   "data": "2015-02-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-77998009",
+   "fonte": "jsforce",
+   "data": "2015-05-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-102691803",
+   "fonte": "jsforce",
+   "data": "2015-08-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-152100950",
+   "fonte": "jsforce",
+   "data": "2016-05-01",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-143629786",
+   "fonte": "jsforce",
+   "data": "2016-03-25",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-217802106",
+   "fonte": "jsforce",
+   "data": "2017-03-29",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-187292627",
+   "fonte": "jsforce",
+   "data": "2016-11-04",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-255477602",
+   "fonte": "jsforce",
+   "data": "2017-09-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-368671620",
+   "fonte": "jsforce",
+   "data": "2018-10-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-156334104",
+   "fonte": "jsforce",
+   "data": "2016-05-23",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-175851846",
+   "fonte": "jsforce",
+   "data": "2016-09-08",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-176038721",
+   "fonte": "jsforce",
+   "data": "2016-09-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-188091995",
+   "fonte": "jsforce",
+   "data": "2016-11-08",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-278132070",
+   "fonte": "jsforce",
+   "data": "2017-11-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-240169649",
+   "fonte": "jsforce",
+   "data": "2017-07-03",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-313635201",
+   "fonte": "jsforce",
+   "data": "2018-04-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-364418631",
+   "fonte": "jsforce",
+   "data": "2018-09-27",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-392913558",
+   "fonte": "jsforce",
+   "data": "2018-12-20",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-433024583",
+   "fonte": "jsforce",
+   "data": "2019-04-14",
+   "categorias": [
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-429954209",
+   "fonte": "jsforce",
+   "data": "2019-04-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-348122848",
+   "fonte": "jsforce",
+   "data": "2018-08-07",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-387545758",
+   "fonte": "jsforce",
+   "data": "2018-12-05",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-466846785",
+   "fonte": "jsforce",
+   "data": "2019-07-11",
+   "categorias": [
+    "paginacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-559398105",
+   "fonte": "jsforce",
+   "data": "2020-02-03",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-674894970",
+   "fonte": "jsforce",
+   "data": "2020-08-07",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-651854292",
+   "fonte": "jsforce",
+   "data": "2020-07-06",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-866043794",
+   "fonte": "jsforce",
+   "data": "2021-04-23",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-905826375",
+   "fonte": "jsforce",
+   "data": "2021-05-28",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-907439532",
+   "fonte": "jsforce",
+   "data": "2021-05-31",
+   "categorias": []
+  },
+  {
+   "id": "gh-911158593",
+   "fonte": "jsforce",
+   "data": "2021-06-04",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-877793451",
+   "fonte": "jsforce",
+   "data": "2021-05-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-947931959",
+   "fonte": "jsforce",
+   "data": "2021-07-19",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-994732760",
+   "fonte": "jsforce",
+   "data": "2021-09-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-1088808365",
+   "fonte": "jsforce",
+   "data": "2021-12-26",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1088808964",
+   "fonte": "jsforce",
+   "data": "2021-12-26",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1209639418",
+   "fonte": "jsforce",
+   "data": "2022-04-20",
+   "categorias": [
+    "autenticacao",
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1148248762",
+   "fonte": "jsforce",
+   "data": "2022-02-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-1282197555",
+   "fonte": "jsforce",
+   "data": "2022-06-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-1330092875",
+   "fonte": "jsforce",
+   "data": "2022-08-05",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1455899081",
+   "fonte": "jsforce",
+   "data": "2022-11-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-1921104541",
+   "fonte": "jsforce",
+   "data": "2023-10-02",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-2029333218",
+   "fonte": "jsforce",
+   "data": "2023-12-06",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-2120093635",
+   "fonte": "jsforce",
+   "data": "2024-02-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-2255141508",
+   "fonte": "jsforce",
+   "data": "2024-04-21",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2341804771",
+   "fonte": "jsforce",
+   "data": "2024-06-08",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2826198478",
+   "fonte": "jsforce",
+   "data": "2025-02-03",
+   "categorias": [
+    "autenticacao",
+    "duplicidade",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-3016708915",
+   "fonte": "jsforce",
+   "data": "2025-04-24",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2986419149",
+   "fonte": "jsforce",
+   "data": "2025-04-10",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-3597257499",
+   "fonte": "jsforce",
+   "data": "2025-11-06",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3684904345",
+   "fonte": "jsforce",
+   "data": "2025-12-02",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-37735547",
+   "fonte": "jsforce",
+   "data": "2014-07-13",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-31770440",
+   "fonte": "jsforce",
+   "data": "2014-04-17",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-54907899",
+   "fonte": "jsforce",
+   "data": "2015-01-20",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-44970526",
+   "fonte": "jsforce",
+   "data": "2014-10-06",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-45818755",
+   "fonte": "jsforce",
+   "data": "2014-10-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-35825693",
+   "fonte": "jsforce",
+   "data": "2014-06-16",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-28347945",
+   "fonte": "jsforce",
+   "data": "2014-02-26",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-71355804",
+   "fonte": "jsforce",
+   "data": "2015-04-27",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-99594463",
+   "fonte": "jsforce",
+   "data": "2015-08-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-41250652",
+   "fonte": "jsforce",
+   "data": "2014-08-27",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-47879500",
+   "fonte": "jsforce",
+   "data": "2014-11-05",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-65986956",
+   "fonte": "jsforce",
+   "data": "2015-04-02",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-109163960",
+   "fonte": "jsforce",
+   "data": "2015-09-30",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-104920523",
+   "fonte": "jsforce",
+   "data": "2015-09-04",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-98396887",
+   "fonte": "jsforce",
+   "data": "2015-07-31",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-148437928",
+   "fonte": "jsforce",
+   "data": "2016-04-14",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-149913853",
+   "fonte": "jsforce",
+   "data": "2016-04-20",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-143027994",
+   "fonte": "jsforce",
+   "data": "2016-03-23",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-157309205",
+   "fonte": "jsforce",
+   "data": "2016-05-27",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-169947845",
+   "fonte": "jsforce",
+   "data": "2016-08-08",
+   "categorias": [
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-207296478",
+   "fonte": "jsforce",
+   "data": "2017-02-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-212797640",
+   "fonte": "jsforce",
+   "data": "2017-03-08",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-208201083",
+   "fonte": "jsforce",
+   "data": "2017-02-16",
+   "categorias": [
+    "formato",
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-284324875",
+   "fonte": "jsforce",
+   "data": "2017-12-23",
+   "categorias": [
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-282847157",
+   "fonte": "jsforce",
+   "data": "2017-12-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-226059193",
+   "fonte": "jsforce",
+   "data": "2017-05-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-218536311",
+   "fonte": "jsforce",
+   "data": "2017-03-31",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-246083317",
+   "fonte": "jsforce",
+   "data": "2017-07-27",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-294770359",
+   "fonte": "jsforce",
+   "data": "2018-02-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-215311727",
+   "fonte": "jsforce",
+   "data": "2017-03-20",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-215928580",
+   "fonte": "jsforce",
+   "data": "2017-03-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-151383118",
+   "fonte": "jsforce",
+   "data": "2016-04-27",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-198713307",
+   "fonte": "jsforce",
+   "data": "2017-01-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-178129567",
+   "fonte": "jsforce",
+   "data": "2016-09-20",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-194586442",
+   "fonte": "jsforce",
+   "data": "2016-12-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-146218964",
+   "fonte": "jsforce",
+   "data": "2016-04-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-146245315",
+   "fonte": "jsforce",
+   "data": "2016-04-06",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-171576976",
+   "fonte": "jsforce",
+   "data": "2016-08-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-171738442",
+   "fonte": "jsforce",
+   "data": "2016-08-17",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-171946439",
+   "fonte": "jsforce",
+   "data": "2016-08-18",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-186108699",
+   "fonte": "jsforce",
+   "data": "2016-10-30",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-188311197",
+   "fonte": "jsforce",
+   "data": "2016-11-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-242123259",
+   "fonte": "jsforce",
+   "data": "2017-07-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-242485144",
+   "fonte": "jsforce",
+   "data": "2017-07-12",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-234386112",
+   "fonte": "jsforce",
+   "data": "2017-06-08",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-313584897",
+   "fonte": "jsforce",
+   "data": "2018-04-12",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-328865245",
+   "fonte": "jsforce",
+   "data": "2018-06-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-301239770",
+   "fonte": "jsforce",
+   "data": "2018-03-01",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-299446419",
+   "fonte": "jsforce",
+   "data": "2018-02-22",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-359065419",
+   "fonte": "jsforce",
+   "data": "2018-09-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-340739096",
+   "fonte": "jsforce",
+   "data": "2018-07-12",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-337811840",
+   "fonte": "jsforce",
+   "data": "2018-07-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-365901241",
+   "fonte": "jsforce",
+   "data": "2018-10-02",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-395781717",
+   "fonte": "jsforce",
+   "data": "2019-01-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-454712571",
+   "fonte": "jsforce",
+   "data": "2019-06-11",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-394424267",
+   "fonte": "jsforce",
+   "data": "2018-12-27",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-518530065",
+   "fonte": "jsforce",
+   "data": "2019-11-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-477343835",
+   "fonte": "jsforce",
+   "data": "2019-08-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-508707134",
+   "fonte": "jsforce",
+   "data": "2019-10-17",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-512459034",
+   "fonte": "jsforce",
+   "data": "2019-10-25",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-561429901",
+   "fonte": "jsforce",
+   "data": "2020-02-07",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-706578389",
+   "fonte": "jsforce",
+   "data": "2020-09-22",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-635670582",
+   "fonte": "jsforce",
+   "data": "2020-06-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-609947605",
+   "fonte": "jsforce",
+   "data": "2020-04-30",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-622958982",
+   "fonte": "jsforce",
+   "data": "2020-05-22",
+   "categorias": [
+    "mapeamento",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-973548619",
+   "fonte": "jsforce",
+   "data": "2021-08-18",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-785512860",
+   "fonte": "jsforce",
+   "data": "2021-01-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-816411137",
+   "fonte": "jsforce",
+   "data": "2021-02-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-808003541",
+   "fonte": "jsforce",
+   "data": "2021-02-14",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1061677321",
+   "fonte": "jsforce",
+   "data": "2021-11-23",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1007195125",
+   "fonte": "jsforce",
+   "data": "2021-09-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-958575700",
+   "fonte": "jsforce",
+   "data": "2021-08-02",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1265221608",
+   "fonte": "jsforce",
+   "data": "2022-06-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-1155019668",
+   "fonte": "jsforce",
+   "data": "2022-03-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-1592099010",
+   "fonte": "jsforce",
+   "data": "2023-02-20",
+   "categorias": [
+    "autenticacao",
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1802633014",
+   "fonte": "jsforce",
+   "data": "2023-07-13",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1930901839",
+   "fonte": "jsforce",
+   "data": "2023-10-06",
+   "categorias": [
+    "duplicidade",
+    "paginacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2250664022",
+   "fonte": "jsforce",
+   "data": "2024-04-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-2156803894",
+   "fonte": "jsforce",
+   "data": "2024-02-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-2597019881",
+   "fonte": "jsforce",
+   "data": "2024-10-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-2417051667",
+   "fonte": "jsforce",
+   "data": "2024-07-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-2418302167",
+   "fonte": "jsforce",
+   "data": "2024-07-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-2430997519",
+   "fonte": "jsforce",
+   "data": "2024-07-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-2751287260",
+   "fonte": "jsforce",
+   "data": "2024-12-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-2548955429",
+   "fonte": "jsforce",
+   "data": "2024-09-25",
+   "categorias": [
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-2740015838",
+   "fonte": "jsforce",
+   "data": "2024-12-14",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-3044384283",
+   "fonte": "jsforce",
+   "data": "2025-05-07",
+   "categorias": [
+    "ambiente",
+    "duplicidade",
+    "limite_taxa",
+    "mapeamento",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-3052113237",
+   "fonte": "jsforce",
+   "data": "2025-05-09",
+   "categorias": [
+    "ambiente",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-3082521973",
+   "fonte": "jsforce",
+   "data": "2025-05-22",
+   "categorias": [
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-64050650",
+   "fonte": "jsforce",
+   "data": "2015-03-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-31769503",
+   "fonte": "jsforce",
+   "data": "2014-04-17",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-54666776",
+   "fonte": "jsforce",
+   "data": "2015-01-17",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-54997572",
+   "fonte": "jsforce",
+   "data": "2015-01-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-111505810",
+   "fonte": "jsforce",
+   "data": "2015-10-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-125649539",
+   "fonte": "jsforce",
+   "data": "2016-01-08",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-128185495",
+   "fonte": "jsforce",
+   "data": "2016-01-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-41796553",
+   "fonte": "jsforce",
+   "data": "2014-09-03",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-59888421",
+   "fonte": "jsforce",
+   "data": "2015-03-05",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-86597391",
+   "fonte": "jsforce",
+   "data": "2015-06-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-124267271",
+   "fonte": "jsforce",
+   "data": "2015-12-29",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-113055083",
+   "fonte": "jsforce",
+   "data": "2015-10-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-116408505",
+   "fonte": "jsforce",
+   "data": "2015-11-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-120401046",
+   "fonte": "jsforce",
+   "data": "2015-12-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-76672380",
+   "fonte": "jsforce",
+   "data": "2015-05-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-103349068",
+   "fonte": "jsforce",
+   "data": "2015-08-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-103816624",
+   "fonte": "jsforce",
+   "data": "2015-08-29",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-67363796",
+   "fonte": "jsforce",
+   "data": "2015-04-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-106022785",
+   "fonte": "jsforce",
+   "data": "2015-09-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-93503252",
+   "fonte": "jsforce",
+   "data": "2015-07-07",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-152466634",
+   "fonte": "jsforce",
+   "data": "2016-05-02",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-164404286",
+   "fonte": "jsforce",
+   "data": "2016-07-07",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-160006735",
+   "fonte": "jsforce",
+   "data": "2016-06-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-160490552",
+   "fonte": "jsforce",
+   "data": "2016-06-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-160728210",
+   "fonte": "jsforce",
+   "data": "2016-06-16",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-149549867",
+   "fonte": "jsforce",
+   "data": "2016-04-19",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-140268412",
+   "fonte": "jsforce",
+   "data": "2016-03-11",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-158390350",
+   "fonte": "jsforce",
+   "data": "2016-06-03",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-181531727",
+   "fonte": "jsforce",
+   "data": "2016-10-06",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-199240662",
+   "fonte": "jsforce",
+   "data": "2017-01-06",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-219674253",
+   "fonte": "jsforce",
+   "data": "2017-04-05",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-200535577",
+   "fonte": "jsforce",
+   "data": "2017-01-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-817502450",
+   "fonte": "airbyte",
+   "data": "2021-02-26",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade",
+    "limite_taxa",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1295605432",
+   "fonte": "airbyte",
+   "data": "2022-07-06",
+   "categorias": [
+    "ambiente",
+    "duplicidade",
+    "formato",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-937703163",
+   "fonte": "airbyte",
+   "data": "2021-07-06",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade",
+    "limite_taxa",
+    "mapeamento",
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1398128204",
+   "fonte": "airbyte",
+   "data": "2022-10-05",
+   "categorias": [
+    "ambiente",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-951183069",
+   "fonte": "airbyte",
+   "data": "2021-07-23",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "limite_taxa",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-916041497",
+   "fonte": "airbyte",
+   "data": "2021-06-09",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1742622500",
+   "fonte": "airbyte",
+   "data": "2023-06-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-1386389902",
+   "fonte": "airbyte",
+   "data": "2022-09-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-1239448827",
+   "fonte": "airbyte",
+   "data": "2022-05-18",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2553825741",
+   "fonte": "airbyte",
+   "data": "2024-09-27",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-965846102",
+   "fonte": "airbyte",
+   "data": "2021-08-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-890533965",
+   "fonte": "airbyte",
+   "data": "2021-05-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-1051098795",
+   "fonte": "airbyte",
+   "data": "2021-11-11",
+   "categorias": [
+    "autenticacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1504163707",
+   "fonte": "airbyte",
+   "data": "2022-12-20",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1020866110",
+   "fonte": "airbyte",
+   "data": "2021-10-08",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-801571372",
+   "fonte": "airbyte",
+   "data": "2021-02-04",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1297129140",
+   "fonte": "airbyte",
+   "data": "2022-07-07",
+   "categorias": [
+    "autenticacao",
+    "paginacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1608168730",
+   "fonte": "airbyte",
+   "data": "2023-03-03",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1742910644",
+   "fonte": "airbyte",
+   "data": "2023-06-06",
+   "categorias": [
+    "formato",
+    "mapeamento",
+    "paginacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-995093049",
+   "fonte": "airbyte",
+   "data": "2021-09-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-1069156691",
+   "fonte": "airbyte",
+   "data": "2021-12-02",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1008375538",
+   "fonte": "airbyte",
+   "data": "2021-09-27",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1241597625",
+   "fonte": "airbyte",
+   "data": "2022-05-19",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-808774086",
+   "fonte": "airbyte",
+   "data": "2021-02-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-1245164379",
+   "fonte": "airbyte",
+   "data": "2022-05-23",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-1398882050",
+   "fonte": "airbyte",
+   "data": "2022-10-06",
+   "categorias": [
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1363922303",
+   "fonte": "airbyte",
+   "data": "2022-09-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-3086133459",
+   "fonte": "airbyte",
+   "data": "2025-05-23",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1027855817",
+   "fonte": "airbyte",
+   "data": "2021-10-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-1117897816",
+   "fonte": "airbyte",
+   "data": "2022-01-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-1292788412",
+   "fonte": "airbyte",
+   "data": "2022-07-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-1326226682",
+   "fonte": "airbyte",
+   "data": "2022-08-02",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2336441453",
+   "fonte": "airbyte",
+   "data": "2024-06-05",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1021456373",
+   "fonte": "airbyte",
+   "data": "2021-10-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-798633636",
+   "fonte": "airbyte",
+   "data": "2021-02-01",
+   "categorias": [
+    "ambiente",
+    "duplicidade",
+    "formato",
+    "mapeamento",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1147803969",
+   "fonte": "airbyte",
+   "data": "2022-02-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-1582869713",
+   "fonte": "airbyte",
+   "data": "2023-02-13",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1401408837",
+   "fonte": "airbyte",
+   "data": "2022-10-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-990934802",
+   "fonte": "airbyte",
+   "data": "2021-09-08",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-4079990104",
+   "fonte": "airbyte",
+   "data": "2026-03-16",
+   "categorias": [
+    "paginacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1673357379",
+   "fonte": "airbyte",
+   "data": "2023-04-18",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2812333070",
+   "fonte": "airbyte",
+   "data": "2025-01-27",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2476507428",
+   "fonte": "airbyte",
+   "data": "2024-08-20",
+   "categorias": [
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1573601361",
+   "fonte": "airbyte",
+   "data": "2023-02-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-862438102",
+   "fonte": "airbyte",
+   "data": "2021-04-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-1123791752",
+   "fonte": "airbyte",
+   "data": "2022-02-04",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1432174808",
+   "fonte": "airbyte",
+   "data": "2022-11-01",
+   "categorias": [
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1123155579",
+   "fonte": "airbyte",
+   "data": "2022-02-03",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1126304779",
+   "fonte": "airbyte",
+   "data": "2022-02-07",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1041089057",
+   "fonte": "airbyte",
+   "data": "2021-11-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-1103295088",
+   "fonte": "airbyte",
+   "data": "2022-01-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-1045270339",
+   "fonte": "airbyte",
+   "data": "2021-11-04",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-2961508200",
+   "fonte": "airbyte",
+   "data": "2025-03-31",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2824121217",
+   "fonte": "airbyte",
+   "data": "2025-01-31",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1629849347",
+   "fonte": "airbyte",
+   "data": "2023-03-17",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1148420668",
+   "fonte": "airbyte",
+   "data": "2022-02-23",
+   "categorias": [
+    "ambiente",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-1404979936",
+   "fonte": "airbyte",
+   "data": "2022-10-11",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1551151656",
+   "fonte": "airbyte",
+   "data": "2023-01-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-1554795123",
+   "fonte": "airbyte",
+   "data": "2023-01-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-1105958691",
+   "fonte": "airbyte",
+   "data": "2022-01-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-1398109870",
+   "fonte": "airbyte",
+   "data": "2022-10-05",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-742651059",
+   "fonte": "airbyte",
+   "data": "2020-11-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-3555110558",
+   "fonte": "airbyte",
+   "data": "2025-10-27",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1123768416",
+   "fonte": "airbyte",
+   "data": "2022-02-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-3003029241",
+   "fonte": "airbyte",
+   "data": "2025-04-17",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2386666421",
+   "fonte": "airbyte",
+   "data": "2024-07-02",
+   "categorias": []
+  },
+  {
+   "id": "gh-2348446635",
+   "fonte": "airbyte",
+   "data": "2024-06-12",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2051144145",
+   "fonte": "airbyte",
+   "data": "2023-12-20",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2205855816",
+   "fonte": "airbyte",
+   "data": "2024-03-25",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1855660983",
+   "fonte": "airbyte",
+   "data": "2023-08-17",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1337271531",
+   "fonte": "airbyte",
+   "data": "2022-08-12",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1882026757",
+   "fonte": "airbyte",
+   "data": "2023-09-05",
+   "categorias": [
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1039733023",
+   "fonte": "airbyte",
+   "data": "2021-10-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1325898989",
+   "fonte": "airbyte",
+   "data": "2022-08-02",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1139979236",
+   "fonte": "airbyte",
+   "data": "2022-02-16",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-939504897",
+   "fonte": "airbyte",
+   "data": "2021-07-08",
+   "categorias": [
+    "ambiente",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-797217475",
+   "fonte": "airbyte",
+   "data": "2021-01-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-928336803",
+   "fonte": "airbyte",
+   "data": "2021-06-23",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-924159245",
+   "fonte": "airbyte",
+   "data": "2021-06-17",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-784534191",
+   "fonte": "airbyte",
+   "data": "2021-01-12",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-989790626",
+   "fonte": "airbyte",
+   "data": "2021-09-07",
+   "categorias": [
+    "ambiente",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-4359123237",
+   "fonte": "airbyte",
+   "data": "2026-04-30",
+   "categorias": [
+    "duplicidade",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2974992620",
+   "fonte": "airbyte",
+   "data": "2025-04-06",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2472597100",
+   "fonte": "airbyte",
+   "data": "2024-08-19",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1109969084",
+   "fonte": "airbyte",
+   "data": "2022-01-21",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1675633581",
+   "fonte": "airbyte",
+   "data": "2023-04-19",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1747137239",
+   "fonte": "airbyte",
+   "data": "2023-06-08",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "paginacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1536042970",
+   "fonte": "airbyte",
+   "data": "2023-01-17",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1496253348",
+   "fonte": "airbyte",
+   "data": "2022-12-14",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1549591813",
+   "fonte": "airbyte",
+   "data": "2023-01-19",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1482915850",
+   "fonte": "airbyte",
+   "data": "2022-12-07",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1297564526",
+   "fonte": "airbyte",
+   "data": "2022-07-07",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1174607096",
+   "fonte": "airbyte",
+   "data": "2022-03-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-787018059",
+   "fonte": "airbyte",
+   "data": "2021-01-15",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "mapeamento",
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-887715967",
+   "fonte": "airbyte",
+   "data": "2021-05-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-997643891",
+   "fonte": "airbyte",
+   "data": "2021-09-16",
+   "categorias": [
+    "ambiente",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-1073794887",
+   "fonte": "airbyte",
+   "data": "2021-12-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-1089700799",
+   "fonte": "airbyte",
+   "data": "2021-12-28",
+   "categorias": [
+    "limite_taxa",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1066032401",
+   "fonte": "airbyte",
+   "data": "2021-11-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-1258190871",
+   "fonte": "airbyte",
+   "data": "2022-06-02",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-2124429062",
+   "fonte": "airbyte",
+   "data": "2024-02-08",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2427721746",
+   "fonte": "airbyte",
+   "data": "2024-07-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-2430097664",
+   "fonte": "airbyte",
+   "data": "2024-07-25",
+   "categorias": [
+    "paginacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1802498901",
+   "fonte": "airbyte",
+   "data": "2023-07-13",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "mapeamento",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1209078278",
+   "fonte": "airbyte",
+   "data": "2022-04-20",
+   "categorias": [
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1157014509",
+   "fonte": "airbyte",
+   "data": "2022-03-02",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1888407748",
+   "fonte": "airbyte",
+   "data": "2023-09-08",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1191984403",
+   "fonte": "airbyte",
+   "data": "2022-04-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-1030764331",
+   "fonte": "airbyte",
+   "data": "2021-10-19",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1302773158",
+   "fonte": "airbyte",
+   "data": "2022-07-13",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1356062946",
+   "fonte": "airbyte",
+   "data": "2022-08-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-1425908931",
+   "fonte": "airbyte",
+   "data": "2022-10-27",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1499437462",
+   "fonte": "airbyte",
+   "data": "2022-12-16",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1159888383",
+   "fonte": "airbyte",
+   "data": "2022-03-04",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1132887974",
+   "fonte": "airbyte",
+   "data": "2022-02-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-1126356219",
+   "fonte": "airbyte",
+   "data": "2022-02-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-912928124",
+   "fonte": "airbyte",
+   "data": "2021-06-06",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-932357989",
+   "fonte": "airbyte",
+   "data": "2021-06-29",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-883877801",
+   "fonte": "airbyte",
+   "data": "2021-05-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1807890907",
+   "fonte": "airbyte",
+   "data": "2023-07-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-2458936518",
+   "fonte": "airbyte",
+   "data": "2024-08-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-2247329684",
+   "fonte": "airbyte",
+   "data": "2024-04-17",
+   "categorias": [
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1968298292",
+   "fonte": "airbyte",
+   "data": "2023-10-30",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1754847617",
+   "fonte": "airbyte",
+   "data": "2023-06-13",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1976893383",
+   "fonte": "airbyte",
+   "data": "2023-11-03",
+   "categorias": [
+    "formato",
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1113386893",
+   "fonte": "airbyte",
+   "data": "2022-01-25",
+   "categorias": [
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1360340177",
+   "fonte": "airbyte",
+   "data": "2022-09-02",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1919945579",
+   "fonte": "airbyte",
+   "data": "2023-09-29",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1945957470",
+   "fonte": "airbyte",
+   "data": "2023-10-16",
+   "categorias": [
+    "limite_taxa",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-2064404092",
+   "fonte": "airbyte",
+   "data": "2024-01-03",
+   "categorias": [
+    "ambiente",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1562265266",
+   "fonte": "airbyte",
+   "data": "2023-01-30",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1814828701",
+   "fonte": "airbyte",
+   "data": "2023-07-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-1675824898",
+   "fonte": "airbyte",
+   "data": "2023-04-20",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1744533825",
+   "fonte": "airbyte",
+   "data": "2023-06-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-1128191869",
+   "fonte": "airbyte",
+   "data": "2022-02-09",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1438073147",
+   "fonte": "airbyte",
+   "data": "2022-11-07",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1495955064",
+   "fonte": "airbyte",
+   "data": "2022-12-14",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1494351392",
+   "fonte": "airbyte",
+   "data": "2022-12-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-1394756034",
+   "fonte": "airbyte",
+   "data": "2022-10-03",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1372307179",
+   "fonte": "airbyte",
+   "data": "2022-09-14",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1246809685",
+   "fonte": "airbyte",
+   "data": "2022-05-24",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1117900147",
+   "fonte": "airbyte",
+   "data": "2022-01-28",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1196337752",
+   "fonte": "airbyte",
+   "data": "2022-04-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-939124860",
+   "fonte": "airbyte",
+   "data": "2021-07-07",
+   "categorias": [
+    "ambiente",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-773928127",
+   "fonte": "airbyte",
+   "data": "2020-12-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-1099462572",
+   "fonte": "airbyte",
+   "data": "2022-01-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-1258187068",
+   "fonte": "airbyte",
+   "data": "2022-06-02",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-973216157",
+   "fonte": "airbyte",
+   "data": "2021-08-18",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1045143339",
+   "fonte": "airbyte",
+   "data": "2021-11-04",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-1079801803",
+   "fonte": "airbyte",
+   "data": "2021-12-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-4992666285",
+   "fonte": "airbyte",
+   "data": "2026-07-27",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato",
+    "limite_taxa",
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-4737884738",
+   "fonte": "airbyte",
+   "data": "2026-06-24",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1369550464",
+   "fonte": "airbyte",
+   "data": "2022-09-12",
+   "categorias": [
+    "duplicidade",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1803823535",
+   "fonte": "airbyte",
+   "data": "2023-07-13",
+   "categorias": [
+    "ambiente",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-1838616643",
+   "fonte": "airbyte",
+   "data": "2023-08-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-1426910433",
+   "fonte": "airbyte",
+   "data": "2022-10-28",
+   "categorias": [
+    "limite_taxa",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-3755288825",
+   "fonte": "airbyte",
+   "data": "2025-12-22",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1373044358",
+   "fonte": "airbyte",
+   "data": "2022-09-14",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1710954975",
+   "fonte": "airbyte",
+   "data": "2023-05-15",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1908371140",
+   "fonte": "airbyte",
+   "data": "2023-09-22",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1069968456",
+   "fonte": "airbyte",
+   "data": "2021-12-02",
+   "categorias": []
+  },
+  {
+   "id": "gh-1889957092",
+   "fonte": "airbyte",
+   "data": "2023-09-11",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1789278167",
+   "fonte": "airbyte",
+   "data": "2023-07-05",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1567343543",
+   "fonte": "airbyte",
+   "data": "2023-02-02",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1875254971",
+   "fonte": "airbyte",
+   "data": "2023-08-31",
+   "categorias": []
+  },
+  {
+   "id": "gh-1167879184",
+   "fonte": "airbyte",
+   "data": "2022-03-14",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-2038303660",
+   "fonte": "airbyte",
+   "data": "2023-12-12",
+   "categorias": [
+    "formato",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1911938238",
+   "fonte": "airbyte",
+   "data": "2023-09-25",
+   "categorias": [
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1616740649",
+   "fonte": "airbyte",
+   "data": "2023-03-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-1180017681",
+   "fonte": "airbyte",
+   "data": "2022-03-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-1120533304",
+   "fonte": "airbyte",
+   "data": "2022-02-01",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1492930286",
+   "fonte": "airbyte",
+   "data": "2022-12-12",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1205450591",
+   "fonte": "airbyte",
+   "data": "2022-04-15",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1350421551",
+   "fonte": "airbyte",
+   "data": "2022-08-25",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1110199867",
+   "fonte": "airbyte",
+   "data": "2022-01-21",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-931003196",
+   "fonte": "airbyte",
+   "data": "2021-06-27",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1090245160",
+   "fonte": "airbyte",
+   "data": "2021-12-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-1058102500",
+   "fonte": "airbyte",
+   "data": "2021-11-19",
+   "categorias": [
+    "mapeamento",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1025890367",
+   "fonte": "airbyte",
+   "data": "2021-10-14",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-748160654",
+   "fonte": "airbyte",
+   "data": "2020-11-22",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-4737877789",
+   "fonte": "airbyte",
+   "data": "2026-06-24",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1413761543",
+   "fonte": "airbyte",
+   "data": "2022-10-18",
+   "categorias": [
+    "ambiente",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-3364009760",
+   "fonte": "airbyte",
+   "data": "2025-08-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-2935815492",
+   "fonte": "airbyte",
+   "data": "2025-03-20",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3216350666",
+   "fonte": "airbyte",
+   "data": "2025-07-09",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2853385216",
+   "fonte": "airbyte",
+   "data": "2025-02-14",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1383929796",
+   "fonte": "airbyte",
+   "data": "2022-09-23",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2491158405",
+   "fonte": "airbyte",
+   "data": "2024-08-28",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-3139476544",
+   "fonte": "airbyte",
+   "data": "2025-06-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-1734363765",
+   "fonte": "airbyte",
+   "data": "2023-05-31",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1732391995",
+   "fonte": "airbyte",
+   "data": "2023-05-30",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2073612884",
+   "fonte": "airbyte",
+   "data": "2024-01-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1124490169",
+   "fonte": "airbyte",
+   "data": "2022-02-04",
+   "categorias": [
+    "ambiente",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-1033177310",
+   "fonte": "airbyte",
+   "data": "2021-10-22",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1958829852",
+   "fonte": "airbyte",
+   "data": "2023-10-24",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1852188922",
+   "fonte": "airbyte",
+   "data": "2023-08-15",
+   "categorias": [
+    "duplicidade",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1662118705",
+   "fonte": "airbyte",
+   "data": "2023-04-11",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1655392144",
+   "fonte": "airbyte",
+   "data": "2023-04-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-1225609442",
+   "fonte": "airbyte",
+   "data": "2022-05-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-1051341608",
+   "fonte": "airbyte",
+   "data": "2021-11-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-1696247959",
+   "fonte": "airbyte",
+   "data": "2023-05-04",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1579738095",
+   "fonte": "airbyte",
+   "data": "2023-02-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1867828901",
+   "fonte": "airbyte",
+   "data": "2023-08-26",
+   "categorias": [
+    "ambiente",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1724814641",
+   "fonte": "airbyte",
+   "data": "2023-05-24",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1816154233",
+   "fonte": "airbyte",
+   "data": "2023-07-21",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1898819624",
+   "fonte": "airbyte",
+   "data": "2023-09-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-900199745",
+   "fonte": "airbyte",
+   "data": "2021-05-25",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1693865434",
+   "fonte": "airbyte",
+   "data": "2023-05-03",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1280799862",
+   "fonte": "airbyte",
+   "data": "2022-06-22",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1305249759",
+   "fonte": "airbyte",
+   "data": "2022-07-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-1498190510",
+   "fonte": "airbyte",
+   "data": "2022-12-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-1597455188",
+   "fonte": "airbyte",
+   "data": "2023-02-23",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1462772178",
+   "fonte": "airbyte",
+   "data": "2022-11-24",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1506880860",
+   "fonte": "airbyte",
+   "data": "2022-12-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-1403749718",
+   "fonte": "airbyte",
+   "data": "2022-10-10",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1110165215",
+   "fonte": "airbyte",
+   "data": "2022-01-21",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1129529798",
+   "fonte": "airbyte",
+   "data": "2022-02-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1294467544",
+   "fonte": "airbyte",
+   "data": "2022-07-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-960302406",
+   "fonte": "airbyte",
+   "data": "2021-08-04",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1224944784",
+   "fonte": "airbyte",
+   "data": "2022-05-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-1126153754",
+   "fonte": "airbyte",
+   "data": "2022-02-07",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1216404494",
+   "fonte": "airbyte",
+   "data": "2022-04-26",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1290963673",
+   "fonte": "airbyte",
+   "data": "2022-07-01",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1132887502",
+   "fonte": "airbyte",
+   "data": "2022-02-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-1113381223",
+   "fonte": "airbyte",
+   "data": "2022-01-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-1378770808",
+   "fonte": "airbyte",
+   "data": "2022-09-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-1084708898",
+   "fonte": "airbyte",
+   "data": "2021-12-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-977520682",
+   "fonte": "airbyte",
+   "data": "2021-08-23",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-890915668",
+   "fonte": "airbyte",
+   "data": "2021-05-13",
+   "categorias": [
+    "limite_taxa",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1047083205",
+   "fonte": "airbyte",
+   "data": "2021-11-08",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1076549565",
+   "fonte": "airbyte",
+   "data": "2021-12-10",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-1153586630",
+   "fonte": "airbyte",
+   "data": "2022-02-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-1141204392",
+   "fonte": "airbyte",
+   "data": "2022-02-17",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-938160884",
+   "fonte": "airbyte",
+   "data": "2021-07-06",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-1050477048",
+   "fonte": "airbyte",
+   "data": "2021-11-11",
+   "categorias": [
+    "ambiente",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1090257406",
+   "fonte": "airbyte",
+   "data": "2021-12-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-997068132",
+   "fonte": "airbyte",
+   "data": "2021-09-15",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-953523558",
+   "fonte": "airbyte",
+   "data": "2021-07-27",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-786543672",
+   "fonte": "airbyte",
+   "data": "2021-01-15",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-741363136",
+   "fonte": "airbyte",
+   "data": "2020-11-12",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-740382152",
+   "fonte": "airbyte",
+   "data": "2020-11-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-740355663",
+   "fonte": "airbyte",
+   "data": "2020-11-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-729743996",
+   "fonte": "airbyte",
+   "data": "2020-10-26",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-3660571634",
+   "fonte": "airbyte",
+   "data": "2025-11-24",
+   "categorias": [
+    "duplicidade",
+    "formato",
+    "mapeamento",
+    "paginacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1413388916",
+   "fonte": "airbyte",
+   "data": "2022-10-18",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3331746561",
+   "fonte": "airbyte",
+   "data": "2025-08-18",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-984380358",
+   "fonte": "airbyte",
+   "data": "2021-08-31",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3294292364",
+   "fonte": "airbyte",
+   "data": "2025-08-05",
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-2913641907",
+   "fonte": "airbyte",
+   "data": "2025-03-12",
+   "categorias": [
+    "ambiente",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2866372295",
+   "fonte": "airbyte",
+   "data": "2025-02-20",
+   "categorias": [
+    "paginacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2840492661",
+   "fonte": "airbyte",
+   "data": "2025-02-09",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-2396089104",
+   "fonte": "airbyte",
+   "data": "2024-07-08",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2458316109",
+   "fonte": "airbyte",
+   "data": "2024-08-09",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1025208964",
+   "fonte": "airbyte",
+   "data": "2021-10-13",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1592204088",
+   "fonte": "airbyte",
+   "data": "2023-02-20",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1840353661",
+   "fonte": "airbyte",
+   "data": "2023-08-07",
+   "categorias": [
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1902260776",
+   "fonte": "airbyte",
+   "data": "2023-09-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-1695533334",
+   "fonte": "airbyte",
+   "data": "2023-05-04",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2260446903",
+   "fonte": "airbyte",
+   "data": "2024-04-24",
+   "categorias": [
+    "duplicidade",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1788841261",
+   "fonte": "airbyte",
+   "data": "2023-07-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-1310271850",
+   "fonte": "airbyte",
+   "data": "2022-07-20",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1532401759",
+   "fonte": "airbyte",
+   "data": "2023-01-13",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1304875773",
+   "fonte": "airbyte",
+   "data": "2022-07-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-1350546180",
+   "fonte": "airbyte",
+   "data": "2022-08-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-1452812679",
+   "fonte": "airbyte",
+   "data": "2022-11-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-1452405397",
+   "fonte": "airbyte",
+   "data": "2022-11-16",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1454928063",
+   "fonte": "airbyte",
+   "data": "2022-11-18",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1458299267",
+   "fonte": "airbyte",
+   "data": "2022-11-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-1457551662",
+   "fonte": "airbyte",
+   "data": "2022-11-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-1256460196",
+   "fonte": "airbyte",
+   "data": "2022-06-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-1673816663",
+   "fonte": "airbyte",
+   "data": "2023-04-18",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1350490289",
+   "fonte": "airbyte",
+   "data": "2022-08-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-2049033563",
+   "fonte": "airbyte",
+   "data": "2023-12-19",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-2049021690",
+   "fonte": "airbyte",
+   "data": "2023-12-19",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-2077384676",
+   "fonte": "airbyte",
+   "data": "2024-01-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-1974545081",
+   "fonte": "airbyte",
+   "data": "2023-11-02",
+   "categorias": [
+    "ambiente",
+    "limite_taxa",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1974574336",
+   "fonte": "airbyte",
+   "data": "2023-11-02",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "ordem",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-1968833851",
+   "fonte": "airbyte",
+   "data": "2023-10-30",
+   "categorias": [
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1475688691",
+   "fonte": "airbyte",
+   "data": "2022-12-05",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1081221158",
+   "fonte": "airbyte",
+   "data": "2021-12-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-2014618523",
+   "fonte": "airbyte",
+   "data": "2023-11-28",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-2014609732",
+   "fonte": "airbyte",
+   "data": "2023-11-28",
+   "categorias": [
+    "ambiente",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-1936155519",
+   "fonte": "airbyte",
+   "data": "2023-10-10",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1730173633",
+   "fonte": "airbyte",
+   "data": "2023-05-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "limite_taxa",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1727118468",
+   "fonte": "airbyte",
+   "data": "2023-05-26",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1741973029",
+   "fonte": "airbyte",
+   "data": "2023-06-05",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1470261462",
+   "fonte": "airbyte",
+   "data": "2022-11-30",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1310495823",
+   "fonte": "airbyte",
+   "data": "2022-07-20",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1584691937",
+   "fonte": "airbyte",
+   "data": "2023-02-14",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1531740880",
+   "fonte": "airbyte",
+   "data": "2023-01-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-1416897618",
+   "fonte": "airbyte",
+   "data": "2022-10-20",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1176099256",
+   "fonte": "airbyte",
+   "data": "2022-03-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-1438609444",
+   "fonte": "airbyte",
+   "data": "2022-11-07",
+   "categorias": [
+    "ambiente",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1117523230",
+   "fonte": "airbyte",
+   "data": "2022-01-28",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1110390252",
+   "fonte": "airbyte",
+   "data": "2022-01-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-1478620660",
+   "fonte": "airbyte",
+   "data": "2022-12-06",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1194608120",
+   "fonte": "airbyte",
+   "data": "2022-04-06",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-885097908",
+   "fonte": "airbyte",
+   "data": "2021-05-10",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1114799093",
+   "fonte": "airbyte",
+   "data": "2022-01-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-1096133063",
+   "fonte": "airbyte",
+   "data": "2022-01-07",
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-3537973452",
+   "fonte": "n8n",
+   "data": "2025-10-21",
+   "categorias": [
+    "ambiente",
+    "duplicidade",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-3721130628",
+   "fonte": "n8n",
+   "data": "2025-12-11",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato",
+    "mapeamento",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-4735910724",
+   "fonte": "n8n",
+   "data": "2026-06-24",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "limite_taxa",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1271125862",
+   "fonte": "n8n",
+   "data": "2022-06-14",
+   "categorias": [
+    "ambiente",
+    "mapeamento",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-3448102110",
+   "fonte": "n8n",
+   "data": "2025-09-24",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3083575091",
+   "fonte": "n8n",
+   "data": "2025-05-22",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-4336061187",
+   "fonte": "n8n",
+   "data": "2026-04-27",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3429299726",
+   "fonte": "n8n",
+   "data": "2025-09-18",
+   "categorias": [
+    "autenticacao",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-3327464576",
+   "fonte": "n8n",
+   "data": "2025-08-16",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-3102819777",
+   "fonte": "n8n",
+   "data": "2025-05-30",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3232210891",
+   "fonte": "n8n",
+   "data": "2025-07-15",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1788020474",
+   "fonte": "n8n",
+   "data": "2023-07-04",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-3469845477",
+   "fonte": "n8n",
+   "data": "2025-09-30",
+   "categorias": [
+    "ambiente",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-3069547449",
+   "fonte": "n8n",
+   "data": "2025-05-16",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1601943746",
+   "fonte": "n8n",
+   "data": "2023-02-27",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-685902150",
+   "fonte": "n8n",
+   "data": "2020-08-25",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-4969517331",
+   "fonte": "n8n",
+   "data": "2026-07-24",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-5243576461",
+   "fonte": "n8n",
+   "data": "2026-08-25",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-3924520720",
+   "fonte": "n8n",
+   "data": "2026-02-11",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-3116978801",
+   "fonte": "n8n",
+   "data": "2025-06-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-3028720769",
+   "fonte": "n8n",
+   "data": "2025-04-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2764490244",
+   "fonte": "n8n",
+   "data": "2024-12-31",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-4650167130",
+   "fonte": "n8n",
+   "data": "2026-06-12",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-5145396324",
+   "fonte": "n8n",
+   "data": "2026-08-13",
+   "categorias": [
+    "autenticacao",
+    "duplicidade",
+    "formato",
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-5240228792",
+   "fonte": "n8n",
+   "data": "2026-08-24",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-4316079169",
+   "fonte": "n8n",
+   "data": "2026-04-23",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-4688216542",
+   "fonte": "n8n",
+   "data": "2026-06-18",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-3544168668",
+   "fonte": "n8n",
+   "data": "2025-10-23",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3591975876",
+   "fonte": "n8n",
+   "data": "2025-11-05",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3516424449",
+   "fonte": "n8n",
+   "data": "2025-10-15",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-3652046134",
+   "fonte": "n8n",
+   "data": "2025-11-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-3440765504",
+   "fonte": "n8n",
+   "data": "2025-09-22",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3444756260",
+   "fonte": "n8n",
+   "data": "2025-09-23",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3362804372",
+   "fonte": "n8n",
+   "data": "2025-08-28",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3498138255",
+   "fonte": "n8n",
+   "data": "2025-10-09",
+   "categorias": [
+    "autenticacao",
+    "mapeamento",
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-3052786875",
+   "fonte": "n8n",
+   "data": "2025-05-09",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2960954574",
+   "fonte": "n8n",
+   "data": "2025-03-31",
+   "categorias": []
+  },
+  {
+   "id": "gh-2414467663",
+   "fonte": "n8n",
+   "data": "2024-07-17",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-4677028197",
+   "fonte": "n8n",
+   "data": "2026-06-16",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-4619479522",
+   "fonte": "n8n",
+   "data": "2026-06-09",
+   "categorias": [
+    "autenticacao",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-4863981027",
+   "fonte": "n8n",
+   "data": "2026-07-11",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-4476305675",
+   "fonte": "n8n",
+   "data": "2026-05-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-4625597935",
+   "fonte": "n8n",
+   "data": "2026-06-09",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-4485401372",
+   "fonte": "n8n",
+   "data": "2026-05-20",
+   "categorias": [
+    "ambiente",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-4871694427",
+   "fonte": "n8n",
+   "data": "2026-07-13",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-4496334258",
+   "fonte": "n8n",
+   "data": "2026-05-21",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-4284452182",
+   "fonte": "n8n",
+   "data": "2026-04-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-2907320003",
+   "fonte": "n8n",
+   "data": "2025-03-10",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-3220274197",
+   "fonte": "n8n",
+   "data": "2025-07-10",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3237252694",
+   "fonte": "n8n",
+   "data": "2025-07-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-3455971645",
+   "fonte": "n8n",
+   "data": "2025-09-26",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-3006896007",
+   "fonte": "n8n",
+   "data": "2025-04-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-2817957687",
+   "fonte": "n8n",
+   "data": "2025-01-29",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-4454556626",
+   "fonte": "n8n",
+   "data": "2026-05-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-5454333416",
+   "fonte": "n8n",
+   "data": "2026-09-14",
+   "categorias": [
+    "ambiente",
+    "mapeamento",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-4818121821",
+   "fonte": "n8n",
+   "data": "2026-07-06",
+   "categorias": [
+    "mapeamento",
+    "ordem",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-3807862843",
+   "fonte": "n8n",
+   "data": "2026-01-13",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3591634948",
+   "fonte": "n8n",
+   "data": "2025-11-05",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-3652012676",
+   "fonte": "n8n",
+   "data": "2025-11-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-287992683",
+   "fonte": "tap-salesforce",
+   "data": "2018-01-12",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-587289091",
+   "fonte": "tap-salesforce",
+   "data": "2020-03-24",
+   "categorias": [
+    "limite_taxa",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-308130049",
+   "fonte": "tap-salesforce",
+   "data": "2018-03-23",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-777136450",
+   "fonte": "tap-salesforce",
+   "data": "2020-12-31",
+   "categorias": [
+    "autenticacao",
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-361008387",
+   "fonte": "tap-salesforce",
+   "data": "2018-09-17",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-601898638",
+   "fonte": "tap-salesforce",
+   "data": "2020-04-17",
+   "categorias": [
+    "ambiente",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-946210821",
+   "fonte": "tap-salesforce",
+   "data": "2021-07-16",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-953535489",
+   "fonte": "tap-salesforce",
+   "data": "2021-07-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-285724215",
+   "fonte": "tap-salesforce",
+   "data": "2018-01-03",
+   "categorias": [
+    "ambiente",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-285722231",
+   "fonte": "tap-salesforce",
+   "data": "2018-01-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-516010146",
+   "fonte": "tap-salesforce",
+   "data": "2019-11-01",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-707043567",
+   "fonte": "tap-salesforce",
+   "data": "2020-09-23",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-939727189",
+   "fonte": "tap-salesforce",
+   "data": "2021-07-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-893123124",
+   "fonte": "tap-salesforce",
+   "data": "2021-05-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-610957297",
+   "fonte": "tap-salesforce",
+   "data": "2020-05-01",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-917975611",
+   "fonte": "tap-salesforce",
+   "data": "2021-06-10",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-3931131748",
+   "fonte": "tap-salesforce",
+   "data": "2026-02-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-4224051285",
+   "fonte": "tap-salesforce",
+   "data": "2026-04-08",
+   "categorias": [
+    "formato",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-5057090204",
+   "fonte": "tap-salesforce",
+   "data": "2026-08-04",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-382324917",
+   "fonte": "erpnext",
+   "data": "2018-11-19",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato",
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-787906301",
+   "fonte": "erpnext",
+   "data": "2021-01-18",
+   "categorias": [
+    "ambiente",
+    "formato",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-40691390",
+   "fonte": "erpnext",
+   "data": "2014-08-20",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-499775597",
+   "fonte": "erpnext",
+   "data": "2019-09-28",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato",
+    "ordem",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-244037095",
+   "fonte": "erpnext",
+   "data": "2017-07-19",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-258421405",
+   "fonte": "erpnext",
+   "data": "2017-09-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-3498440950",
+   "fonte": "erpnext",
+   "data": "2025-10-09",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-125591794",
+   "fonte": "erpnext",
+   "data": "2016-01-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-45459644",
+   "fonte": "erpnext",
+   "data": "2014-10-10",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-69906487",
+   "fonte": "erpnext",
+   "data": "2015-04-21",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-339381992",
+   "fonte": "erpnext",
+   "data": "2018-07-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-92058492",
+   "fonte": "erpnext",
+   "data": "2015-06-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-101207240",
+   "fonte": "erpnext",
+   "data": "2015-08-15",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-126887361",
+   "fonte": "erpnext",
+   "data": "2016-01-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-289658854",
+   "fonte": "erpnext",
+   "data": "2018-01-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-15785602",
+   "fonte": "erpnext",
+   "data": "2013-06-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-148033253",
+   "fonte": "erpnext",
+   "data": "2016-04-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-226546462",
+   "fonte": "erpnext",
+   "data": "2017-05-05",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-173594909",
+   "fonte": "erpnext",
+   "data": "2016-08-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-92391545",
+   "fonte": "erpnext",
+   "data": "2015-07-01",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-507770676",
+   "fonte": "erpnext",
+   "data": "2019-10-16",
+   "categorias": [
+    "formato",
+    "paginacao"
+   ]
+  },
+  {
+   "id": "gh-251927779",
+   "fonte": "erpnext",
+   "data": "2017-08-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-1001347808",
+   "fonte": "erpnext",
+   "data": "2021-09-20",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-3436971954",
+   "fonte": "erpnext",
+   "data": "2025-09-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-506343291",
+   "fonte": "erpnext",
+   "data": "2019-10-13",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-4709601614",
+   "fonte": "erpnext",
+   "data": "2026-06-21",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade",
+    "formato",
+    "mapeamento",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2142133848",
+   "fonte": "erpnext",
+   "data": "2024-02-19",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1047124246",
+   "fonte": "erpnext",
+   "data": "2021-11-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-254630354",
+   "fonte": "erpnext",
+   "data": "2017-09-01",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-253393770",
+   "fonte": "erpnext",
+   "data": "2017-08-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-63956914",
+   "fonte": "erpnext",
+   "data": "2015-03-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-243813522",
+   "fonte": "erpnext",
+   "data": "2017-07-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-360760430",
+   "fonte": "erpnext",
+   "data": "2018-09-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-597976014",
+   "fonte": "erpnext",
+   "data": "2020-04-10",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-186720345",
+   "fonte": "erpnext",
+   "data": "2016-11-02",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-3924902305",
+   "fonte": "erpnext",
+   "data": "2026-02-11",
+   "categorias": [
+    "autenticacao",
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-3587934733",
+   "fonte": "erpnext",
+   "data": "2025-11-04",
+   "categorias": [
+    "formato",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-186281382",
+   "fonte": "erpnext",
+   "data": "2016-10-31",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-362677130",
+   "fonte": "erpnext",
+   "data": "2018-09-21",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-251646263",
+   "fonte": "erpnext",
+   "data": "2017-08-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-1730409726",
+   "fonte": "erpnext",
+   "data": "2023-05-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-4770658195",
+   "fonte": "erpnext",
+   "data": "2026-06-29",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2116092810",
+   "fonte": "erpnext",
+   "data": "2024-02-03",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3139019743",
+   "fonte": "erpnext",
+   "data": "2025-06-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-2515548091",
+   "fonte": "erpnext",
+   "data": "2024-09-10",
+   "categorias": [
+    "formato",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-520821848",
+   "fonte": "erpnext",
+   "data": "2019-11-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-1060970254",
+   "fonte": "erpnext",
+   "data": "2021-11-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-315632668",
+   "fonte": "erpnext",
+   "data": "2018-04-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-593457802",
+   "fonte": "erpnext",
+   "data": "2020-04-03",
+   "categorias": [
+    "ambiente",
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-3899779565",
+   "fonte": "erpnext",
+   "data": "2026-02-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-151801450",
+   "fonte": "erpnext",
+   "data": "2016-04-29",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-216087322",
+   "fonte": "erpnext",
+   "data": "2017-03-22",
+   "categorias": [
+    "formato",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2309583113",
+   "fonte": "erpnext",
+   "data": "2024-05-22",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-673417606",
+   "fonte": "erpnext",
+   "data": "2020-08-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-144245206",
+   "fonte": "erpnext",
+   "data": "2016-03-29",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-271439790",
+   "fonte": "erpnext",
+   "data": "2017-11-06",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-842366285",
+   "fonte": "erpnext",
+   "data": "2021-03-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-3900444666",
+   "fonte": "erpnext",
+   "data": "2026-02-05",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1753217591",
+   "fonte": "erpnext",
+   "data": "2023-06-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-95817477",
+   "fonte": "erpnext",
+   "data": "2015-07-18",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-161003431",
+   "fonte": "erpnext",
+   "data": "2016-06-18",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-43203858",
+   "fonte": "erpnext",
+   "data": "2014-09-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-298605907",
+   "fonte": "erpnext",
+   "data": "2018-02-20",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-231063150",
+   "fonte": "erpnext",
+   "data": "2017-05-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-1146979594",
+   "fonte": "erpnext",
+   "data": "2022-02-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-2039542810",
+   "fonte": "erpnext",
+   "data": "2023-12-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-1645448308",
+   "fonte": "erpnext",
+   "data": "2023-03-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-1826145047",
+   "fonte": "erpnext",
+   "data": "2023-07-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-3393360196",
+   "fonte": "erpnext",
+   "data": "2025-09-08",
+   "categorias": [
+    "autenticacao",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-2749469335",
+   "fonte": "erpnext",
+   "data": "2024-12-19",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-3846281970",
+   "fonte": "erpnext",
+   "data": "2026-01-23",
+   "categorias": [
+    "formato",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-3749517666",
+   "fonte": "erpnext",
+   "data": "2025-12-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-2751084827",
+   "fonte": "erpnext",
+   "data": "2024-12-19",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-158408877",
+   "fonte": "erpnext",
+   "data": "2016-06-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-2524797480",
+   "fonte": "erpnext",
+   "data": "2024-09-13",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-133655594",
+   "fonte": "erpnext",
+   "data": "2016-02-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-277632025",
+   "fonte": "erpnext",
+   "data": "2017-11-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-377930189",
+   "fonte": "erpnext",
+   "data": "2018-11-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-479303249",
+   "fonte": "erpnext",
+   "data": "2019-08-10",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-870623963",
+   "fonte": "erpnext",
+   "data": "2021-04-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-1091158620",
+   "fonte": "erpnext",
+   "data": "2021-12-30",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-488455073",
+   "fonte": "erpnext",
+   "data": "2019-09-03",
+   "categorias": [
+    "autenticacao",
+    "mapeamento",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-37100553",
+   "fonte": "erpnext",
+   "data": "2014-07-03",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-175213607",
+   "fonte": "erpnext",
+   "data": "2016-09-06",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1934615778",
+   "fonte": "erpnext",
+   "data": "2023-10-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1020936071",
+   "fonte": "erpnext",
+   "data": "2021-10-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-363949315",
+   "fonte": "erpnext",
+   "data": "2018-09-26",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1261615630",
+   "fonte": "erpnext",
+   "data": "2022-06-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-3680023638",
+   "fonte": "erpnext",
+   "data": "2025-12-01",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1806072969",
+   "fonte": "erpnext",
+   "data": "2023-07-15",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-3502741823",
+   "fonte": "erpnext",
+   "data": "2025-10-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-3200520740",
+   "fonte": "erpnext",
+   "data": "2025-07-03",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1336590942",
+   "fonte": "erpnext",
+   "data": "2022-08-11",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1839201038",
+   "fonte": "erpnext",
+   "data": "2023-08-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-15738977",
+   "fonte": "erpnext",
+   "data": "2013-06-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-111329462",
+   "fonte": "erpnext",
+   "data": "2015-10-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-44492706",
+   "fonte": "erpnext",
+   "data": "2014-09-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-2658214549",
+   "fonte": "erpnext",
+   "data": "2024-11-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-296289952",
+   "fonte": "erpnext",
+   "data": "2018-02-12",
+   "categorias": [
+    "autenticacao",
+    "mapeamento",
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-447572408",
+   "fonte": "erpnext",
+   "data": "2019-05-23",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-367387160",
+   "fonte": "erpnext",
+   "data": "2018-10-05",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "formato",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-436755480",
+   "fonte": "erpnext",
+   "data": "2019-04-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-460333778",
+   "fonte": "erpnext",
+   "data": "2019-06-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-878804070",
+   "fonte": "erpnext",
+   "data": "2021-05-07",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-280389410",
+   "fonte": "erpnext",
+   "data": "2017-12-08",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-322789620",
+   "fonte": "erpnext",
+   "data": "2018-05-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-2167126951",
+   "fonte": "erpnext",
+   "data": "2024-03-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-394364682",
+   "fonte": "erpnext",
+   "data": "2018-12-27",
+   "categorias": [
+    "ambiente",
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1052558162",
+   "fonte": "erpnext",
+   "data": "2021-11-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-866089260",
+   "fonte": "erpnext",
+   "data": "2021-04-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-930699816",
+   "fonte": "erpnext",
+   "data": "2021-06-26",
+   "categorias": [
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-369481632",
+   "fonte": "erpnext",
+   "data": "2018-10-12",
+   "categorias": [
+    "autenticacao",
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-267703730",
+   "fonte": "erpnext",
+   "data": "2017-10-23",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1958669759",
+   "fonte": "erpnext",
+   "data": "2023-10-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-508010957",
+   "fonte": "erpnext",
+   "data": "2019-10-16",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2962803194",
+   "fonte": "erpnext",
+   "data": "2025-04-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-2959001140",
+   "fonte": "erpnext",
+   "data": "2025-03-30",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1827177550",
+   "fonte": "erpnext",
+   "data": "2023-07-28",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-3926045660",
+   "fonte": "erpnext",
+   "data": "2026-02-11",
+   "categorias": [
+    "ambiente",
+    "duplicidade",
+    "formato",
+    "mapeamento",
+    "ordem",
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-312198522",
+   "fonte": "erpnext",
+   "data": "2018-04-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-4683951686",
+   "fonte": "erpnext",
+   "data": "2026-06-17",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-4106246267",
+   "fonte": "erpnext",
+   "data": "2026-03-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-20254184",
+   "fonte": "erpnext",
+   "data": "2013-09-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-118821399",
+   "fonte": "erpnext",
+   "data": "2015-11-25",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2732081",
+   "fonte": "erpnext",
+   "data": "2012-01-05",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-179083875",
+   "fonte": "erpnext",
+   "data": "2016-09-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-346303817",
+   "fonte": "erpnext",
+   "data": "2018-07-31",
+   "categorias": []
+  },
+  {
+   "id": "gh-310511162",
+   "fonte": "erpnext",
+   "data": "2018-04-02",
+   "categorias": []
+  },
+  {
+   "id": "gh-235042852",
+   "fonte": "erpnext",
+   "data": "2017-06-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-195893781",
+   "fonte": "erpnext",
+   "data": "2016-12-15",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-213876573",
+   "fonte": "erpnext",
+   "data": "2017-03-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-270479195",
+   "fonte": "erpnext",
+   "data": "2017-11-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-583432042",
+   "fonte": "erpnext",
+   "data": "2020-03-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-321340026",
+   "fonte": "erpnext",
+   "data": "2018-05-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-618504096",
+   "fonte": "erpnext",
+   "data": "2020-05-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-356513623",
+   "fonte": "erpnext",
+   "data": "2018-09-03",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-791479060",
+   "fonte": "erpnext",
+   "data": "2021-01-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-426710567",
+   "fonte": "erpnext",
+   "data": "2019-03-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-479458247",
+   "fonte": "erpnext",
+   "data": "2019-08-12",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1050108505",
+   "fonte": "erpnext",
+   "data": "2021-11-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1653319762",
+   "fonte": "erpnext",
+   "data": "2023-04-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-571546765",
+   "fonte": "erpnext",
+   "data": "2020-02-26",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-812980469",
+   "fonte": "erpnext",
+   "data": "2021-02-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-1195076522",
+   "fonte": "erpnext",
+   "data": "2022-04-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-1213255009",
+   "fonte": "erpnext",
+   "data": "2022-04-23",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-294693381",
+   "fonte": "erpnext",
+   "data": "2018-02-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-1795924933",
+   "fonte": "erpnext",
+   "data": "2023-07-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1791248974",
+   "fonte": "erpnext",
+   "data": "2023-07-06",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-1805925001",
+   "fonte": "erpnext",
+   "data": "2023-07-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-259528677",
+   "fonte": "erpnext",
+   "data": "2017-09-21",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1080957389",
+   "fonte": "erpnext",
+   "data": "2021-12-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-616366573",
+   "fonte": "erpnext",
+   "data": "2020-05-12",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-3828859041",
+   "fonte": "erpnext",
+   "data": "2026-01-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-2073747379",
+   "fonte": "erpnext",
+   "data": "2024-01-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-1895392825",
+   "fonte": "erpnext",
+   "data": "2023-09-13",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-3677102112",
+   "fonte": "erpnext",
+   "data": "2025-11-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "duplicidade",
+    "formato",
+    "limite_taxa",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-4605587750",
+   "fonte": "erpnext",
+   "data": "2026-06-07",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2911156088",
+   "fonte": "erpnext",
+   "data": "2025-02-18",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2958876122",
+   "fonte": "erpnext",
+   "data": "2025-03-30",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2043786516",
+   "fonte": "erpnext",
+   "data": "2023-12-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-2724862119",
+   "fonte": "erpnext",
+   "data": "2024-12-07",
+   "categorias": [
+    "formato",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-3012603170",
+   "fonte": "erpnext",
+   "data": "2025-04-23",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2541919560",
+   "fonte": "erpnext",
+   "data": "2024-09-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-2061316384",
+   "fonte": "erpnext",
+   "data": "2024-01-01",
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-5381984252",
+   "fonte": "erpnext",
+   "data": "2026-09-08",
+   "categorias": [
+    "formato",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2059399866",
+   "fonte": "erpnext",
+   "data": "2023-12-29",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-3869464108",
+   "fonte": "erpnext",
+   "data": "2026-01-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-3885589940",
+   "fonte": "erpnext",
+   "data": "2024-02-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-4087164398",
+   "fonte": "erpnext",
+   "data": "2026-03-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-1570285195",
+   "fonte": "erpnext",
+   "data": "2023-02-03",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1642040",
+   "fonte": "erpnext",
+   "data": "2011-09-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-3226420120",
+   "fonte": "erpnext",
+   "data": "2025-07-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-2088415190",
+   "fonte": "erpnext",
+   "data": "2024-01-18",
+   "categorias": []
+  },
+  {
+   "id": "gh-98676269",
+   "fonte": "erpnext",
+   "data": "2015-08-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-2592020599",
+   "fonte": "erpnext",
+   "data": "2024-10-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-2761139626",
+   "fonte": "erpnext",
+   "data": "2024-12-27",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-150787909",
+   "fonte": "erpnext",
+   "data": "2016-04-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-12160207",
+   "fonte": "erpnext",
+   "data": "2013-03-18",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-120316165",
+   "fonte": "erpnext",
+   "data": "2015-12-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-284507240",
+   "fonte": "erpnext",
+   "data": "2017-12-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-1702033608",
+   "fonte": "erpnext",
+   "data": "2023-05-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-254926929",
+   "fonte": "erpnext",
+   "data": "2017-09-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-235307260",
+   "fonte": "erpnext",
+   "data": "2017-06-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-249883510",
+   "fonte": "erpnext",
+   "data": "2017-08-13",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-202260540",
+   "fonte": "erpnext",
+   "data": "2017-01-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-99662014",
+   "fonte": "erpnext",
+   "data": "2015-08-07",
+   "categorias": [
+    "ambiente",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-124065381",
+   "fonte": "erpnext",
+   "data": "2015-12-28",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-673916882",
+   "fonte": "erpnext",
+   "data": "2020-08-05",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-276487894",
+   "fonte": "erpnext",
+   "data": "2017-11-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-188076800",
+   "fonte": "erpnext",
+   "data": "2016-11-08",
+   "categorias": [
+    "autenticacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-296182012",
+   "fonte": "erpnext",
+   "data": "2018-02-11",
+   "categorias": [
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2307500191",
+   "fonte": "erpnext",
+   "data": "2024-05-21",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1125049548",
+   "fonte": "erpnext",
+   "data": "2022-02-05",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-104941521",
+   "fonte": "erpnext",
+   "data": "2015-09-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-421731055",
+   "fonte": "erpnext",
+   "data": "2019-03-15",
+   "categorias": []
+  },
+  {
+   "id": "gh-578114759",
+   "fonte": "erpnext",
+   "data": "2020-03-09",
+   "categorias": []
+  },
+  {
+   "id": "gh-547812073",
+   "fonte": "erpnext",
+   "data": "2020-01-10",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-490680091",
+   "fonte": "erpnext",
+   "data": "2019-09-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-291889191",
+   "fonte": "erpnext",
+   "data": "2018-01-26",
+   "categorias": [
+    "autenticacao",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-940785733",
+   "fonte": "erpnext",
+   "data": "2021-07-09",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-143092992",
+   "fonte": "erpnext",
+   "data": "2016-03-23",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-1269275200",
+   "fonte": "erpnext",
+   "data": "2022-06-13",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-356416073",
+   "fonte": "erpnext",
+   "data": "2018-09-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-616389552",
+   "fonte": "erpnext",
+   "data": "2020-05-12",
+   "categorias": []
+  },
+  {
+   "id": "gh-857321218",
+   "fonte": "erpnext",
+   "data": "2021-04-13",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1021669889",
+   "fonte": "erpnext",
+   "data": "2021-10-09",
+   "categorias": [
+    "ambiente",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2385078349",
+   "fonte": "erpnext",
+   "data": "2024-07-02",
+   "categorias": []
+  },
+  {
+   "id": "gh-1087511259",
+   "fonte": "erpnext",
+   "data": "2021-12-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-1555336206",
+   "fonte": "erpnext",
+   "data": "2023-01-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-811924059",
+   "fonte": "erpnext",
+   "data": "2021-02-19",
+   "categorias": [
+    "autenticacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1432027576",
+   "fonte": "erpnext",
+   "data": "2022-11-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-1153883715",
+   "fonte": "erpnext",
+   "data": "2022-02-28",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1735637005",
+   "fonte": "erpnext",
+   "data": "2023-06-01",
+   "categorias": [
+    "ambiente",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-617866071",
+   "fonte": "erpnext",
+   "data": "2020-05-14",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-552023226",
+   "fonte": "erpnext",
+   "data": "2020-01-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-2039024385",
+   "fonte": "erpnext",
+   "data": "2023-12-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-2572736106",
+   "fonte": "erpnext",
+   "data": "2024-10-08",
+   "categorias": []
+  },
+  {
+   "id": "gh-4505088668",
+   "fonte": "erpnext",
+   "data": "2026-05-22",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1751292768",
+   "fonte": "erpnext",
+   "data": "2023-06-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-1231712754",
+   "fonte": "erpnext",
+   "data": "2022-05-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-2935385362",
+   "fonte": "erpnext",
+   "data": "2025-03-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-2295883527",
+   "fonte": "erpnext",
+   "data": "2024-05-14",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-3738635805",
+   "fonte": "erpnext",
+   "data": "2025-12-17",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-1869389511",
+   "fonte": "erpnext",
+   "data": "2023-08-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-3651584426",
+   "fonte": "erpnext",
+   "data": "2025-11-21",
+   "categorias": [
+    "rede",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-2895003349",
+   "fonte": "erpnext",
+   "data": "2025-03-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-4116308364",
+   "fonte": "erpnext",
+   "data": "2026-03-22",
+   "categorias": [
+    "duplicidade",
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "gh-3180103705",
+   "fonte": "erpnext",
+   "data": "2025-06-26",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-2255468491",
+   "fonte": "erpnext",
+   "data": "2024-04-22",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-2781765837",
+   "fonte": "erpnext",
+   "data": "2025-01-11",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-5381703956",
+   "fonte": "erpnext",
+   "data": "2026-09-08",
+   "categorias": [
+    "autenticacao",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-4251820428",
+   "fonte": "erpnext",
+   "data": "2026-04-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-3926345419",
+   "fonte": "erpnext",
+   "data": "2026-02-11",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-341955446",
+   "fonte": "erpnext",
+   "data": "2018-07-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-355828258",
+   "fonte": "erpnext",
+   "data": "2018-08-31",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-5050537441",
+   "fonte": "erpnext",
+   "data": "2026-08-03",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-4192503149",
+   "fonte": "erpnext",
+   "data": "2026-04-02",
+   "categorias": []
+  },
+  {
+   "id": "gh-3848342145",
+   "fonte": "erpnext",
+   "data": "2026-01-23",
+   "categorias": [
+    "ambiente",
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-2374682527",
+   "fonte": "erpnext",
+   "data": "2024-06-26",
+   "categorias": []
+  },
+  {
+   "id": "gh-973408898",
+   "fonte": "erpnext",
+   "data": "2021-08-18",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-3344876237",
+   "fonte": "erpnext",
+   "data": "2025-08-22",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-2857903456",
+   "fonte": "erpnext",
+   "data": "2025-02-17",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1978432030",
+   "fonte": "erpnext",
+   "data": "2023-11-06",
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-3017689006",
+   "fonte": "erpnext",
+   "data": "2025-04-24",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-1861026",
+   "fonte": "erpnext",
+   "data": "2011-10-10",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-2096447555",
+   "fonte": "erpnext",
+   "data": "2024-01-23",
+   "categorias": [
+    "mapeamento",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-4902253",
+   "fonte": "erpnext",
+   "data": "2012-06-05",
+   "categorias": []
+  },
+  {
+   "id": "gh-170643434",
+   "fonte": "erpnext",
+   "data": "2016-08-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-2729547618",
+   "fonte": "erpnext",
+   "data": "2024-12-10",
+   "categorias": []
+  },
+  {
+   "id": "gh-15624623",
+   "fonte": "erpnext",
+   "data": "2013-06-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-164050678",
+   "fonte": "erpnext",
+   "data": "2016-07-06",
+   "categorias": []
+  },
+  {
+   "id": "gh-141174106",
+   "fonte": "erpnext",
+   "data": "2016-03-16",
+   "categorias": [
+    "autenticacao",
+    "formato",
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-2609606",
+   "fonte": "erpnext",
+   "data": "2011-12-20",
+   "categorias": []
+  },
+  {
+   "id": "gh-166352266",
+   "fonte": "erpnext",
+   "data": "2016-07-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-162430251",
+   "fonte": "erpnext",
+   "data": "2016-06-27",
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-141672374",
+   "fonte": "erpnext",
+   "data": "2016-03-17",
+   "categorias": []
+  },
+  {
+   "id": "gh-21267724",
+   "fonte": "erpnext",
+   "data": "2013-10-19",
+   "categorias": []
+  },
+  {
+   "id": "gh-169311191",
+   "fonte": "erpnext",
+   "data": "2016-08-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-120316683",
+   "fonte": "erpnext",
+   "data": "2015-12-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-176960360",
+   "fonte": "erpnext",
+   "data": "2016-09-14",
+   "categorias": []
+  },
+  {
+   "id": "gh-295000384",
+   "fonte": "erpnext",
+   "data": "2018-02-07",
+   "categorias": []
+  },
+  {
+   "id": "gh-140956771",
+   "fonte": "erpnext",
+   "data": "2016-03-15",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-96798721",
+   "fonte": "erpnext",
+   "data": "2015-07-23",
+   "categorias": []
+  },
+  {
+   "id": "gh-2264345512",
+   "fonte": "erpnext",
+   "data": "2024-04-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-238730116",
+   "fonte": "erpnext",
+   "data": "2017-06-27",
+   "categorias": []
+  },
+  {
+   "id": "gh-246505704",
+   "fonte": "erpnext",
+   "data": "2017-07-29",
+   "categorias": []
+  },
+  {
+   "id": "gh-2469210478",
+   "fonte": "erpnext",
+   "data": "2024-08-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-2544720406",
+   "fonte": "erpnext",
+   "data": "2024-09-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-319187497",
+   "fonte": "erpnext",
+   "data": "2018-05-01",
+   "categorias": []
+  },
+  {
+   "id": "gh-242911221",
+   "fonte": "erpnext",
+   "data": "2017-07-14",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-587542599",
+   "fonte": "erpnext",
+   "data": "2020-03-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-252592642",
+   "fonte": "erpnext",
+   "data": "2017-08-24",
+   "categorias": []
+  },
+  {
+   "id": "gh-608457278",
+   "fonte": "erpnext",
+   "data": "2020-04-28",
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "gh-548319901",
+   "fonte": "erpnext",
+   "data": "2020-01-10",
+   "categorias": [
+    "ambiente"
+   ]
+  },
+  {
+   "id": "gh-368945489",
+   "fonte": "erpnext",
+   "data": "2018-10-11",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-552840661",
+   "fonte": "erpnext",
+   "data": "2020-01-21",
+   "categorias": []
+  },
+  {
+   "id": "gh-2310413636",
+   "fonte": "erpnext",
+   "data": "2024-05-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-2322523782",
+   "fonte": "erpnext",
+   "data": "2024-05-29",
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "gh-311184423",
+   "fonte": "erpnext",
+   "data": "2018-04-04",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-415632786",
+   "fonte": "erpnext",
+   "data": "2019-02-28",
+   "categorias": []
+  },
+  {
+   "id": "gh-358877478",
+   "fonte": "erpnext",
+   "data": "2018-09-11",
+   "categorias": []
+  },
+  {
+   "id": "gh-243524651",
+   "fonte": "erpnext",
+   "data": "2017-07-17",
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "gh-1832875496",
+   "fonte": "erpnext",
+   "data": "2023-08-02",
+   "categorias": []
+  },
+  {
+   "id": "gh-728950353",
+   "fonte": "erpnext",
+   "data": "2020-10-25",
+   "categorias": []
+  },
+  {
+   "id": "gh-310141830",
+   "fonte": "erpnext",
+   "data": "2018-03-30",
+   "categorias": []
+  },
+  {
+   "id": "gh-378315905",
+   "fonte": "erpnext",
+   "data": "2018-11-07",
+   "categorias": [
+    "ambiente",
+    "autenticacao",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-1123591845",
+   "fonte": "erpnext",
+   "data": "2022-02-03",
+   "categorias": []
+  },
+  {
+   "id": "gh-264434039",
+   "fonte": "erpnext",
+   "data": "2017-10-11",
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-405240900",
+   "fonte": "erpnext",
+   "data": "2019-01-31",
+   "categorias": []
+  },
+  {
+   "id": "gh-1708508781",
+   "fonte": "erpnext",
+   "data": "2023-05-13",
+   "categorias": []
+  },
+  {
+   "id": "gh-1730016488",
+   "fonte": "erpnext",
+   "data": "2023-05-29",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-611568403",
+   "fonte": "erpnext",
+   "data": "2020-05-04",
+   "categorias": []
+  },
+  {
+   "id": "gh-325140243",
+   "fonte": "erpnext",
+   "data": "2018-05-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-211859114",
+   "fonte": "erpnext",
+   "data": "2017-03-04",
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "gh-216081649",
+   "fonte": "erpnext",
+   "data": "2017-03-22",
+   "categorias": []
+  },
+  {
+   "id": "gh-1638301264",
+   "fonte": "erpnext",
+   "data": "2023-03-23",
+   "categorias": [
+    "ambiente",
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "gh-856671106",
+   "fonte": "erpnext",
+   "data": "2021-04-13",
+   "categorias": [
+    "ambiente",
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "gh-939850461",
+   "fonte": "erpnext",
+   "data": "2021-07-08",
+   "categorias": [
+    "formato",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "gh-1587311336",
+   "fonte": "erpnext",
+   "data": "2023-02-16",
+   "categorias": []
+  },
+  {
+   "id": "gh-1097125851",
+   "fonte": "erpnext",
+   "data": "2022-01-09",
+   "categorias": [
+    "autenticacao"
+   ]
+  }
+ ],
+ "nomes_de_entidade": [
+  [
+   "API",
+   261
+  ],
+  [
+   "Salesforce",
+   225
+  ],
+  [
+   "UI",
+   85
+  ],
+  [
+   "Postgres",
+   72
+  ],
+  [
+   "VAT",
+   49
+  ],
+  [
+   "ERP",
+   38
+  ],
+  [
+   "CDK",
+   34
+  ],
+  [
+   "ERPnext",
+   30
+  ],
+  [
+   "CSV",
+   28
+  ],
+  [
+   "SQL",
+   25
+  ],
+  [
+   "S3",
+   24
+  ],
+  [
+   "JWT",
+   23
+  ],
+  [
+   "TypeError",
+   23
+  ],
+  [
+   "JSForce",
+   23
+  ],
+  [
+   "POST",
+   21
+  ],
+  [
+   "Account",
+   21
+  ],
+  [
+   "BigQuery",
+   20
+  ],
+  [
+   "Sync",
+   19
+  ],
+  [
+   "DocType",
+   18
+  ],
+  [
+   "OAuth",
+   17
+  ],
+  [
+   "OSS",
+   15
+  ],
+  [
+   "WhatsApp",
+   14
+  ],
+  [
+   "UTC",
+   13
+  ],
+  [
+   "CLI",
+   13
+  ],
+  [
+   "RUNNABLE",
+   13
+  ],
+  [
+   "Frappe",
+   12
+  ],
+  [
+   "CRUD",
+   11
+  ],
+  [
+   "IP",
+   11
+  ],
+  [
+   "SFType",
+   11
+  ],
+  [
+   "Redshift",
+   11
+  ]
+ ],
+ "exemplos": {
+  "autenticacao": [
+   {
+    "titulo": "Support for Making Tax Digital (UK)",
+    "url": "https://github.com/frappe/erpnext/issues/16025",
+    "comentarios": 52
+   },
+   {
+    "titulo": "Allow a user to filter fields/columns from a table",
+    "url": "https://github.com/airbytehq/airbyte/issues/2227",
+    "comentarios": 51
+   },
+   {
+    "titulo": "🐛 Airbyte Core: Large schema fetching failure",
+    "url": "https://github.com/airbytehq/airbyte/issues/4564",
+    "comentarios": 42
+   }
+  ],
+  "limite_taxa": [
+   {
+    "titulo": "Allow a user to filter fields/columns from a table",
+    "url": "https://github.com/airbytehq/airbyte/issues/2227",
+    "comentarios": 51
+   },
+   {
+    "titulo": "🐛 Airbyte Core: Large schema fetching failure",
+    "url": "https://github.com/airbytehq/airbyte/issues/4564",
+    "comentarios": 42
+   },
+   {
+    "titulo": "New Source: Salesforce Marketing Cloud",
+    "url": "https://github.com/airbytehq/airbyte/issues/4933",
+    "comentarios": 33
+   }
+  ],
+  "paginacao": [
+   {
+    "titulo": "The future of jsforce",
+    "url": "https://github.com/jsforce/jsforce/issues/1360",
+    "comentarios": 30
+   },
+   {
+    "titulo": "Support composite collection operations",
+    "url": "https://github.com/simple-salesforce/simple-salesforce/issues/235",
+    "comentarios": 21
+   },
+   {
+    "titulo": "Source Gitlab: enable using self-signed SSL Certificates",
+    "url": "https://github.com/airbytehq/airbyte/issues/14491",
+    "comentarios": 18
+   }
+  ],
+  "duplicidade": [
+   {
+    "titulo": "Allow a user to filter fields/columns from a table",
+    "url": "https://github.com/airbytehq/airbyte/issues/2227",
+    "comentarios": 51
+   },
+   {
+    "titulo": "Destination Redshift: normalization result too long for type varchar",
+    "url": "https://github.com/airbytehq/airbyte/issues/14441",
+    "comentarios": 44
+   },
+   {
+    "titulo": "🐛 Airbyte Core: Large schema fetching failure",
+    "url": "https://github.com/airbytehq/airbyte/issues/4564",
+    "comentarios": 42
+   }
+  ],
+  "mapeamento": [
+   {
+    "titulo": "Allow a user to filter fields/columns from a table",
+    "url": "https://github.com/airbytehq/airbyte/issues/2227",
+    "comentarios": 51
+   },
+   {
+    "titulo": "Destination Redshift: normalization result too long for type varchar",
+    "url": "https://github.com/airbytehq/airbyte/issues/14441",
+    "comentarios": 44
+   },
+   {
+    "titulo": "🐛 Airbyte Core: Large schema fetching failure",
+    "url": "https://github.com/airbytehq/airbyte/issues/4564",
+    "comentarios": 42
+   }
+  ],
+  "formato": [
+   {
+    "titulo": "Support for Making Tax Digital (UK)",
+    "url": "https://github.com/frappe/erpnext/issues/16025",
+    "comentarios": 52
+   },
+   {
+    "titulo": "Destination Redshift: normalization result too long for type varchar",
+    "url": "https://github.com/airbytehq/airbyte/issues/14441",
+    "comentarios": 44
+   },
+   {
+    "titulo": "Postgres support for ERPNext",
+    "url": "https://github.com/frappe/erpnext/issues/24389",
+    "comentarios": 43
+   }
+  ],
+  "ordem": [
+   {
+    "titulo": "Support for Making Tax Digital (UK)",
+    "url": "https://github.com/frappe/erpnext/issues/16025",
+    "comentarios": 52
+   },
+   {
+    "titulo": "Postgres support for ERPNext",
+    "url": "https://github.com/frappe/erpnext/issues/24389",
+    "comentarios": 43
+   },
+   {
+    "titulo": "Add stripe payment service as a 'Pay Now' option on Sales Invoices",
+    "url": "https://github.com/frappe/erpnext/issues/2090",
+    "comentarios": 38
+   }
+  ],
+  "silenciosa": [
+   {
+    "titulo": "Allow a user to filter fields/columns from a table",
+    "url": "https://github.com/airbytehq/airbyte/issues/2227",
+    "comentarios": 51
+   },
+   {
+    "titulo": "Destination Redshift: normalization result too long for type varchar",
+    "url": "https://github.com/airbytehq/airbyte/issues/14441",
+    "comentarios": 44
+   },
+   {
+    "titulo": "🐛 Airbyte Core: Large schema fetching failure",
+    "url": "https://github.com/airbytehq/airbyte/issues/4564",
+    "comentarios": 42
+   }
+  ],
+  "rede": [
+   {
+    "titulo": "Support for Making Tax Digital (UK)",
+    "url": "https://github.com/frappe/erpnext/issues/16025",
+    "comentarios": 52
+   },
+   {
+    "titulo": "🐛 Airbyte Core: Large schema fetching failure",
+    "url": "https://github.com/airbytehq/airbyte/issues/4564",
+    "comentarios": 42
+   },
+   {
+    "titulo": "[New Feature][Sponsored] Integrate Whatsapp for business",
+    "url": "https://github.com/frappe/erpnext/issues/19196",
+    "comentarios": 31
+   }
+  ],
+  "ambiente": [
+   {
+    "titulo": "Support for Making Tax Digital (UK)",
+    "url": "https://github.com/frappe/erpnext/issues/16025",
+    "comentarios": 52
+   },
+   {
+    "titulo": "Allow a user to filter fields/columns from a table",
+    "url": "https://github.com/airbytehq/airbyte/issues/2227",
+    "comentarios": 51
+   },
+   {
+    "titulo": "Destination Redshift: normalization result too long for type varchar",
+    "url": "https://github.com/airbytehq/airbyte/issues/14441",
+    "comentarios": 44
+   }
+  ]
+ }
+}

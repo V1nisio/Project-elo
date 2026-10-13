@@ -1,0 +1,24 @@
+{
+ "diario": {
+  "arquivos": 46,
+  "palavras": 90295,
+  "handoffs_datados": 30,
+  "blocos": 3107,
+  "primeira_data": "2026-08-17",
+  "ultima_data": "2026-10-05"
+ },
+ "logs": {
+  "arquivos": 108,
+  "linhas": 49138,
+  "linhas_de_erro": 18440,
+  "mensagens_distintas": 199
+ },
+ "mascaras": {
+  "email": 13,
+  "cpf": 4,
+  "numero_longo": 31,
+  "id_sf": 1624,
+  "segredo": 6,
+  "telefone": 1
+ }
+}

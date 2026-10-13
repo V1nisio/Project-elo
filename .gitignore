@@ -1,0 +1,41 @@
+# Ambiente e caches do Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+*.tmp
+
+# Editor e sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+# arquivo de trava que o Office cria enquanto o .pptx está aberto
+~$*
+
+# Segredos: se um dia o GITHUB_TOKEN for para um .env, ele não sobe
+.env
+
+# O corpus de campo (diário e logs da integração) nunca é gravado aqui.
+# Se algum dia alguém gravar, ele não sobe:
+dados/campo*
+dados/diario*
+
+# Coleta bruta do GitHub: 8 MB de HTML público com e-mails e até chaves que
+# terceiros colaram nas issues. Quem clonar refaz com: python elo.py coletar
+dados/comunidade.json
+
+# Saídas da demonstração ao vivo, refeitas a cada apresentação
+dados/demo.json
+saida/*_amostra.json
+
+# A proposta original usa como exemplo de nome repetido o nome de uma paciente
+# real (LGPD). O original fica só no notebook; no repositório vai a cópia
+# proposta-elo-anonimizada, idêntica fora o nome trocado por um fictício.
+proposta-elo.html
+proposta-elo.pdf
+
+# Material pessoal: o resumo de estudo do Flasio e os handoffs ficam só no notebook
+RESUMO.*
+Handoffs/

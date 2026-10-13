@@ -1,0 +1,504 @@
+{
+ "n_documentos": 17,
+ "n_tokens": 216,
+ "cobertura": 0.47058823529411764,
+ "categorias": {
+  "autenticacao": 0,
+  "limite_taxa": 1,
+  "paginacao": 1,
+  "duplicidade": 1,
+  "mapeamento": 2,
+  "formato": 1,
+  "ordem": 1,
+  "silenciosa": 2,
+  "rede": 2,
+  "ambiente": 0
+ },
+ "mecanismos": {
+  "forma": 4,
+  "lema": 4,
+  "regex": 8,
+  "regra": 2
+ },
+ "so_pela_forma": 0,
+ "so_pela_regex": 7,
+ "lemas": [
+  [
+   "cpf",
+   5
+  ],
+  [
+   "paciente",
+   5
+  ],
+  [
+   "cadastrar",
+   3
+  ],
+  [
+   "sofia",
+   2
+  ],
+  [
+   "cadastro",
+   2
+  ],
+  [
+   "iara",
+   2
+  ],
+  [
+   "pires",
+   2
+  ],
+  [
+   "rezende",
+   2
+  ],
+  [
+   "http",
+   2
+  ],
+  [
+   "erro",
+   2
+  ],
+  [
+   "almeida",
+   1
+  ],
+  [
+   "nina",
+   1
+  ],
+  [
+   "origem",
+   1
+  ],
+  [
+   "gomes",
+   1
+  ],
+  [
+   "converter",
+   1
+  ],
+  [
+   "chegar",
+   1
+  ],
+  [
+   "cardoso",
+   1
+  ],
+  [
+   "diego",
+   1
+  ],
+  [
+   "prontuário",
+   1
+  ],
+  [
+   "telefone",
+   1
+  ],
+  [
+   "contato",
+   1
+  ],
+  [
+   "lívia",
+   1
+  ],
+  [
+   "barbosa",
+   1
+  ],
+  [
+   "retorno",
+   1
+  ],
+  [
+   "pedir",
+   1
+  ],
+  [
+   "dataparam",
+   1
+  ],
+  [
+   "data",
+   1
+  ],
+  [
+   "formato",
+   1
+  ],
+  [
+   "api",
+   1
+  ],
+  [
+   "mesmo",
+   1
+  ]
+ ],
+ "sintagmas": [
+  [
+   "paciente nina almeida cpf",
+   1
+  ],
+  [
+   "paciente sofia gomes",
+   1
+  ],
+  [
+   "paciente diego",
+   1
+  ],
+  [
+   "sofia sofia rezende",
+   1
+  ],
+  [
+   "iara rezende",
+   1
+  ],
+  [
+   "lívia barbosa",
+   1
+  ],
+  [
+   "campos obrigatório",
+   1
+  ],
+  [
+   "account none",
+   1
+  ],
+  [
+   "paciente bruno pires cpf",
+   1
+  ]
+ ],
+ "entidades": [
+  [
+   "MISC",
+   15
+  ],
+  [
+   "PER",
+   7
+  ],
+  [
+   "LOC",
+   4
+  ],
+  [
+   "ORG",
+   4
+  ]
+ ],
+ "achados_por_tipo": {
+  "cpf": 5,
+  "data": 4,
+  "erro_plataforma": 3,
+  "chave_mod": 3,
+  "preenchimento": 2,
+  "identificador": 2,
+  "campo_custom": 2,
+  "http": 2,
+  "paginacao": 2,
+  "nome_repetido": 1,
+  "email": 1,
+  "telefone": 1,
+  "id_sf": 1,
+  "excecao": 1,
+  "segredo": 1
+ },
+ "achados_valores": {
+  "http": [
+   [
+    "500",
+    1
+   ],
+   [
+    "429",
+    1
+   ]
+  ],
+  "erro_plataforma": [
+   [
+    "REQUIRED_FIELD_MISSING",
+    1
+   ],
+   [
+    "DUPLICATE_VALUE",
+    1
+   ],
+   [
+    "SEM_CONTA_PAI",
+    1
+   ]
+  ],
+  "erro_oauth": [],
+  "campo_custom": [
+   [
+    "RG_ou_Passapote__c",
+    1
+   ],
+   [
+    "C_digo__c",
+    1
+   ]
+  ],
+  "excecao": [
+   [
+    "NameResolutionError",
+    1
+   ]
+  ],
+  "paginacao": [
+   [
+    "limit",
+    1
+   ],
+   [
+    "offset",
+    1
+   ]
+  ],
+  "identificador": [
+   [
+    "DATA_AGENDAMENTO",
+    1
+   ],
+   [
+    "DATA_ATENDIMENTO",
+    1
+   ]
+  ]
+ },
+ "cpf_classes": {
+  "valido": 3,
+  "sem_zero": 1,
+  "deslocado": 1
+ },
+ "por_documento": [
+  {
+   "id": "sint-001",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  },
+  {
+   "id": "sint-002",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  },
+  {
+   "id": "sint-003",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  },
+  {
+   "id": "sint-004",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  },
+  {
+   "id": "sint-005",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  },
+  {
+   "id": "sint-006",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  },
+  {
+   "id": "sint-007",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  },
+  {
+   "id": "sint-008",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "sint-009",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "sint-010",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": [
+    "duplicidade",
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "sint-011",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": [
+    "ordem",
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "sint-012",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": [
+    "paginacao",
+    "rede"
+   ]
+  },
+  {
+   "id": "sint-013",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "sint-014",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "sint-015",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  },
+  {
+   "id": "sint-016",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "sint-017",
+   "fonte": "sintetico",
+   "data": null,
+   "categorias": []
+  }
+ ],
+ "nomes_de_entidade": [
+  [
+   "None",
+   1
+  ],
+  [
+   "ERROR",
+   1
+  ],
+  [
+   "Max",
+   1
+  ],
+  [
+   "Caused by NameResolutionError",
+   1
+  ]
+ ],
+ "exemplos": {
+  "autenticacao": [],
+  "limite_taxa": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "paginacao": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "duplicidade": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "mapeamento": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   },
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "formato": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "ordem": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "silenciosa": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   },
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "rede": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   },
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "ambiente": []
+ }
+}

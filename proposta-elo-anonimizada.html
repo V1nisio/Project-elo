@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<title>O que quebra entre dois sistemas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+
+<style>
+  :root {
+    --papel: #eceff0;
+    --papel-alto: #f8fafa;
+    --tinta: #18242b;
+    --tinta-fraca: #56676f;
+    --linha: #ccd6d9;
+    --linha-forte: #adbcc1;
+    --erp: #0d6a78;
+    --crm: #3d4a8f;
+    --falha: #a8371f;
+    --ok: #4c6b3c;
+
+    --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --corpo: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --dado: "IBM Plex Mono", ui-monospace, "Consolas", monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --papel: #101a1e;
+      --papel-alto: #17242a;
+      --tinta: #e4ebed;
+      --tinta-fraca: #94a8b0;
+      --linha: #2a3b43;
+      --linha-forte: #3c545e;
+      --erp: #4fc3d1;
+      --crm: #9aa6ea;
+      --falha: #e8836a;
+      --ok: #9ec287;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --papel: #101a1e;
+    --papel-alto: #17242a;
+    --tinta: #e4ebed;
+    --tinta-fraca: #94a8b0;
+    --linha: #2a3b43;
+    --linha-forte: #3c545e;
+    --erp: #4fc3d1;
+    --crm: #9aa6ea;
+    --falha: #e8836a;
+    --ok: #9ec287;
+  }
+
+  body {
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: var(--corpo);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-inline: 20px;
+    padding-block: 36px 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+
+  .eyebrow {
+    font-family: var(--dado);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--tinta-fraca);
+    margin: 0 0 14px;
+  }
+
+  /* capa */
+  .capa { display: flex; flex-direction: column; gap: 0; }
+  .capa h1 {
+    font-size: clamp(44px, 14vw, 66px);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+  }
+  .produto {
+    font-size: 17px;
+    color: var(--tinta-fraca);
+    margin: 10px 0 0;
+    max-width: 38ch;
+  }
+  .pergunta {
+    font-size: clamp(19px, 5vw, 23px);
+    line-height: 1.38;
+    margin: 26px 0 0;
+    padding-top: 22px;
+    border-top: 2px solid var(--linha-forte);
+    text-wrap: pretty;
+  }
+  .pergunta b { font-weight: 600; }
+
+  /* o vão */
+  .vao {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: stretch;
+    gap: 0;
+    border: 1px solid var(--linha);
+    background: var(--papel-alto);
+  }
+  .sistema { padding: 16px 14px; display: flex; flex-direction: column; gap: 3px; }
+  .sistema .rot {
+    font-family: var(--dado);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .sistema .nome { font-family: var(--display); font-weight: 600; font-size: 15px; line-height: 1.25; }
+  .sistema .meta { font-size: 12.5px; color: var(--tinta-fraca); line-height: 1.35; }
+  .lado-erp .rot { color: var(--erp); }
+  .lado-crm .rot { color: var(--crm); }
+  .lado-crm { text-align: right; align-items: flex-end; }
+  .fenda {
+    width: 54px;
+    border-left: 2px dashed var(--linha-forte);
+    border-right: 2px dashed var(--linha-forte);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fenda span {
+    font-family: var(--dado);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--falha);
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  .legenda-vao {
+    font-size: 13.5px;
+    color: var(--tinta-fraca);
+    margin: 10px 0 0;
+  }
+
+  /* seções */
+  section > h2 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--tinta-fraca);
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--linha);
+    margin-bottom: 20px;
+  }
+  p { margin: 0 0 14px; }
+  p:last-child { margin-bottom: 0; }
+
+  /* tabela de base */
+  .base { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .base td { padding: 9px 0; border-bottom: 1px solid var(--linha); vertical-align: baseline; }
+  .base tr:last-child td { border-bottom: none; }
+  .base .n {
+    font-family: var(--dado);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+    padding-right: 16px;
+    width: 1%;
+    color: var(--erp);
+  }
+
+  /* etapas */
+  .etapas { display: flex; flex-direction: column; }
+  .etapa {
+    display: grid;
+    grid-template-columns: 62px 1fr;
+    gap: 0 18px;
+    padding: 22px 0;
+    border-top: 1px solid var(--linha);
+  }
+  .etapa:first-child { border-top: none; padding-top: 0; }
+  .etapa:last-child { padding-bottom: 0; }
+  .etapa .num {
+    font-family: var(--dado);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--tinta-fraca);
+    padding-top: 4px;
+  }
+  .etapa .num b { display: block; font-size: 28px; letter-spacing: -0.02em; color: var(--tinta); }
+  .etapa h3 { font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
+  .etapa .modalidade { font-size: 13.5px; color: var(--tinta-fraca); margin: 2px 0 12px; }
+  .etapa p { font-size: 15px; }
+  .libs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .libs code {
+    font-family: var(--dado);
+    font-size: 11.5px;
+    padding: 3px 7px;
+    border: 1px solid var(--linha-forte);
+    color: var(--tinta-fraca);
+    background: var(--papel-alto);
+  }
+
+  .fio {
+    background: var(--papel-alto);
+    border: 1px solid var(--linha);
+    border-left: 3px solid var(--erp);
+    padding: 16px 18px;
+    margin-top: 26px;
+    font-size: 15px;
+  }
+  .fio strong { font-family: var(--display); font-weight: 600; }
+
+  /* diário */
+  .diario { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 16px; }
+  .diario li { display: flex; flex-direction: column; gap: 3px; font-size: 15px; }
+  .diario .sintoma {
+    font-family: var(--dado);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--falha);
+    letter-spacing: 0.02em;
+  }
+  .diario .conserto { color: var(--tinta-fraca); font-size: 14px; }
+  .diario .conserto::before { content: "→ "; color: var(--ok); font-family: var(--dado); }
+  .num-inline { font-family: var(--dado); font-variant-numeric: tabular-nums; font-weight: 600; }
+
+  /* aviso */
+  .aviso {
+    border: 1px solid var(--falha);
+    padding: 16px 18px;
+    font-size: 14.5px;
+  }
+  .aviso h3 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--falha);
+    margin-bottom: 8px;
+  }
+
+  /* entregas */
+  .entregas { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; font-size: 15px; }
+  .entregas li { display: grid; grid-template-columns: 16px 1fr; gap: 10px; align-items: baseline; }
+  .entregas li::before { content: "▪"; color: var(--erp); font-size: 11px; }
+
+  footer {
+    border-top: 2px solid var(--linha-forte);
+    padding-top: 18px;
+    font-size: 13.5px;
+    color: var(--tinta-fraca);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  footer code { font-family: var(--dado); font-size: 13px; color: var(--tinta); }
+
+  @media (max-width: 460px) {
+    .vao { grid-template-columns: 1fr; }
+    .fenda {
+      width: auto;
+      height: 34px;
+      border-left: none;
+      border-right: none;
+      border-top: 2px dashed var(--linha-forte);
+      border-bottom: 2px dashed var(--linha-forte);
+    }
+    .fenda span { writing-mode: horizontal-tb; transform: none; }
+    .lado-crm { text-align: left; align-items: flex-start; }
+    .etapa { grid-template-columns: 1fr; gap: 6px; }
+    .etapa .num { padding-top: 0; }
+    .etapa .num b { display: inline; font-size: 15px; margin-right: 6px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+<main>
+
+  <header class="capa">
+    <p class="eyebrow">Proposta de projeto · etapas 1, 2 e 3</p>
+    <h1>Elo</h1>
+    <p class="produto">Um analisador do que quebra entre dois sistemas que precisam conversar.</p>
+    <p class="pergunta">Quais problemas de <b>integração entre sistemas</b> são mais discutidos por desenvolvedores, e como eles aparecem num caso real de integração ERP × CRM rodando em produção?</p>
+  </header>
+
+  <section>
+    <div class="vao">
+      <div class="sistema lado-erp">
+        <span class="rot">origem</span>
+        <span class="nome">ModernaNet</span>
+        <span class="meta">ERP de clínica, 65.480 pacientes</span>
+      </div>
+      <div class="fenda"><span>o vão</span></div>
+      <div class="sistema lado-crm">
+        <span class="rot">destino</span>
+        <span class="nome">Salesforce</span>
+        <span class="meta">CRM em produção, 22.701 contas</span>
+      </div>
+    </div>
+    <p class="legenda-vao">O projeto já existe e roda há meses. O trabalho da disciplina é virar a lente para o vão do meio: o lugar onde o dado sai íntegro de um lado e chega errado do outro, e onde quase toda a discussão pública sobre integração acontece.</p>
+  </section>
+
+  <section>
+    <h2>Por que temos base para isso</h2>
+    <p>Não partimos de um tema lido em artigo. Partimos de um sistema nosso, em produção, que consome duas web APIs e sofreu na prática cada categoria de falha que o trabalho vai catalogar.</p>
+    <table class="base">
+      <tbody>
+        <tr><td class="n">2</td><td>web APIs consumidas em produção, ERP e CRM, com autenticação, paginação e limite de taxa reais</td></tr>
+        <tr><td class="n">17.498</td><td>linhas de Python já escritas, com 163 testes automatizados</td></tr>
+        <tr><td class="n">104 mil</td><td>palavras de diário de campo: 22 handoffs datados registrando cada falha e cada conserto</td></tr>
+        <tr><td class="n">65.480</td><td>cadastros de um lado cruzados contra 22.701 do outro, com a regra de identidade medida</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>As três etapas</h2>
+    <div class="etapas">
+
+      <article class="etapa">
+        <div class="num">etapa<b>1</b>texto</div>
+        <div>
+          <h3>Como a falha é escrita</h3>
+          <p class="modalidade">PLN com expressões regulares e spaCy, sobre coleta por web API</p>
+          <p>Duas fontes em paralelo. A pública: issues e comentários de projetos de integração no GitHub, coletados pela API REST. A de campo: o nosso próprio corpus de diário, mais os logs de erro do motor, anonimizados.</p>
+          <p>As expressões regulares extraem o que tem forma fixa: código HTTP, identificador de erro da plataforma, nome de campo customizado, chave de registro, CPF. O spaCy faz o resto: tokeniza, lematiza, reconhece entidades e tira os sintagmas nominais que viram as categorias de problema, como autenticação, duplicidade, mapeamento de campo, ordem de execução e paginação.</p>
+          <p>O resultado é uma comparação: o que a comunidade mais discute contra o que de fato nos derrubou.</p>
+          <div class="libs"><code>requests</code><code>re</code><code>spacy</code><code>pt_core_news_sm</code><code>pandas</code></div>
+        </div>
+      </article>
+
+      <article class="etapa">
+        <div class="num">etapa<b>2</b>áudio</div>
+        <div>
+          <h3>Como a falha é contada</h3>
+          <p class="modalidade">Análise de áudio com módulos Python</p>
+          <p>Podcasts e entrevistas sobre integração de sistemas, qualidade de dados e dívida técnica. Medimos duração, energia, ritmo de fala e cortes de trecho, transcrevemos, e então o mesmo analisador da etapa 1 roda sobre a transcrição.</p>
+          <div class="libs"><code>librosa</code><code>soundfile</code><code>numpy</code><code>whisper</code></div>
+        </div>
+      </article>
+
+      <article class="etapa">
+        <div class="num">etapa<b>3</b>vídeo</div>
+        <div>
+          <h3>Como a falha é mostrada</h3>
+          <p class="modalidade">Análise de vídeo com módulos Python</p>
+          <p>Palestras e tutoriais sobre o mesmo tema. Amostramos frames, detectamos a troca de slide por diferença de histograma, lemos o texto do slide por OCR e transcrevemos a fala. De novo, o mesmo analisador por cima.</p>
+          <div class="libs"><code>opencv-python</code><code>pytesseract</code><code>numpy</code></div>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="fio"><strong>O fio que amarra as três.</strong> O analisador de termos é um módulo só, escrito na etapa 1. Cada etapa seguinte acrescenta apenas o extrator da sua mídia e entrega texto para ele. No fim, o painel põe as três modalidades lado a lado e mostra onde elas concordam e onde divergem.</p>
+  </section>
+
+  <section>
+    <h2>Diário de bordo, prévia</h2>
+    <p>O slide de erros não vai ser reconstruído de memória. Ele já está escrito, datado e com número. Quatro dos que entram:</p>
+    <ul class="diario">
+      <li>
+        <span class="sintoma">a paginação mentia</span>
+        <span>A leitura por deslocamento devolvia o total certo e perdia <span class="num-inline">2.378</span> de <span class="num-inline">11.041</span> registros.</span>
+        <span class="conserto">Trocada por leitura por calendário, hoje fecha exata.</span>
+      </li>
+      <li>
+        <span class="sintoma">a regex boa demais</span>
+        <span>A expressão que achava nome repetido só pegava o bloco inteiro e deixava passar casos como <em>Marina Marina Duarte</em>.</span>
+        <span class="conserto">Corrigida para repetição de palavra, os casos foram de 61 para 85.</span>
+      </li>
+      <li>
+        <span class="sintoma">o zero que sumiu</span>
+        <span>A origem devolve CPF como número e come o zero à esquerda. Nenhum dos CPFs sem máscara começava com zero, contra <span class="num-inline">33,1%</span> dos que vinham com máscara.</span>
+        <span class="conserto">Reposição validada pelo dígito verificador recuperou 14.313 de 14.717.</span>
+      </li>
+      <li>
+        <span class="sintoma">o 200 que não confirma</span>
+        <span>A resposta de sucesso da escrita não garantia que o registro existia do outro lado.</span>
+        <span class="conserto">Releitura obrigatória depois de toda gravação, chave por chave.</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Dado sensível não sai daqui</h2>
+    <div class="aviso">
+      <h3>Regra fixa do projeto</h3>
+      <p>O sistema real lida com paciente de clínica. Nada de nome, CPF, telefone ou prontuário entra em slide, em PDF ou em repositório de aula. A apresentação usa somente números agregados, e a execução ao vivo roda sobre casos sintéticos gerados por script, que reproduzem exatamente os mesmos defeitos de formato.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>O que será apresentado</h2>
+    <ul class="entregas">
+      <li>O fonte aberto e executado ao vivo no terminal, em cada etapa</li>
+      <li>Módulos separados por frente, coleta, análise e consolidação, cada um bem acima do mínimo de linhas</li>
+      <li>Painel único, montado por script Python, comparando texto, áudio e vídeo</li>
+      <li>Slides na ordem pedida: teoria, implementação, diário de bordo, demonstração</li>
+    </ul>
+  </section>
+
+  <footer>
+    <span>Tema dentro de Engenharia de Software: qualidade de software e dívida técnica em integração de sistemas.</span>
+    <span>Arquivo para o SIGAA: <code>etapa1-elo.pdf</code></span>
+    <span>Proposta de tema, 28 de setembro de 2026.</span>
+  </footer>
+
+</main>
+<style>
+  html, body { margin: 0; padding: 0; }
+  @page { size: A4; margin: 13mm 12mm 11mm; }
+  @media print {
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    :root {
+      --papel: #ffffff; --papel-alto: #f5f8f8; --tinta: #18242b; --tinta-fraca: #56676f;
+      --linha: #ccd6d9; --linha-forte: #adbcc1; --erp: #0d6a78; --crm: #3d4a8f;
+      --falha: #a8371f; --ok: #4c6b3c;
+    }
+    body { background: #ffffff; font-size: 10.4pt; line-height: 1.5; }
+    main { max-width: none; padding-inline: 0; padding-block: 0; gap: 20px; }
+    .capa h1 { font-size: 38pt; }
+    .produto { font-size: 11pt; }
+    .pergunta { font-size: 13pt; margin-top: 18px; padding-top: 16px; }
+    section > h2 { font-size: 8.4pt; margin-bottom: 14px; }
+    .eyebrow { font-size: 7.6pt; margin-bottom: 10px; }
+    .base { font-size: 9.8pt; }
+    .base td { padding: 6px 0; }
+    .etapa { padding: 16px 0; }
+    .etapa h3 { font-size: 13.5pt; }
+    .etapa .modalidade { font-size: 8.8pt; margin-bottom: 9px; }
+    .etapa p, .fio, .entregas, .diario li { font-size: 9.8pt; }
+    .etapa .num { font-size: 7.6pt; }
+    .etapa .num b { font-size: 19pt; }
+    .libs code { font-size: 7.8pt; }
+    .diario .sintoma { font-size: 8.4pt; }
+    .diario .conserto { font-size: 9.2pt; }
+    .aviso { font-size: 9.6pt; }
+    .aviso h3 { font-size: 8.2pt; }
+    .sistema .nome { font-size: 10.5pt; }
+    .sistema .meta { font-size: 8.4pt; }
+    .sistema .rot, .fenda span { font-size: 7pt; }
+    .legenda-vao { font-size: 9pt; }
+    footer { font-size: 8.8pt; }
+    section, .etapa, .aviso, .fio, .vao, .diario li, .base tr { break-inside: avoid; }
+    .capa { break-after: avoid; }
+  }
+</style>
+</body>
+</html>

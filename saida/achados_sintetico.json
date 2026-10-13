@@ -1,0 +1,19 @@
+{
+ "diario": {
+  "cpf": 5,
+  "nome_repetido": 1,
+  "preenchimento": 2,
+  "email": 1,
+  "telefone": 1,
+  "identificador": 2,
+  "data": 4,
+  "id_sf": 1,
+  "erro_plataforma": 3,
+  "campo_custom": 2,
+  "chave_mod": 3,
+  "http": 2,
+  "paginacao": 2,
+  "excecao": 1,
+  "segredo": 1
+ }
+}

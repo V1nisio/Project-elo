@@ -1,0 +1,121 @@
+[
+ {
+  "id": "sint-001",
+  "fonte": "sintetico",
+  "defeito": "cpf_valido",
+  "prosa": "Paciente Nina Almeida cadastrado com CPF 113.389.083-08.",
+  "codigo": ""
+ },
+ {
+  "id": "sint-002",
+  "fonte": "sintetico",
+  "defeito": "cpf_sem_zero",
+  "prosa": "Paciente Sofia Gomes chegou com CPF 3794026535 (a origem converteu para número).",
+  "codigo": ""
+ },
+ {
+  "id": "sint-003",
+  "fonte": "sintetico",
+  "defeito": "cpf_deslocado",
+  "prosa": "Paciente Iara Cardoso com CPF 66978480060 no cadastro.",
+  "codigo": ""
+ },
+ {
+  "id": "sint-004",
+  "fonte": "sintetico",
+  "defeito": "cpf_repetido",
+  "prosa": "Paciente Diego Pires cadastrado com CPF 204.332.181-18.",
+  "codigo": ""
+ },
+ {
+  "id": "sint-005",
+  "fonte": "sintetico",
+  "defeito": "nome_repetido",
+  "prosa": "Cadastro novo: Sofia Sofia Rezende, sem prontuário.",
+  "codigo": ""
+ },
+ {
+  "id": "sint-006",
+  "fonte": "sintetico",
+  "defeito": "preenchimento",
+  "prosa": "Contato de Iara Rezende: telefone 99999999999, e-mail nao@gmail.com.",
+  "codigo": ""
+ },
+ {
+  "id": "sint-007",
+  "fonte": "sintetico",
+  "defeito": "telefone",
+  "prosa": "Retorno pedido por Lívia Barbosa no (48) 98123-3591.",
+  "codigo": ""
+ },
+ {
+  "id": "sint-008",
+  "fonte": "sintetico",
+  "defeito": "tres_formatos",
+  "prosa": "DATA_AGENDAMENTO 2026-08-04T00:00:00, DATA_ATENDIMENTO 05/06/2026 e DATAPARAM 20260910: três formatos de data na mesma API.",
+  "codigo": ""
+ },
+ {
+  "id": "sint-009",
+  "fonte": "sintetico",
+  "defeito": "campo_obrigatorio",
+  "prosa": "[06/10 23:15:02] Account 001Da9U4UqGWlG6IKL None: REQUIRED_FIELD_MISSING: Campos obrigatórios ausentes: [RG_ou_Passapote__c]",
+  "codigo": ""
+ },
+ {
+  "id": "sint-010",
+  "fonte": "sintetico",
+  "defeito": "duplicata",
+  "prosa": "Opportunity.C_digo__c recusou a segunda cópia de MOD-ORC-1843: DUPLICATE_VALUE",
+  "codigo": ""
+ },
+ {
+  "id": "sint-011",
+  "fonte": "sintetico",
+  "defeito": "conta_pai",
+  "prosa": "2026-10-06 23:16:40,120 ERROR não confirmado: MOD-AGD-1827837-74889, SEM_CONTA_PAI: a conta ainda não existe",
+  "codigo": ""
+ },
+ {
+  "id": "sint-012",
+  "fonte": "sintetico",
+  "defeito": "http_500",
+  "prosa": "[06/10 23:17:00] HTTP 500 ao ler /api/v2/Moderna/Busca?consulta=PACIENTES&limit=1000&offset=2000",
+  "codigo": ""
+ },
+ {
+  "id": "sint-013",
+  "fonte": "sintetico",
+  "defeito": "http_429",
+  "prosa": "[06/10 23:18:30] HTTP 429 Too Many Requests: aguardando 20 s (Retry-After)",
+  "codigo": ""
+ },
+ {
+  "id": "sint-014",
+  "fonte": "sintetico",
+  "defeito": "rede",
+  "prosa": "erro no ciclo: HTTPSConnectionPool(host='exemplo.my.salesforce.com', port=443): Max retries exceeded (Caused by NameResolutionError)",
+  "codigo": ""
+ },
+ {
+  "id": "sint-015",
+  "fonte": "sintetico",
+  "defeito": "segredo",
+  "prosa": "curl -d \"grant_type=client_credentials&client_secret=64b50af03b971722f244f58d669cbee3772a077021721a278f64f7fd633dbdde\"",
+  "codigo": ""
+ },
+ {
+  "id": "sint-016",
+  "fonte": "sintetico",
+  "defeito": "falha_silenciosa",
+  "prosa": "A gravação devolveu 200, mas MOD-ATD-2026-1-984 não apareceu na releitura: falhou sem erro.",
+  "codigo": ""
+ },
+ {
+  "id": "sint-017",
+  "fonte": "sintetico",
+  "defeito": "cpf_repetido",
+  "prosa": "Paciente Bruno Pires cadastrado com CPF 204.332.181-18.",
+  "codigo": ""
+ }
+]

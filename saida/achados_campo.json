@@ -1,0 +1,23 @@
+{
+ "diario": {
+  "data": 299,
+  "erro_oauth": 5,
+  "identificador": 260,
+  "campo_custom": 173,
+  "excecao": 5,
+  "chave_mod": 85,
+  "erro_plataforma": 38,
+  "http": 32,
+  "preenchimento": 2
+ },
+ "logs": {
+  "data": 17629,
+  "excecao": 71,
+  "identificador": 284,
+  "chave_mod": 14366,
+  "erro_plataforma": 4236,
+  "campo_custom": 2772,
+  "http": 146,
+  "paginacao": 2
+ }
+}
