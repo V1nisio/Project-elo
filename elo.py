@@ -207,8 +207,45 @@ def cmd_tudo(args):
         etapa(argparse.Namespace(**{**vars(args), **extra}))
 
 
+MENU = [   # o roteiro da demonstração, um número por comando
+    ("coletar   coleta pequena ao vivo, 20 issues por fonte",
+     ["coletar", "--max-por-fonte", "20", "--comentarios", "0", "--destino", "dados/demo.json"]),
+    ("campo     diário e logs da integração, só números", ["campo"]),
+    ("sintetico os 17 casos sintéticos", ["sintetico"]),
+    ("extrair   regex no sintético", ["extrair", "--corpus", "sintetico"]),
+    ("extrair   regex no campo", ["extrair", "--corpus", "campo"]),
+    ("analisar  spaCy no sintético, token a token do sint-016", ["analisar", "--corpus", "sintetico", "--doc", "sint-016"]),
+    ("analisar  spaCy em 100 issues da comunidade", ["analisar", "--corpus", "comunidade", "--limite", "100"]),
+    ("comparar  comunidade x campo, gráficos e relatório", ["comparar"]),
+]
+
+
+def menu(escolha=None):
+    """Sem comando, o Elo mostra o menu: `python elo.py` pergunta, `python elo.py 3` roda direto."""
+    while True:
+        if escolha is None:
+            print("\nElo, etapa 1. Escolha um número:")
+            for i, (rotulo, _) in enumerate(MENU, 1):
+                print(f"  {i}  {rotulo}")
+            print("  0  sair")
+            escolha = input("> ").strip()
+        if escolha in ("", "0"):
+            return
+        if not escolha.isdigit() or not 1 <= int(escolha) <= len(MENU):
+            print(f"opção inválida: {escolha}")
+        else:
+            argv = MENU[int(escolha) - 1][1]
+            print(f"\n$ python elo.py {' '.join(argv)}\n")
+            main(argv)
+        if not sys.stdin.isatty() or len(sys.argv) > 1:   # `python elo.py 3` roda uma vez e sai
+            return
+        escolha = None
+
+
 def main(argv=None):
     sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)   # acento no Windows; log ao vivo
+    if argv is None and (len(sys.argv) == 1 or sys.argv[1].isdigit()):
+        return menu(sys.argv[1] if len(sys.argv) > 1 else None)
     p = argparse.ArgumentParser(prog="elo", description="Elo, etapa 1: problemas de integração em texto.")
     p.add_argument("--origem", default=campo.ORIGEM_PADRAO, help="pasta da integração (corpus de campo)")
     sub = p.add_subparsers(dest="comando", required=True)
