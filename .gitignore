@@ -39,3 +39,6 @@ proposta-elo.pdf
 # Material pessoal: o resumo de estudo do Flasio e os handoffs ficam só no notebook
 RESUMO.*
 Handoffs/
+
+# Falas de ensaio de cada integrante: ficam só no notebook
+falas_grupo/
