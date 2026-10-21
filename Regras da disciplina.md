@@ -26,7 +26,7 @@
 
 A seguir estão algumas possibilidades de projetos que podem ser adaptadas pelos grupos. Outros temas podem ser sugeridos, mas devem pertencer ao grande tema de Engenharia de Software. Mais informações sobre o tema podem ser encontradas neste [livro](https://engsoftmoderna.info/) ou em outros livros da área.
 
-### **Tema 1 – Inteligência Artificial no desenvolvimento de software**
+### **Tema 1: Inteligência Artificial no desenvolvimento de software**
 
 **Pergunta:** Como desenvolvedores discutem o uso de Inteligência Artificial no desenvolvimento de software?
 
@@ -36,7 +36,7 @@ A seguir estão algumas possibilidades de projetos que podem ser adaptadas pelos
 * Análises: termos mais frequentes, entidades, sentimentos, temas, duração, características de áudio e conteúdo visual.  
 * Dashboard: visão geral das percepções e características encontradas.
 
-### **Tema 2 – Problemas e dificuldades em testes de software**
+### **Tema 2: Problemas e dificuldades em testes de software**
 
 **Pergunta:** Quais problemas relacionados a testes de software são mais frequentemente discutidos?
 
@@ -45,7 +45,7 @@ A seguir estão algumas possibilidades de projetos que podem ser adaptadas pelos
 * Vídeo: palestras e tutoriais.  
 * Análises: problemas recorrentes, tecnologias, termos técnicos e evolução temporal.
 
-### **Tema 3 – Technical Debt em projetos open source**
+### **Tema 3: Technical Debt em projetos open source**
 
 **Pergunta:** Como a dívida técnica é discutida e caracterizada em projetos de software?
 
@@ -54,7 +54,7 @@ A seguir estão algumas possibilidades de projetos que podem ser adaptadas pelos
 * Vídeo: palestras sobre technical debt.  
 * Dashboard: tipos de problemas, frequência, tecnologias e características multimodais.
 
-### **Tema 4 – Qualidade de software**
+### **Tema 4: Qualidade de software**
 
 **Pergunta:** Quais conceitos e características são associados à qualidade de software?
 
@@ -63,7 +63,7 @@ A seguir estão algumas possibilidades de projetos que podem ser adaptadas pelos
 * Vídeo: palestras.  
 * Análises: frequência dos conceitos, entidades e características dos conteúdos.
 
-### **Tema 5 – Linguagens de programação**
+### **Tema 5: Linguagens de programação**
 
 **Pergunta:** Quais características são associadas à utilização de determinada linguagem de programação?
 
@@ -72,7 +72,7 @@ A seguir estão algumas possibilidades de projetos que podem ser adaptadas pelos
 * Vídeo: tutoriais e palestras.  
 * Comparação entre os conceitos predominantes em cada modalidade.
 
-### **Tema 6 – Métodos ágeis**
+### **Tema 6: Métodos ágeis**
 
 **Pergunta:** Quais dificuldades e benefícios relacionados às metodologias ágeis são discutidos por profissionais de software?
 
@@ -81,7 +81,7 @@ A seguir estão algumas possibilidades de projetos que podem ser adaptadas pelos
 * Vídeo: palestras.  
 * Análise de frequência, sentimentos, entidades e tópicos.
 
-### **Tema 7 – Experiência do desenvolvedor**
+### **Tema 7: Experiência do desenvolvedor**
 
 **Pergunta:** Quais fatores são associados à experiência e produtividade de desenvolvedores?
 
@@ -90,7 +90,7 @@ A seguir estão algumas possibilidades de projetos que podem ser adaptadas pelos
 * Vídeo: palestras e relatos.  
 * Dashboard com os principais fatores identificados.
 
-### **Tema 8 – Ferramentas de desenvolvimento**
+### **Tema 8: Ferramentas de desenvolvimento**
 
 **Pergunta:** Como desenvolvedores avaliam diferentes ferramentas utilizadas no desenvolvimento de software?
 
