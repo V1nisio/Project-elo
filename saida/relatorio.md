@@ -44,4 +44,4 @@
 - conferência n8n: 59/59 (fecha)
 - conferência tap-salesforce: 19/19 (fecha)
 - conferência erpnext: 300/300 (fecha)
-- máscaras no campo: {'email': 13, 'cpf': 4, 'numero_longo': 31, 'id_sf': 1624, 'segredo': 6, 'telefone': 1}
+- máscaras no campo: {'email': 16, 'cpf': 4, 'numero_longo': 31, 'id_sf': 1624, 'segredo': 6, 'telefone': 1}
