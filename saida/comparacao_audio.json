@@ -1,0 +1,171 @@
+{
+ "rho": {
+  "fala x escrita": 0.9393939393939393,
+  "fala x campo": 0.22424242424242422,
+  "escrita x campo": 0.23636363636363633
+ },
+ "categorias": [
+  {
+   "index": "ambiente",
+   "categoria": "Ambiente e configuração",
+   "n_fala": 157,
+   "n_escrita": 226,
+   "n_campo": 262,
+   "p_fala": 30.6,
+   "posicao_fala": 1,
+   "p_escrita": 16.29,
+   "posicao_escrita": 2,
+   "p_campo": 15.65,
+   "posicao_campo": 3
+  },
+  {
+   "index": "autenticacao",
+   "categoria": "Autenticação e acesso",
+   "n_fala": 106,
+   "n_escrita": 305,
+   "n_campo": 144,
+   "p_fala": 20.66,
+   "posicao_fala": 2,
+   "p_escrita": 21.99,
+   "posicao_escrita": 1,
+   "p_campo": 8.6,
+   "posicao_campo": 6
+  },
+  {
+   "index": "mapeamento",
+   "categoria": "Mapeamento de campo e esquema",
+   "n_fala": 79,
+   "n_escrita": 221,
+   "n_campo": 274,
+   "p_fala": 15.4,
+   "posicao_fala": 3,
+   "p_escrita": 15.93,
+   "posicao_escrita": 3,
+   "p_campo": 16.37,
+   "posicao_campo": 2
+  },
+  {
+   "index": "formato",
+   "categoria": "Formato de dado",
+   "n_fala": 68,
+   "n_escrita": 154,
+   "n_campo": 73,
+   "p_fala": 13.26,
+   "posicao_fala": 4,
+   "p_escrita": 11.1,
+   "posicao_escrita": 4,
+   "p_campo": 4.36,
+   "posicao_campo": 8
+  },
+  {
+   "index": "rede",
+   "categoria": "Rede e disponibilidade",
+   "n_fala": 38,
+   "n_escrita": 132,
+   "n_campo": 72,
+   "p_fala": 7.41,
+   "posicao_fala": 5,
+   "p_escrita": 9.52,
+   "posicao_escrita": 5,
+   "p_campo": 4.3,
+   "posicao_campo": 9
+  },
+  {
+   "index": "ordem",
+   "categoria": "Ordem e concorrência",
+   "n_fala": 36,
+   "n_escrita": 71,
+   "n_campo": 107,
+   "p_fala": 7.02,
+   "posicao_fala": 6,
+   "p_escrita": 5.12,
+   "posicao_escrita": 8,
+   "p_campo": 6.39,
+   "posicao_campo": 7
+  },
+  {
+   "index": "silenciosa",
+   "categoria": "Falha silenciosa e divergência",
+   "n_fala": 12,
+   "n_escrita": 88,
+   "n_campo": 223,
+   "p_fala": 2.34,
+   "posicao_fala": 7,
+   "p_escrita": 6.34,
+   "posicao_escrita": 6,
+   "p_campo": 13.32,
+   "posicao_campo": 4
+  },
+  {
+   "index": "duplicidade",
+   "categoria": "Duplicidade e identidade",
+   "n_fala": 10,
+   "n_escrita": 77,
+   "n_campo": 320,
+   "p_fala": 1.95,
+   "posicao_fala": 8,
+   "p_escrita": 5.55,
+   "posicao_escrita": 7,
+   "p_campo": 19.12,
+   "posicao_campo": 1
+  },
+  {
+   "index": "paginacao",
+   "categoria": "Paginação e leitura em lotes",
+   "n_fala": 5,
+   "n_escrita": 54,
+   "n_campo": 147,
+   "p_fala": 0.97,
+   "posicao_fala": 9,
+   "p_escrita": 3.89,
+   "posicao_escrita": 10,
+   "p_campo": 8.78,
+   "posicao_campo": 5
+  },
+  {
+   "index": "limite_taxa",
+   "categoria": "Limite de taxa e cota",
+   "n_fala": 2,
+   "n_escrita": 59,
+   "n_campo": 52,
+   "p_fala": 0.39,
+   "posicao_fala": 10,
+   "p_escrita": 4.25,
+   "posicao_escrita": 9,
+   "p_campo": 3.11,
+   "posicao_campo": 10
+  }
+ ],
+ "fala_muda": [
+  {
+   "medida": "palavras por minuto",
+   "mediana_com_falha": 190.0,
+   "mediana_sem_falha": 198.3,
+   "n_com": 487,
+   "n_sem": 10367,
+   "U": 2326255.0,
+   "p": 0.003373245887426265,
+   "efeito_r": 0.07847895975402919
+  },
+  {
+   "medida": "pausa antes (s)",
+   "mediana_com_falha": 0.06,
+   "mediana_sem_falha": 0.08,
+   "n_com": 503,
+   "n_sem": 11690,
+   "U": 2632554.0,
+   "p": 6.61318306605279e-05,
+   "efeito_r": 0.10458412910050385
+  },
+  {
+   "medida": "energia (dB)",
+   "mediana_com_falha": -20.9,
+   "mediana_sem_falha": -21.7,
+   "n_com": 503,
+   "n_sem": 11710,
+   "U": 3111425.5,
+   "p": 0.03166669181837698,
+   "efeito_r": -0.05648788736411592
+  }
+ ]
+}

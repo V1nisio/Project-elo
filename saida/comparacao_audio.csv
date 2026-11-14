@@ -1,0 +1,11 @@
+categoria,n_fala,n_escrita,n_campo,p_fala,posicao_fala,p_escrita,posicao_escrita,p_campo,posicao_campo
+Ambiente e configuração,157,226,262,30.6,1,16.29,2,15.65,3
+Autenticação e acesso,106,305,144,20.66,2,21.99,1,8.6,6
+Mapeamento de campo e esquema,79,221,274,15.4,3,15.93,3,16.37,2
+Formato de dado,68,154,73,13.26,4,11.1,4,4.36,8
+Rede e disponibilidade,38,132,72,7.41,5,9.52,5,4.3,9
+Ordem e concorrência,36,71,107,7.02,6,5.12,8,6.39,7
+Falha silenciosa e divergência,12,88,223,2.34,7,6.34,6,13.32,4
+Duplicidade e identidade,10,77,320,1.95,8,5.55,7,19.12,1
+Paginação e leitura em lotes,5,54,147,0.97,9,3.89,10,8.78,5
+Limite de taxa e cota,2,59,52,0.39,10,4.25,9,3.11,10

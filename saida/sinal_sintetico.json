@@ -1,0 +1,62 @@
+{
+ "limpo": {
+  "duracao": 66.7,
+  "fala": 48.6,
+  "razao_de_fala": 0.729,
+  "pausas": 26,
+  "pausas_por_minuto": 23.4,
+  "pausa_media": 0.62,
+  "energia_db_fala": -11.1,
+  "energia_db_desvio": 8.3,
+  "cruzamentos_por_zero": 0.1182,
+  "inseridas_achadas": 9
+ },
+ "ruido": {
+  "duracao": 66.7,
+  "fala": 66.7,
+  "razao_de_fala": 1.0,
+  "pausas": 0,
+  "pausas_por_minuto": 0.0,
+  "pausa_media": 0.0,
+  "energia_db_fala": -10.5,
+  "energia_db_desvio": 5.1,
+  "cruzamentos_por_zero": 0.3533,
+  "inseridas_achadas": 0
+ },
+ "estereo_44k": {
+  "duracao": 66.7,
+  "fala": 48.6,
+  "razao_de_fala": 0.729,
+  "pausas": 26,
+  "pausas_por_minuto": 23.4,
+  "pausa_media": 0.62,
+  "energia_db_fala": -11.1,
+  "energia_db_desvio": 8.3,
+  "cruzamentos_por_zero": 0.131,
+  "inseridas_achadas": 9
+ },
+ "volume_baixo": {
+  "duracao": 66.7,
+  "fala": 48.6,
+  "razao_de_fala": 0.729,
+  "pausas": 26,
+  "pausas_por_minuto": 23.4,
+  "pausa_media": 0.62,
+  "energia_db_fala": -11.1,
+  "energia_db_desvio": 8.3,
+  "cruzamentos_por_zero": 0.1146,
+  "inseridas_achadas": 9
+ },
+ "clipping": {
+  "duracao": 66.7,
+  "fala": 50.2,
+  "razao_de_fala": 0.753,
+  "pausas": 26,
+  "pausas_por_minuto": 23.4,
+  "pausa_media": 0.6,
+  "energia_db_fala": -7.4,
+  "energia_db_desvio": 7.4,
+  "cruzamentos_por_zero": 0.1194,
+  "inseridas_achadas": 9
+ }
+}

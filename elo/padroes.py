@@ -290,3 +290,54 @@ def sinais_de_categoria(achados):
         elif a.tipo == "campo_custom":
             categorias.add("mapeamento")
     return categorias
+
+
+# 13. Número falado (etapa 2). Num podcast ninguém diz "429": diz "four twenty
+#     nine", "five oh three" ou "four hundred and four". A regex acha a corrida de
+#     números por extenso que começa em four ou five, e a conta devolve os dígitos.
+#     Só vale se der um código HTTP de verdade: "five fifty" não vira 550.
+UNIDADES = {p: i for i, p in enumerate("zero one two three four five six seven eight nine".split())} | {"oh": 0}
+DEZ_A_DEZENOVE = {p: 10 + i for i, p in enumerate(
+    "ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split())}
+DEZENAS = {p: 10 * i for i, p in enumerate("twenty thirty forty fifty sixty seventy eighty ninety".split(), 2)}
+PALAVRA_NUMERO = "|".join([*UNIDADES, *DEZ_A_DEZENOVE, *DEZENAS, "hundred"])
+NUMERO_FALADO = re.compile(rf"\b(?:four|five)(?:[\s-]+(?:and[\s-]+)?(?:{PALAVRA_NUMERO})\b){{1,3}}", re.IGNORECASE)
+CODIGOS_HTTP = {400, 401, 403, 404, 405, 408, 409, 410, 413, 415, 422, 429, 500, 501, 502, 503, 504}
+
+
+def valor_falado(trecho):
+    """'four twenty nine' -> 429; None se a corrida não formar um código HTTP."""
+    palavras = [p for p in re.split(r"[\s-]+", trecho.lower()) if p != "and"]
+    centena, resto = UNIDADES[palavras[0]] * 100, palavras[1:]
+    if resto and resto[0] == "hundred":
+        resto = resto[1:]
+    elif resto and resto[0] in ("oh", "zero"):
+        if len(resto) != 2 or resto[1] not in UNIDADES:
+            return None
+        resto = resto[1:]
+    elif not resto or resto[0] not in {**DEZ_A_DEZENOVE, **DEZENAS}:
+        return None
+    if len(resto) == 2 and resto[0] in DEZENAS and resto[1] in UNIDADES:
+        numero = centena + DEZENAS[resto[0]] + UNIDADES[resto[1]]
+    elif len(resto) == 1:
+        numero = centena + {**UNIDADES, **DEZ_A_DEZENOVE, **DEZENAS}[resto[0]]
+    elif not resto:
+        numero = centena
+    else:
+        return None
+    return numero if numero in CODIGOS_HTTP else None
+
+
+def normalizar_numeros_falados(texto):
+    """Troca o código dito por extenso pelos dígitos. Devolve (texto, quantos trocou)."""
+    trocas = 0
+
+    def troca(m):
+        nonlocal trocas
+        valor = valor_falado(m.group(0))
+        if valor is None:
+            return m.group(0)
+        trocas += 1
+        return str(valor)
+
+    return NUMERO_FALADO.sub(troca, texto), trocas

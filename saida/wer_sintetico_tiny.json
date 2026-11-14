@@ -1,0 +1,37 @@
+{
+ "limpo": {
+  "wer": 0.0658682634730539,
+  "trocas": 5,
+  "perdidas": 6,
+  "inventadas": 0,
+  "palavras": 167
+ },
+ "ruido": {
+  "wer": 0.09580838323353294,
+  "trocas": 11,
+  "perdidas": 5,
+  "inventadas": 0,
+  "palavras": 167
+ },
+ "estereo_44k": {
+  "wer": 0.0658682634730539,
+  "trocas": 5,
+  "perdidas": 6,
+  "inventadas": 0,
+  "palavras": 167
+ },
+ "volume_baixo": {
+  "wer": 0.0658682634730539,
+  "trocas": 5,
+  "perdidas": 6,
+  "inventadas": 0,
+  "palavras": 167
+ },
+ "clipping": {
+  "wer": 0.08982035928143713,
+  "trocas": 6,
+  "perdidas": 9,
+  "inventadas": 0,
+  "palavras": 167
+ }
+}

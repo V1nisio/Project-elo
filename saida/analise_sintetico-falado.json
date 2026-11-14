@@ -1,0 +1,405 @@
+{
+ "n_documentos": 10,
+ "n_tokens": 191,
+ "cobertura": 1.0,
+ "categorias": {
+  "autenticacao": 1,
+  "limite_taxa": 1,
+  "paginacao": 1,
+  "duplicidade": 1,
+  "mapeamento": 1,
+  "formato": 1,
+  "ordem": 1,
+  "silenciosa": 1,
+  "rede": 1,
+  "ambiente": 1
+ },
+ "mecanismos": {
+  "forma": 10,
+  "lema": 10,
+  "regex": 3,
+  "regra": 3
+ },
+ "so_pela_forma": 0,
+ "so_pela_regex": 0,
+ "lemas": [
+  [
+   "error",
+   4
+  ],
+  [
+   "account",
+   3
+  ],
+  [
+   "come",
+   2
+  ],
+  [
+   "request",
+   2
+  ],
+  [
+   "answer",
+   2
+  ],
+  [
+   "different",
+   2
+  ],
+  [
+   "read",
+   2
+  ],
+  [
+   "send",
+   2
+  ],
+  [
+   "job",
+   2
+  ],
+  [
+   "arrive",
+   2
+  ],
+  [
+   "deploy",
+   1
+  ],
+  [
+   "expire",
+   1
+  ],
+  [
+   "token",
+   1
+  ],
+  [
+   "access",
+   1
+  ],
+  [
+   "api",
+   1
+  ],
+  [
+   "nightly",
+   1
+  ],
+  [
+   "hit",
+   1
+  ],
+  [
+   "rate",
+   1
+  ],
+  [
+   "sink",
+   1
+  ],
+  [
+   "limit",
+   1
+  ],
+  [
+   "order",
+   1
+  ],
+  [
+   "offset",
+   1
+  ],
+  [
+   "page",
+   1
+  ],
+  [
+   "pagination",
+   1
+  ],
+  [
+   "create",
+   1
+  ],
+  [
+   "duplicate",
+   1
+  ],
+  [
+   "customer",
+   1
+  ],
+  [
+   "external",
+   1
+  ],
+  [
+   "absurd",
+   1
+  ],
+  [
+   "old",
+   1
+  ]
+ ],
+ "sintagmas": [
+  [
+   "nightly sink",
+   1
+  ],
+  [
+   "rate limit",
+   1
+  ],
+  [
+   "different order",
+   1
+  ],
+  [
+   "offset pagination",
+   1
+  ],
+  [
+   "duplicate account",
+   1
+  ],
+  [
+   "external id",
+   1
+  ],
+  [
+   "field mapping",
+   1
+  ],
+  [
+   "custom field",
+   1
+  ],
+  [
+   "date format",
+   1
+  ],
+  [
+   "parent account",
+   1
+  ],
+  [
+   "parallel job",
+   1
+  ],
+  [
+   "different configuration",
+   1
+  ]
+ ],
+ "entidades": [
+  [
+   "CARDINAL",
+   6
+  ],
+  [
+   "ORG",
+   1
+  ],
+  [
+   "PRODUCT",
+   1
+  ],
+  [
+   "DATE",
+   1
+  ]
+ ],
+ "achados_por_tipo": {
+  "http": 3
+ },
+ "achados_valores": {
+  "http": [
+   [
+    "401",
+    1
+   ],
+   [
+    "429",
+    1
+   ],
+   [
+    "503",
+    1
+   ]
+  ],
+  "erro_plataforma": [],
+  "erro_oauth": [],
+  "campo_custom": [],
+  "excecao": [],
+  "paginacao": [],
+  "identificador": []
+ },
+ "cpf_classes": {},
+ "por_documento": [
+  {
+   "id": "fala-01",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "autenticacao"
+   ]
+  },
+  {
+   "id": "fala-02",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "limite_taxa"
+   ]
+  },
+  {
+   "id": "fala-03",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "paginacao"
+   ]
+  },
+  {
+   "id": "fala-04",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "duplicidade"
+   ]
+  },
+  {
+   "id": "fala-05",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "mapeamento"
+   ]
+  },
+  {
+   "id": "fala-06",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "formato"
+   ]
+  },
+  {
+   "id": "fala-07",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "ordem"
+   ]
+  },
+  {
+   "id": "fala-08",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "silenciosa"
+   ]
+  },
+  {
+   "id": "fala-09",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "rede"
+   ]
+  },
+  {
+   "id": "fala-10",
+   "fonte": "sintetico-falado",
+   "data": null,
+   "categorias": [
+    "ambiente"
+   ]
+  }
+ ],
+ "nomes_de_entidade": [
+  [
+   "API",
+   1
+  ],
+  [
+   "CRM",
+   1
+  ]
+ ],
+ "exemplos": {
+  "autenticacao": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "limite_taxa": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "paginacao": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "duplicidade": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "mapeamento": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "formato": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "ordem": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "silenciosa": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "rede": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ],
+  "ambiente": [
+   {
+    "titulo": null,
+    "url": null,
+    "comentarios": 0
+   }
+  ]
+ }
+}

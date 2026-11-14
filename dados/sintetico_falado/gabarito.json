@@ -1,0 +1,121 @@
+{
+ "taxa": 16000,
+ "voz": "Zira",
+ "versoes": [
+  "limpo",
+  "ruido",
+  "estereo_44k",
+  "volume_baixo",
+  "clipping"
+ ],
+ "frases": [
+  {
+   "id": "fala-01",
+   "categoria": "autenticacao",
+   "texto": "After the deploy, every request came back with error four oh one, because the access token had expired.",
+   "inicio": 0.0,
+   "fim": 6.35
+  },
+  {
+   "id": "fala-02",
+   "categoria": "limite_taxa",
+   "texto": "The nightly sync hit the rate limit, and the API answered with error four twenty nine: too many requests.",
+   "inicio": 6.95,
+   "fim": 13.28
+  },
+  {
+   "id": "fala-03",
+   "categoria": "paginacao",
+   "texto": "We read the accounts with offset pagination, and two pages came back in a different order.",
+   "inicio": 14.28,
+   "fim": 19.22
+  },
+  {
+   "id": "fala-04",
+   "categoria": "duplicidade",
+   "texto": "The upsert had no external ID, so the same customer was created twice, as a duplicate account.",
+   "inicio": 20.02,
+   "fim": 26.13
+  },
+  {
+   "id": "fala-05",
+   "categoria": "mapeamento",
+   "texto": "The custom field was renamed in the CRM, and the field mapping kept sending the old name.",
+   "inicio": 27.53,
+   "fim": 32.64
+  },
+  {
+   "id": "fala-06",
+   "categoria": "formato",
+   "texto": "One system sent the date format as day, month, year, and the other read it as month, day, year.",
+   "inicio": 33.34,
+   "fim": 39.4
+  },
+  {
+   "id": "fala-07",
+   "categoria": "ordem",
+   "texto": "The opportunity arrived before its parent account: a race condition between two parallel jobs.",
+   "inicio": 40.6,
+   "fim": 46.1
+  },
+  {
+   "id": "fala-08",
+   "categoria": "silenciosa",
+   "texto": "The job reported success, but the records never arrived. It failed silently, with no error at all.",
+   "inicio": 47.0,
+   "fim": 54.0
+  },
+  {
+   "id": "fala-09",
+   "categoria": "rede",
+   "texto": "The connection timed out, and the server answered with error five oh three: service unavailable.",
+   "inicio": 55.5,
+   "fim": 60.94
+  },
+  {
+   "id": "fala-10",
+   "categoria": "ambiente",
+   "texto": "It worked in the sandbox, but production had a different configuration for the same variable.",
+   "inicio": 61.54,
+   "fim": 66.67
+  }
+ ],
+ "pausas": [
+  [
+   6.35,
+   6.95
+  ],
+  [
+   13.28,
+   14.28
+  ],
+  [
+   19.22,
+   20.02
+  ],
+  [
+   26.13,
+   27.53
+  ],
+  [
+   32.64,
+   33.34
+  ],
+  [
+   39.4,
+   40.6
+  ],
+  [
+   46.1,
+   47.0
+  ],
+  [
+   54.0,
+   55.5
+  ],
+  [
+   60.94,
+   61.54
+  ]
+ ]
+}

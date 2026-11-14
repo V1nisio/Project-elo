@@ -1,4 +1,4 @@
-# Elo, etapa 1
+# Elo, etapas 1 e 2
 
 Um analisador do que quebra entre dois sistemas que precisam conversar.
 
@@ -9,6 +9,65 @@ produção (ModernaNet × Salesforce)?
 **Etapa 1 (texto):** processamento de linguagem natural com expressões regulares e
 spaCy, sobre dados coletados pela web API do GitHub. Arquivo para o SIGAA:
 `etapa1-elo.pdf`.
+
+**Etapa 2 (áudio):** podcasts sobre integração coletados pela API de busca da Apple e
+pelo RSS, sinal medido com librosa (energia, silêncio, pausas, ritmo), transcrição com
+faster-whisper e o mesmo analisador da etapa 1 sobre a fala. Arquivo para o SIGAA:
+`etapa2-elo.pdf`. Detalhes na seção [Etapa 2: áudio](#etapa-2-áudio).
+
+## Etapa 2: áudio
+
+Duas perguntas: **H1**, o que se fala sobre integração segue a mesma ordem de
+categorias do que se escreve (issues do GitHub) e do que derrubou a nossa integração
+(campo)? **H2**, a fala muda (ritmo, pausa, energia) quando o assunto é falha?
+
+| integrante | frente | arquivos | comandos |
+|---|---|---|---|
+| Flasio Vinicius | coleta dos podcasts | `elo/coleta_audio.py` | `podcasts` (`--so-listar`, `--conferir`, `--offline`) |
+| Theo Haiek | sinal, sintético falado e números falados | `elo/sinal.py`, `elo/sintetico_audio.py`, `elo/padroes.py` | `sintetico-audio`, `sinal`, `extrair` |
+| Belarmino Neto | transcrição e comparação | `elo/transcricao.py`, `elo/comparacao_audio.py` | `transcrever`, `analisar`, `comparar-audio` |
+
+Corpus novos: `--corpus podcasts` (20 episódios de 4 podcasts, 14 h) e
+`--corpus sintetico-falado` (10 frases ditas pela voz do Windows, uma por categoria,
+com pausas conhecidas e 4 defeitos: ruído, estéreo a 44,1 kHz, volume baixo, clipping).
+
+```
+python elo.py                  # menu da etapa 2 (9 itens); python elo.py 5 roda o item 5
+python elo.py etapa1           # menu da etapa 1
+python elo.py podcasts         # coleta completa: 20 MP3 em dados/audio/ (746 MB, fora do git)
+python elo.py transcrever --corpus podcasts     # faster-whisper base; retoma de onde parou
+python elo.py analisar --corpus podcasts
+python elo.py sinal --corpus podcasts
+python elo.py comparar-audio   # saida/tres_corpus.png, ritmo.png, espectrograma.png, relatorio_audio.md
+```
+
+O áudio e as transcrições ficam em `dados/audio/` e `dados/transcricoes/`, fora do git
+(direito autoral e tamanho); sobem o manifesto `dados/podcasts.json`, o sintético falado
+e os resultados agregados. Toda fala transcrita passa por `anonimizar()` antes da análise.
+Não precisa de ffmpeg nem de placa de vídeo: o PyAV, que vem com o faster-whisper, decodifica
+o MP3, e o modelo roda em int8 na CPU.
+
+### Resultado da etapa 2
+
+- **Coleta:** 4 feeds, 1.400 episódios lidos, 20 escolhidos pelo sistema no título, 14,0 h;
+  20 de 20 conferem com o RSS (tamanho e duração decodificada).
+- **Transcrição:** faster-whisper base em int8, 7,5x o tempo real (14,0 h em 1,9 h de CPU),
+  12.213 trechos. No sintético, o tiny erra 6,6% das palavras na voz limpa, 9,0% com
+  clipping e 9,6% com ruído; estéreo e volume baixo não mudam nada. A categoria do gabarito
+  é achada em 10 de 10 frases.
+- **Sinal:** fala em 82% do tempo, 9,6 pausas por minuto de 0,48 s. No sintético, as 9
+  pausas inseridas são achadas em todas as versões, menos com ruído (0 de 9).
+- **H1:** a fala segue a ordem da escrita (ρ = 0,94) e quase não segue a do nosso campo
+  (ρ = 0,22). Só 4,1% dos trechos falados citam alguma categoria (64% nas issues). No
+  podcast, "Ambiente e configuração" lidera, puxada por "production" no sentido de colocar
+  em produção: limite do léxico, que veio do texto escrito.
+- **H2:** muda, mas pouco. Nos trechos que citam falha, a fala é um pouco mais lenta (190
+  contra 198 palavras por minuto), tem menos silêncio antes (0,06 contra 0,08 s) e é 0,8 dB
+  mais alta. Mann-Whitney dá p < 0,05 nas três, mas o efeito é pequeno (|r| ≤ 0,10).
+- **Números falados:** nenhum código HTTP dito por extenso nos 20 episódios; o Whisper já
+  escreve em dígitos. A regex fica como rede de segurança.
+
+Relatório completo em `saida/relatorio_audio.md`.
 
 ## Equipe e divisão
 
@@ -25,9 +84,11 @@ que ele chama.
 
 ## Apresentação
 
-- `apresentacao/etapa1-elo.pptx`: os 18 slides, editáveis no PowerPoint, com gráficos
-  nativos e notas do apresentador (quem fala e quanto tempo, em cada slide).
-- `apresentacao/etapa1-elo.pdf`: o mesmo deck em PDF, com as fontes embutidas, para o SIGAA.
+- `apresentacao/etapa1-elo.pptx` e `etapa2-elo.pptx`: os 18 slides de cada etapa, editáveis
+  no PowerPoint, com notas do apresentador (quem fala e quanto tempo, em cada slide). Ficam
+  só no notebook, porque as notas levam as falas.
+- `apresentacao/etapa1-elo.pdf` e `etapa2-elo.pdf`: os mesmos decks em PDF, com as fontes
+  embutidas, para o SIGAA.
 - `falas_grupo/`: as falas de cada integrante, slide a slide, e o roteiro completo, para
   ensaiar (as regras proíbem ler cola na hora).
 
@@ -150,10 +211,15 @@ elo/sintetico.py     casos sintéticos com os defeitos reais
 elo/categorias.py    as 10 categorias e os termos em inglês e português
 elo/analisador.py    pipeline do spaCy, PhraseMatcher, Matcher
 elo/comparacao.py    agregação, fórmulas, gráficos e relatório
-tests/               testes das expressões regulares (pytest)
+elo/coleta_audio.py  etapa 2: API da Apple, RSS, download retomável e conferido
+elo/sinal.py         etapa 2: RMS, dB, silêncio, pausas, ritmo, gráfico da onda
+elo/sintetico_audio.py  etapa 2: falas sintéticas com gabarito e 4 defeitos
+elo/transcricao.py   etapa 2: faster-whisper com cache por episódio e WER
+elo/comparacao_audio.py  etapa 2: fala x escrita x campo, Mann-Whitney, espectrograma
+tests/               testes das expressões regulares e do áudio (pytest)
 dados/               coleta do GitHub e casos sintéticos
 saida/               análises agregadas, gráficos e relatório
-apresentacao/        os slides (.pptx) e o PDF para o SIGAA
+apresentacao/        os slides em PDF para o SIGAA (o .pptx fica no notebook)
 falas_grupo/         as falas de ensaio de cada integrante e o roteiro completo
 DIARIO.md            diário de bordo: os erros da implementação e os consertos
 ```

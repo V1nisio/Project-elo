@@ -5,6 +5,13 @@ pandas>=2.0
 matplotlib>=3.8
 pytest>=8.0
 
+# etapa 2 (áudio). O faster-whisper traz o PyAV, que já tem o ffmpeg dentro.
+faster-whisper>=1.2
+librosa>=0.11
+soundfile>=0.13
+scipy>=1.13
+pyttsx3>=2.98
+
 # modelos do spaCy (os mesmos usados no projeto, versão 3.8.0)
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 pt_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.8.0/pt_core_news_sm-3.8.0-py3-none-any.whl

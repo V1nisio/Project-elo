@@ -1,0 +1,275 @@
+{
+ "coletado_em": "2026-11-12T21:09:45+00:00",
+ "fontes": {
+  "salesforce": {
+   "nome": "Salesforce Developer Podcast",
+   "feed": "https://a.sfdcstatic.com/developer-website/podcast/rss.xml",
+   "itens_no_feed": 99,
+   "escolhidos": 6,
+   "direitos": ""
+  },
+  "dataeng": {
+   "nome": "Data Engineering Podcast",
+   "feed": "https://serve.podhome.fm/rss/1c0357c0-6aba-5766-a2d5-2090d8dab6bc",
+   "itens_no_feed": 521,
+   "escolhidos": 6,
+   "direitos": "© 2025 Boundless Notions, LLC."
+  },
+  "n8n": {
+   "nome": "The n8n Masterclass",
+   "feed": "https://rss.buzzsprout.com/2545272.rss",
+   "itens_no_feed": 29,
+   "escolhidos": 6,
+   "direitos": "© 2026 The n8n Masterclass"
+  },
+  "seradio": {
+   "nome": "Software Engineering Radio - the podcast for professional software developers",
+   "feed": "https://rss.libsyn.com/shows/21070/destinations/23379.xml",
+   "itens_no_feed": 751,
+   "escolhidos": 2,
+   "direitos": "(c) IEEE. All content is licensed under the Creative Commons 2.5 license"
+  }
+ },
+ "episodios": [
+  {
+   "id": "salesforce-5feead",
+   "fonte": "salesforce",
+   "titulo": "229: AsyncAPI and Event-Driven Architecture Using MuleSoft with Alex Martinez",
+   "data": "2024-10-28",
+   "url": "https://a.sfdcstatic.com/developer-website/podcast/episodes/SDP_Ep229_Master.mp3",
+   "bytes_rss": 18267137,
+   "duracao_rss": 1134,
+   "bytes": 18267137,
+   "duracao": 1133.6,
+   "confere": true
+  },
+  {
+   "id": "salesforce-f2bb3c",
+   "fonte": "salesforce",
+   "titulo": "224: MuleSoft Intelligent Document Processing with Akshata Sawant",
+   "data": "2024-08-19",
+   "url": "https://a.sfdcstatic.com/developer-website/podcast/episodes/SDP_Ep224_Master.mp3",
+   "bytes_rss": 15267862,
+   "duracao_rss": 947,
+   "bytes": 15267862,
+   "duracao": 946.2,
+   "confere": true
+  },
+  {
+   "id": "salesforce-224343",
+   "fonte": "salesforce",
+   "titulo": "221: MuleSoft Anypoint Code Builder with Alex Martinez",
+   "data": "2024-07-08",
+   "url": "https://a.sfdcstatic.com/developer-website/podcast/episodes/SDP_Ep221_Master.mp3",
+   "bytes_rss": 16948657,
+   "duracao_rss": 1052,
+   "bytes": 16948657,
+   "duracao": 1051.3,
+   "confere": true
+  },
+  {
+   "id": "salesforce-0daa5e",
+   "fonte": "salesforce",
+   "titulo": "219: Salesforce and AWS Unified Developer Experience with Philippe Ozil",
+   "data": "2024-05-27",
+   "url": "https://a.sfdcstatic.com/developer-website/podcast/episodes/SDP_Ep219_Master.mp3",
+   "bytes_rss": 13744049,
+   "duracao_rss": 852,
+   "bytes": 13744049,
+   "duracao": 851.1,
+   "confere": true
+  },
+  {
+   "id": "salesforce-069a30",
+   "fonte": "salesforce",
+   "titulo": "216: Why Use MuleSoft with Data Cloud & Einstein Copilot with Akshata Sawant",
+   "data": "2024-04-01",
+   "url": "https://a.sfdcstatic.com/developer-website/podcast/episodes/SDP_Ep216_Master.mp3",
+   "bytes_rss": 15050890,
+   "duracao_rss": 933,
+   "bytes": 15050890,
+   "duracao": 932.7,
+   "confere": true
+  },
+  {
+   "id": "salesforce-afb271",
+   "fonte": "salesforce",
+   "titulo": "215: The Future of AI with Salesforce's Einstein 1 Studio & Data Cloud featuring Danielle Larregui",
+   "data": "2024-03-19",
+   "url": "https://a.sfdcstatic.com/developer-website/podcast/episodes/SDP_Ep215_Master.mp3",
+   "bytes_rss": 16649858,
+   "duracao_rss": 1033,
+   "bytes": 16649858,
+   "duracao": 1032.6,
+   "confere": true
+  },
+  {
+   "id": "dataeng-8bdf19",
+   "fonte": "dataeng",
+   "titulo": "The Role of Python in Shaping the Future of Data Platforms with DLT",
+   "data": "2024-10-13",
+   "url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638644541833261380966f71bb-71f7-4db5-bc13-d3db757f0bc7v1.mp3",
+   "bytes_rss": 51976332,
+   "duracao_rss": 3248,
+   "bytes": 51976332,
+   "duracao": 3247.6,
+   "confere": true
+  },
+  {
+   "id": "dataeng-878d13",
+   "fonte": "dataeng",
+   "titulo": "Scaling Airbyte: Challenges and Milestones on the Road to 1.0",
+   "data": "2024-09-23",
+   "url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638626050787021303dbf4df96-5960-4def-875c-5e668ae2eb93v1.mp3",
+   "bytes_rss": 54908677,
+   "duracao_rss": 3431,
+   "bytes": 54908677,
+   "duracao": 3431.3,
+   "confere": true
+  },
+  {
+   "id": "dataeng-66bbfd",
+   "fonte": "dataeng",
+   "titulo": "Eliminate The Overhead In Your Data Integration With The Open Source dlt Library",
+   "data": "2023-09-04",
+   "url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6385579433042151264aeed558-b75d-422e-88ea-9cbd2b691844v1.mp3",
+   "bytes_rss": 29117057,
+   "duracao_rss": 2533,
+   "bytes": 29117057,
+   "duracao": 2532.6,
+   "confere": true
+  },
+  {
+   "id": "dataeng-180ef7",
+   "fonte": "dataeng",
+   "titulo": "Leveling Up Open Source Data Integration With Meltano Hub And The Singer SDK",
+   "data": "2021-07-03",
+   "url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557940278650846a67cf336-dc8b-47d4-9aae-6eed964a3132v1.mp3",
+   "bytes_rss": 50474845,
+   "duracao_rss": 3924,
+   "bytes": 50474845,
+   "duracao": 3924.2,
+   "confere": true
+  },
+  {
+   "id": "dataeng-556c29",
+   "fonte": "dataeng",
+   "titulo": "Self Service Open Source Data Integration With AirByte",
+   "data": "2021-02-23",
+   "url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557931690108593905a881e-c3fb-48bc-a865-278ed3d29084v1.mp3",
+   "bytes_rss": 37992672,
+   "duracao_rss": 3135,
+   "bytes": 37992672,
+   "duracao": 3135.2,
+   "confere": true
+  },
+  {
+   "id": "dataeng-fb0c69",
+   "fonte": "dataeng",
+   "titulo": "Open Source Production Grade Data Integration With Meltano",
+   "data": "2020-07-13",
+   "url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6385579525381979668372bf8a-1af1-4ae9-a052-cfa4971d7d7bv1.mp3",
+   "bytes_rss": 42740892,
+   "duracao_rss": 3919,
+   "bytes": 42740892,
+   "duracao": 3919.3,
+   "confere": true
+  },
+  {
+   "id": "n8n-d20402",
+   "fonte": "n8n",
+   "titulo": "The Creator of n8n's MCP Shows You How to Actually Use It (3 Live Builds)",
+   "data": "2026-07-09",
+   "url": "https://www.buzzsprout.com/2545272/episodes/19471070-the-creator-of-n8n-s-mcp-shows-you-how-to-actually-use-it-3-live-builds.mp3",
+   "bytes_rss": 32951321,
+   "duracao_rss": 2742,
+   "bytes": 32951321,
+   "duracao": 2742.7,
+   "confere": true
+  },
+  {
+   "id": "n8n-14edbd",
+   "fonte": "n8n",
+   "titulo": "I Automated My Home Security With n8n (Free Workflows Inside)",
+   "data": "2026-07-02",
+   "url": "https://www.buzzsprout.com/2545272/episodes/19433593-i-automated-my-home-security-with-n8n-free-workflows-inside.mp3",
+   "bytes_rss": 37720421,
+   "duracao_rss": 3140,
+   "bytes": 37720421,
+   "duracao": 3140.1,
+   "confere": true
+  },
+  {
+   "id": "n8n-fa31c5",
+   "fonte": "n8n",
+   "titulo": "Mythos & Fable Can Weaponize Cyberattacks. This n8n System Fights Back",
+   "data": "2026-07-02",
+   "url": "https://www.buzzsprout.com/2545272/episodes/19433591-mythos-fable-can-weaponize-cyberattacks-this-n8n-system-fights-back.mp3",
+   "bytes_rss": 29654273,
+   "duracao_rss": 2467,
+   "bytes": 29654273,
+   "duracao": 2467.9,
+   "confere": true
+  },
+  {
+   "id": "n8n-0910e1",
+   "fonte": "n8n",
+   "titulo": "How n8n solved Cowork’s Biggest Pain",
+   "data": "2026-06-11",
+   "url": "https://www.buzzsprout.com/2545272/episodes/19331730-how-n8n-solved-cowork-s-biggest-pain.mp3",
+   "bytes_rss": 39994278,
+   "duracao_rss": 3329,
+   "bytes": 39994278,
+   "duracao": 3329.6,
+   "confere": true
+  },
+  {
+   "id": "n8n-83b7f4",
+   "fonte": "n8n",
+   "titulo": "How a 1,000-Person Company Actually Uses n8n with Sahar Rahmani",
+   "data": "2026-05-26",
+   "url": "https://www.buzzsprout.com/2545272/episodes/19242863-how-a-1-000-person-company-actually-uses-n8n-with-sahar-rahmani.mp3",
+   "bytes_rss": 36269688,
+   "duracao_rss": 3019,
+   "bytes": 36269688,
+   "duracao": 3019.2,
+   "confere": true
+  },
+  {
+   "id": "n8n-7ba109",
+   "fonte": "n8n",
+   "titulo": "Why n8n + Lovable Is Replacing Salesforce, HubSpot, and Slack with Olof Hedin",
+   "data": "2026-05-21",
+   "url": "https://www.buzzsprout.com/2545272/episodes/19213589-why-n8n-lovable-is-replacing-salesforce-hubspot-and-slack-with-olof-hedin.mp3",
+   "bytes_rss": 30593726,
+   "duracao_rss": 2546,
+   "bytes": 30593726,
+   "duracao": 2546.2,
+   "confere": true
+  },
+  {
+   "id": "seradio-5013da",
+   "fonte": "seradio",
+   "titulo": "SE Radio 707: Subhajit Paul on ERP Automation and AI",
+   "data": "2026-02-12",
+   "url": "https://traffic.libsyn.com/secure/seradio/707-subhajit-paul-erp-automation.mp3?dest-id=23379",
+   "bytes_rss": 88666951,
+   "duracao_rss": 3587,
+   "bytes": 88666951,
+   "duracao": 3586.8,
+   "confere": true
+  },
+  {
+   "id": "seradio-626269",
+   "fonte": "seradio",
+   "titulo": "Episode 393: Jay Kreps on Enterprise Integration Architecture with a Kafka Event Log",
+   "data": "2019-12-18",
+   "url": "https://traffic.libsyn.com/secure/seradio/Episode-393-Jay-Kreps-on-Enterprise-Integration-Architecture-with-a-Kafka-Event-Log.mp3?dest-id=23379",
+   "bytes_rss": 87352228,
+   "duracao_rss": 3533,
+   "bytes": 87352228,
+   "duracao": 3532.1,
+   "confere": true
+  }
+ ]
+}

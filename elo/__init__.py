@@ -11,7 +11,7 @@ DADOS = RAIZ / "dados"
 SAIDA = RAIZ / "saida"
 
 EQUIPE = {
-    "Flasio Vinicius": ["elo/coleta.py", "elo/campo.py"],
-    "Theo Haiek": ["elo/padroes.py", "elo/sintetico.py"],
-    "Belarmino Neto": ["elo/analisador.py", "elo/comparacao.py"],
+    "Flasio Vinicius": ["elo/coleta.py", "elo/campo.py", "elo/coleta_audio.py"],
+    "Theo Haiek": ["elo/padroes.py", "elo/sintetico.py", "elo/sinal.py", "elo/sintetico_audio.py"],
+    "Belarmino Neto": ["elo/analisador.py", "elo/comparacao.py", "elo/transcricao.py", "elo/comparacao_audio.py"],
 }

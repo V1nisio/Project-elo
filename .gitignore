@@ -36,9 +36,17 @@ saida/*_amostra.json
 proposta-elo.html
 proposta-elo.pdf
 
-# Material pessoal: o resumo de estudo do Flasio e os handoffs ficam só no notebook
+# Material pessoal: o resumo de estudo e o plano do Flasio e os handoffs ficam só no notebook
 RESUMO.*
+PLANO-*.pdf
 Handoffs/
+*.lnk
 
-# Falas de ensaio de cada integrante: ficam só no notebook
+# Falas de ensaio de cada integrante: ficam só no notebook. O .pptx também, porque
+# as notas do apresentador levam as falas; dos slides, sobe só o PDF.
 falas_grupo/
+apresentacao/*.pptx
+
+# Etapa 2: MP3 dos podcasts e transcrições (direito autoral e tamanho). Só o manifesto sobe.
+dados/audio/
+dados/transcricoes/
