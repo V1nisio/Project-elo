@@ -84,9 +84,10 @@ que ele chama.
 
 ## Apresentação
 
+Os slides e as falas ficam só no notebook, fora do repositório:
+
 - `apresentacao/etapa1-elo.pptx` e `etapa2-elo.pptx`: os 18 slides de cada etapa, editáveis
-  no PowerPoint, com notas do apresentador (quem fala e quanto tempo, em cada slide). Ficam
-  só no notebook, porque as notas levam as falas.
+  no PowerPoint, com notas do apresentador (quem fala e quanto tempo, em cada slide).
 - `apresentacao/etapa1-elo.pdf` e `etapa2-elo.pdf`: os mesmos decks em PDF, com as fontes
   embutidas, para o SIGAA.
 - `falas_grupo/`: as falas de cada integrante, slide a slide, e o roteiro completo, para
@@ -219,7 +220,7 @@ elo/comparacao_audio.py  etapa 2: fala x escrita x campo, Mann-Whitney, espectro
 tests/               testes das expressões regulares e do áudio (pytest)
 dados/               coleta do GitHub e casos sintéticos
 saida/               análises agregadas, gráficos e relatório
-apresentacao/        os slides em PDF para o SIGAA (o .pptx fica no notebook)
+apresentacao/        os slides (.pptx e PDF), só no notebook
 falas_grupo/         as falas de ensaio de cada integrante e o roteiro completo
 DIARIO.md            diário de bordo: os erros da implementação e os consertos
 ```

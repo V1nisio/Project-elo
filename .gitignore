@@ -42,10 +42,10 @@ PLANO-*.pdf
 Handoffs/
 *.lnk
 
-# Falas de ensaio de cada integrante: ficam só no notebook. O .pptx também, porque
-# as notas do apresentador levam as falas; dos slides, sobe só o PDF.
+# Falas de ensaio e a apresentação (slides em .pptx e PDF): ficam só no notebook.
+# As notas do apresentador levam as falas.
 falas_grupo/
-apresentacao/*.pptx
+apresentacao/
 
 # Etapa 2: MP3 dos podcasts e transcrições (direito autoral e tamanho). Só o manifesto sobe.
 dados/audio/
